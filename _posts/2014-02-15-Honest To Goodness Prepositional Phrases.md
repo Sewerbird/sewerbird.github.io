@@ -1,5 +1,3 @@
-[size=150]Honest To Goodness Prepositional Phrases[/size]
-
 As I've been writing these posts and coming up with the grammar for Kjáhida, I feel I've ben focusing on the verb-like behaviour of the non-NP elements in our sample sentences. However, since the goal is to create a language based on Killer-P's, we need to make sure they are clearly acting as prepositions as well. Doing some research (thus no post yesterday), I came across a neat thing in Chinese that I think is going in the right direction.[quote="about.mandarin.com"]
 The Mandarin Chinese particle zài - 在 has several functions. It is most commonly used to indicate location. When used before a place word, zài means “on” “at” or “in”.
 

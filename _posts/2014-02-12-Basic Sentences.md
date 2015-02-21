@@ -1,5 +1,3 @@
-Basic Sentences
-
 Before we can get to the juiciest strategies for plopping appositive phrases in sub-relativized whojamacallits while referencing referents three sentences ago, we're going to need three things:
 -Some Kjáhida words, so we don't have half-glosses
 -Some typological decisions, so we can be consistent going forward

@@ -1,4 +1,3 @@
-[size=150]Passive Aggression[/size]
 Entailed by last post's determination that we'd be using passives in lieu of relativization strategies for 'arguments' of the verb of tertiary centrality, we need to actually create such passives... they don't exist yet. This will be just about the first time where we modify the semantics of a particular verb: up to this point they've comfortably had all their 'slots' filled in whenever they can lob the prepositional particles towards relevant NPs. Let's investigate ways we can change a transitive verb into a passive verb first, and then consider how to passivize intransitive and other kinds of verbs.
 
 **_dawi Sakir lek tímitim_**

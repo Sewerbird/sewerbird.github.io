@@ -1,14 +1,3 @@
-Joe, Jane, and Spot: Sakír, Ritá, Táti
-Kinds: sal(person), nis(boy), nit(girl), tatíra(dog)
-Inanimate props: tímitim(stick), rakási(potato), sjiráha(sriracha sauce)
-Not really nouns, but why not: tína(hapiness) lídja(sadness) kirikinís(quickness)
-Nice, active verbs: sam(go) lir(see/apprehend) dawi(throw) win(eat) mal(put/place)
-Finicky, less-active verbs: rak(have/possess) nisír(feel) sja(be)
-Fun multivalent verbs: sjim(give) dan(make/cause) mihya(tell/say)
-Killer-P's that we'll determine later: ja, wi, sir, kja, liswá
-
-[size=150]Still Gettin' It[/size]
-
 Dropped it pretty abruptly last time, so let's resume: we were just about to do something interesting. So far, we've two basic constructions that are keeping their nose clean - the semantics involved aren't too tricky, and I've not presented anything particularly outlandish. But wait--
 
 **_ja Táti sja tína_**

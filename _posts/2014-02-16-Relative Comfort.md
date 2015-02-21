@@ -1,4 +1,3 @@
-[size=150]Relative Comfort[/size]
 Well, I really hadn't meant to get into it so soon, but I suppose it is unavoidable: subordinate/dependent clauses. They are easily my favorite thing in syntax to tweak with: there are strategies based off of gaps, relativizing particles & pronouns, passivization schemes, and all of the previous multiplied together. Further, all this leaves aside the fun that appositive and adverbial clauses present! Today I will try to come up with a somewhat rich scheme for prototypical dependent clauses: clauses that serve the role of limiting the scope of possible referents for a verb's argument, such as "I hate the car _that I  bought_" or "I saw the man _who flew over my head_" or similar. 
 
 The linguistic [url=http://en.wikipedia.org/wiki/Relative_clause#Accessibility_hierarchy]"Accessibility Hierarchy"[/url] is where I'll start off:

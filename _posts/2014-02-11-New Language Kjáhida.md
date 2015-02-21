@@ -1,5 +1,3 @@
-Kjáhida - Sakir's New Language
-
 Ahoy! It's well past the point where I should post something about my new language of the past month. I've recently moved to China again, and (as seems to be a symptom) learning another language makes me want to retreat into conlanging. I'm putting this in Quickies to incentivize regular posting, and I'll be using this topic to present an unordered creation of the grammar. The language is provisionally named 'Kjáhida'.
 
 
