@@ -6,7 +6,7 @@ relative_permalinks: true
 title:            Jezzali
 tagline:          The Sewerbird Blog
 url:              http://sewerbird.github.io
-paginate:         0
+paginate:         1
 baseurl:          /
 author:
   name:           Edward Miller
