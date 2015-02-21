@@ -5,8 +5,8 @@ relative_permalinks: true
 # Setup
 title:            Jezzali
 tagline:          The Sewerbird Blog
-url:              http://getpoole.com
-paginate:         1
+url:              http://sewerbird.github.io
+paginate:         10
 baseurl:          /
 author:
   name:           Edward Miller
