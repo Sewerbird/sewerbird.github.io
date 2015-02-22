@@ -285,8 +285,8 @@ tbody tr:nth-child(odd) th {
  * Center the page content.
  */
 
-.container {
-  max-width: 38rem;
+.containerPoole {
+  max-width: 50rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
