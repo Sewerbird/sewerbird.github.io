@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>System - Possible Movement Mechanic</title>
+    
+    <meta name="author" content="Edward Miller">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div id="wrap">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Foo</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+
+
+
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <div class="container">
+        
+<div class="page-header">
+  <h1>System - Possible Movement Mechanic </h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-xs-12">
+    <div class="date">
+      <span>27 October 2012</span>
+    </div>
+    <div class="content">
+      <p>Today’s post is about the movement system I’ve decided to use in the game. It ended up being a bit simpler than I had originally intended, and hopefully translates well to gameplay, whether the game utilizes a tabletop or not.</p>
+
+<p>Each character has a Move skill, which functions as a regular skill in every respect: you can improve your proficiency, learn special Move actions, and so on. The Move Action is available by default each turn as one of your action options. This action covers several kinds of maneuvers, such as rushing over a distance, scaling a surface, jinking and dodging, as well as exceptional modes like swimming, flying, and teleporting.</p>
+
+<p>When you use a Move action, you declare the intention and method of your transit. Then, depending on any obstacles, you will roll against a difficulty or opposed roll. Common rolls include the following:</p>
+
+<p><strong>Rush:</strong> You simply want to cover ground as fast as prudently possible. Your degree of success represents how many units of distance you cover, and a failed roll can be interpreted as either a delay or damage from a fall (depending on the terrain). Open, easy terrain has a difficulty of 2. If jumping, you can convert each degree of success into 1 meter of height or distance.</p>
+
+<p><strong>Scale:</strong> You want to clamber over an obstacle or climb up a vertical surface. This is very similar to a Rush action, except the consequences for failing are usually more dangerous and you cover less distance per degree of success. Scaling a wall is also usually an opposed roll. A wall with many handholds usually presents an opposed difficulty of 2 dice.</p>
+
+<p><strong>Jink/Dodge</strong>: Use this movement option to dodge danger, such as an incoming attack or falling debris. This can represent dodging for cover, skillfully ducking aside, and other sudden evasive movements. Simply roll your Move skill against the incoming attack: you may thus use your Move skill in lieu of your Fight skill, although you deal no counterattack damage should you succeed. Instead, you may move a unit of distance for each degree of success.</p>
+
+<p><strong>Swim/Fly/Levitate/etc:</strong> You can gain access to various special modes of movement which let you move in a non-terrestrial manner. When you learn these techniques, they will tell you their details.</p>
+
+<p>All characters start with the default speed unit for these actions, 2 meter (or about 6 feet). The ‘board’ is assumed to be non-gridded, but a grid layout with 2-meter hexes/squares seems like it could work: I’ll have to see what feels best in gametesting. What follows is a playtest I ran.</p>
+<blockquote>"Sunker" Kuranai
+Sakire Courier
+HP: 10 (3 Wounds)
+
+Skills:
+Move: 3
+---Jink(Move): +1
+Fight: 2
+Talk: 3</blockquote>
+<p>Our hero, Sunker, is panicking. Cornered by a pack of golems in the form of winged wolves on a narrow skyway is the last place an inter-village messenger wants to be. Sunker knows he doesn’t stand a chance in combat against the three beasts, and desperately looks around.</p>
+
+<p><span style="color: #00ccff;">“Is there a rope off of the bridge I can escape down?” Inquire roll:</span> <span style="color: #ff0000;">2 (No).</span></p>
+
+<p>Sunker looks down and sees only a few spherical silos a couple dozen meters down. The golem-wolves methodically encroach within 5 units, wings beating in anticipation. Sunker decides to <span style="color: #00ccff;">Rush 3</span> the wolves to gain a running start to try to jump his way past them!</p>
+
+<p>Rolling an amazing 11, he moves celeritously across the well-paved bridge (difficulty 2), covering up to 9 units of distance. Dashing 5 units to the wolves, and then exchanging 4 units of running for a long jump over the wolves (1 unit up, 2 units over, 1 unit down), Sunker has successfully cleared the golems, who spin on their heels to attack him before he gets away.</p>
+
+<p>The golems lift up in a half-flight as they <span style="color: #00ccff;">Rush 3</span> to engage him. They all easily succeed in gaining the 1 unit of distance between themselves and Sunker. All three use their second action to Fight our hero!</p>
+
+<p>The first snaps its maw, red activation lights running along its wings. The golem rolls<span style="color: #00ccff;"> Fight 3</span>, and Sunker elects to <span style="color: #00ccff;">Jink 4</span> out of the way. The golem succeeds by 2, doing 5 damage to Sunker!</p>
+
+<p>The second one does the same, rolling <span style="color: #00ccff;">Fight 3</span> while Sunker <span style="color: #00ccff;">Jinks</span> again. Sunker wins be 3, gaining 3 units of distance from the wolves as he rolls away from the onslaught. This forces the third wolf to closely <span style="color: #00ccff;">Rush</span> him (easily covering 3 units on open ground).</p>
+
+<p>Sunker, having distanced himself from two of the three wolves, breaks into a full-on run. Sunker rolls an 11 on his <span style="color: #00ccff;">Move 3</span> action, and the wolf tries to Intercept with its fight skill, rolling a 9. This means Sunker gains 2 units of distance successfully, and he hits his stride with a second <span style="color: #00ccff;">Move</span> action covering 6 additional units: he might be able to escape!</p>
+
+<p>All three wolves break into pursuit, the blank stare of their metal eyes focused in on Sunker like a sniper’s scope as they <span style="color: #00ccff;">Rush</span>. They roll 7, 8, and 9, resulting in Sunker being 2 units away from most of them.</p>
+
+<p>The skyway leads into a tower complex, and Sunker looks around for a way to ditch the golems.</p>
+
+<p><span style="color: #00ccff;">“Is there a ledge nearby overlooking a deepwater pool?”</span> <span style="color: #00ff00;">Inquiry: 5 (Yes).</span></p>
+
+<p>The inside of the building dark but wide, Sunker sees an enormous pool in the floor below, the current level being a mezzanine overlook. Without a second thought, Sunker sprints to the bannister!</p>
+
+<p>Rolling 8 on his<span style="color: #00ccff;"> Move</span> as his second action, he is able to reach the bannister. With all the momentum of his run carrying him, he plants his two hands on the railing, pushes up, and throws his feet out in front of him in a feet-first dive into the open air, splashing into the water below!</p>
+
+<p>Do the wolves fly down after him? Can they swim in water? Who knows: that’s where this playtest ends!</p>
+
+<p> </p>
+
+    </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#blog-ref">
+    		blog <span>155</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#nendsame rpg-ref">
+    		nendsame rpg <span>14</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+
+    
+  
+    <hr>
+    <ul class="pagination">
+    
+      <li class="prev"><a href="/blog/nendsame%20rpg/2012/10/12/System%20-%20Possible%20Fight%20Mechanic" title="System - Possible Fight Mechanic">&laquo; Previous</a></li>
+    
+      <li><a href="/archive.html">Archive</a></li>
+    
+      <li class="next"><a href="/blog/kyahida/2014/02/11/New%20Language%20Kja%CC%81hida" title="New Language - Kjáhida">Next &raquo;</a></li>
+    
+    </ul>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p>&copy; 2015 Edward Miller
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </div>
+    </div>
+
+    
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
