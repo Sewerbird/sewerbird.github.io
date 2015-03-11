@@ -5,10 +5,94 @@
         <description>Sewerbird - Edward Miller</description>
         <link>http://sewerbird.github.io</link>
         <link>http://sewerbird.github.io</link>
-        <lastBuildDate>2015-03-10T17:17:33+08:00</lastBuildDate>
-        <pubDate>2015-03-10T17:17:33+08:00</pubDate>
+        <lastBuildDate>2015-03-11T14:19:44+08:00</lastBuildDate>
+        <pubDate>2015-03-11T14:19:44+08:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Mastermind</title>
+                <description>&lt;p&gt;While visiting my mother’s, I was diverted by implementing the game ‘Mastermind’ in javascript!&lt;/p&gt;
+
+&lt;h2 id=&quot;rules&quot;&gt;Rules&lt;/h2&gt;
+
+&lt;p&gt;Mastermind is played in rounds, where you try to guess the color and position of a series of round pegs. &lt;/p&gt;
+
+&lt;p&gt;Click on the circles to change their color between &lt;span id=&quot;redR&quot; title=&quot;red&quot;&gt;&lt;/span&gt;, &lt;span id=&quot;orangeR&quot; title=&quot;orange&quot;&gt;&lt;/span&gt;, &lt;span id=&quot;greenR&quot; title=&quot;green&quot;&gt;&lt;/span&gt;, &lt;span id=&quot;blueR&quot; title=&quot;blue&quot;&gt;&lt;/span&gt;, &lt;span id=&quot;yellowR&quot; title=&quot;yellow&quot;&gt;&lt;/span&gt;, and &lt;span id=&quot;whiteR&quot; title=&quot;white&quot;&gt;&lt;/span&gt; &lt;/p&gt;
+
+&lt;p&gt;When you’re ready, submit your guess. &lt;/p&gt;
+
+&lt;p&gt;In response, you will see your guess appear alongside 0 to 4 little circles, which gives you information about how correct your guess was:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A red little circle &lt;span id=&quot;lilredR&quot; title=&quot;little red&quot;&gt;&lt;/span&gt; means that you guessed a position of the code’s color correctly, and you get such a circle for each position you got totally right.&lt;/li&gt;
+  &lt;li&gt;A white little circle &lt;span id=&quot;lilwhiteR&quot; title=&quot;little white&quot;&gt;&lt;/span&gt; means that you have one of the colors of a position in the code, but it is in the wrong position. Again, you get such a circle for each color that you guess corresponding with a correct color in the code.&lt;/li&gt;
+  &lt;li&gt;A lack of any circles means that you failed to guess any of the right colors.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Therefore, your task is to get 4 red little circles in response to your guesses. When you do you’ve won!&lt;/p&gt;
+
+&lt;h2 id=&quot;the-game&quot;&gt;The Game&lt;/h2&gt;
+
+&lt;p&gt;Play a round of the game here! Click on the circles repeatedly to change their guess color.&lt;/p&gt;
+
+&lt;table class=&quot;table-bordered&quot;&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+      &lt;h5&gt;&lt;small&gt;Sewerbird&lt;/small&gt;Mastermind&lt;/h5&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      &lt;div id=&quot;description&quot;&gt;&lt;/div&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      &lt;div id=&quot;input&quot;&gt;&lt;/div&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;I had an official version of this game when I was young, with a ton of little plastic pegs and a cribbage-like board. It was one of my favorites, especially since it was one of the few games I could convince my siblings to play with me, since it wasn’t really very competitive. I’ve never really figured out a human-optimal way to play, although I know there are proofs by quite famous people about the theoretical quickest generalized strategies. Myself, since I always play where a color can be duplicated (the rules reflected above), will usually play a couple feeler guesses. I usually play &lt;span id=&quot;rrgg&quot;&gt;&lt;/span&gt;, followed by &lt;span id=&quot;bbww&quot;&gt;&lt;/span&gt;, and then maybe &lt;span id=&quot;yyoo&quot;&gt;&lt;/span&gt;: I can infer if there is a duplicate color, what it might be, and sometimes get lucky with lots of red feedback.&lt;/p&gt;
+
+&lt;h2 id=&quot;development&quot;&gt;Development&lt;/h2&gt;
+
+&lt;p&gt;This is admittedly a very rudimentary little implementation, but it proved a fun diversion. I’ve rarely done any significant user interface, and almost none using a web stack - my prior experience is mostly with things like iOS development and Java Swing interfaces. So figuring out how to assemble svg circles and making them clickable was a new thing for me. All told, the game took about 4 hours to do, with just about all that time being spent on different iterations of the game’s interface. The scoring function, the meat of the actual game, took about 3 minutes ;-)&lt;/p&gt;
+
+&lt;p&gt;If I revisit this bit of code, it’ll be to add a new game mode. I have an idea where the game begins with a number of random guesses already made for you, and you get only one guess (or more?) to figure the code out. Conceptually, I think it might feel similar to the mode in Tetris where some amount of the level starts out filled with junk tetris blocks.&lt;/p&gt;
+
+&lt;h2 id=&quot;source&quot;&gt;Source&lt;/h2&gt;
+&lt;p&gt;You can get the source on github &lt;a href=&quot;https://github.com/sewerbird/Mastermind&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/mastermind/lib/lodash.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/mastermind/client.js&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+  var ccc = generateNewCode(4)
+  showColorInput(&quot;input&quot;)
+  var ruleCircleSize = 8
+  document.getElementById(&#39;redR&#39;).appendChild(makeCircle(&#39;redx&#39;,&#39;red&#39;,ruleCircleSize))
+  document.getElementById(&#39;orangeR&#39;).appendChild(makeCircle(&#39;orangex&#39;,&#39;orange&#39;,ruleCircleSize))
+  document.getElementById(&#39;yellowR&#39;).appendChild(makeCircle(&#39;yellowx&#39;,&#39;yellow&#39;,ruleCircleSize))
+  document.getElementById(&#39;greenR&#39;).appendChild(makeCircle(&#39;greenx&#39;,&#39;green&#39;,ruleCircleSize))
+  document.getElementById(&#39;blueR&#39;).appendChild(makeCircle(&#39;bluex&#39;,&#39;blue&#39;,ruleCircleSize))
+  document.getElementById(&#39;whiteR&#39;).appendChild(makeCircle(&#39;whitex&#39;,&#39;white&#39;,ruleCircleSize))
+  document.getElementById(&#39;lilwhiteR&#39;).appendChild(makeCircle(&#39;lilwhitex&#39;,&#39;white&#39;,ruleCircleSize / 2))
+  document.getElementById(&#39;lilredR&#39;).appendChild(makeCircle(&#39;lilredx&#39;,&#39;red&#39;,ruleCircleSize / 2))
+  constructGuessLineUI([&#39;red&#39;,&#39;red&#39;,&#39;green&#39;,&#39;green&#39;], {}, &#39;rrgg&#39;,&quot;span&quot;)
+  constructGuessLineUI([&#39;blue&#39;,&#39;blue&#39;,&#39;white&#39;,&#39;white&#39;], {}, &#39;bbww&#39;,&quot;span&quot;)
+  constructGuessLineUI([&#39;yellow&#39;,&#39;yellow&#39;,&#39;orange&#39;,&#39;orange&#39;], {}, &#39;yyoo&#39;,&quot;span&quot;)
+&lt;/script&gt;
+
+</description>
+                <link>http://sewerbird.github.io/blog/coding/2015/03/11/Mastermind</link>
+                <guid>http://sewerbird.github.io/blog/coding/2015/03/11/Mastermind</guid>
+                <pubDate>2015-03-11T11:13:00+08:00</pubDate>
+        </item>
 
         <item>
                 <title>Oblique Relativization II</title>
