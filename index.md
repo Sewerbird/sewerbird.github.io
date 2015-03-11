@@ -7,6 +7,8 @@ tagline: Blog & Miscellenae
 
 <div class="row">
 
+<!-- 1 -->
+
 	<div class = "col-sm-6 col-md-4 col-lg-3">
 		<h2>Recent</h2>
 		Here are my most recent postings
@@ -22,6 +24,8 @@ tagline: Blog & Miscellenae
 		  <li><a>...more...</a></li>
 		</ul>
 	</div>
+
+<!-- 2 -->
 
 	<div class = "col-sm-6 col-md-4 col-lg-3">
 		<h2>Kyahida</h2>
@@ -43,7 +47,9 @@ tagline: Blog & Miscellenae
 		</ul>
 	</div>
 
+<!-- 3 -->
   	<div class="clearfix visible-sm"></div>
+<!--   -->
 
 	<div class = "col-sm-6 col-md-4 col-lg-3">
 		<h2>Nendsame RPG</h2>
@@ -65,7 +71,9 @@ tagline: Blog & Miscellenae
 		</ul>
 	</div>
 
+<!-- 4 -->
   	<div class="clearfix visible-md"></div>
+<!--   -->
 
 	<div class = "col-sm-6 col-md-4 col-lg-3">
 		<h2>Code Toys</h2>
@@ -87,8 +95,10 @@ tagline: Blog & Miscellenae
 		</ul>
 	</div>
 
+<!-- 5 -->
   	<div class="clearfix visible-lg"></div>
   	<div class="clearfix visible-sm"></div>
+<!--   -->
 
 	<div class = "col-sm-6 col-md-4 col-lg-3">
 		<h2>Old Hobby Blog</h2>
@@ -110,6 +120,8 @@ tagline: Blog & Miscellenae
 		</ul>
 	</div>
 
+<!-- 6 -->
+
 	<div class = "col-sm-6 col-md-4 col-lg-3">
 		<h2>China Blog</h2>
 		I kept a pretty regular blog of my first time living in China. I've exported and put it here for posterity
@@ -129,4 +141,10 @@ tagline: Blog & Miscellenae
 		  <li><a href="{{BASE_PATH}}categories.html#prcblog-ref">...more...</a></li>
 		</ul>
 	</div>
+
+<!-- 7 --
+  	<div class="clearfix visible-sm"></div>
+  	<div class="clearfix visible-md"></div>
+<---->
+
 </div>

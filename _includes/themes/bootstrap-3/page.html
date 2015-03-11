@@ -1,9 +1,13 @@
 <div class="jumbotron">
 	<div class="container">
-			<div class="col-md-12 centerfy">
-		  		<h1 class="text-center">{{ page.title }}{% if page.tagline %}</h1>
-		  		<h2 class="text-center"> <small>{{ page.tagline }}</small></h2>{% endif %}
+		<div class="row">
+			<div class="col-md-3">
+				<img src="icon900x900.png" alt="sewerbird" class="img-responsive"/>
 			</div>
+			<div class="col-md-9 centerfy">
+		  		<h1 class="text-center">{{ page.title }}{% if page.tagline %}<h2 class="text-center"><small>{{ page.tagline }}</small></h2></h1>{% endif %}
+			</div>
+		</div>
 	</div>
 </div>
 
