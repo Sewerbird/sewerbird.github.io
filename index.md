@@ -31,7 +31,7 @@ tagline: Blog & Miscellenae
 			<li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 					{% endif %}
 			{% endfor %}
-		  <li><a>...more...</a></li>
+		  <li><a href="{{BASE_PATH}}archive.html">...more...</a></li>
 		</ul>
 	</div>
 
