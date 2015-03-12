@@ -5,6 +5,7 @@ http://sewerbird.github.io/atom.xml
 http://sewerbird.github.io/categories.html
 http://sewerbird.github.io/index.html
 http://sewerbird.github.io/index.html
+http://sewerbird.github.io/blog/Coding/mastermind.html
 http://sewerbird.github.io/pages.html
 http://sewerbird.github.io/rss.xml
 http://sewerbird.github.io/sitemap.txt

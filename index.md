@@ -6,18 +6,28 @@ tagline: Blog & Miscellenae
 {% include JB/setup %}
 
 <div class="row">
-
+<!-- 0 -->
+	{% assign post = site.posts.first %}
+	{% assign content = post.excerpt %}
+	<a href="{{ BASE_PATH }}{{ post.url }}">
+		<div class = "col-sm-6 col-md-4 col-lg-3 frontbox featured well">
+			<blockquote>
+			  <h2>{{ post.title }}<small>New Post!</small></h2>
+			  <p class="lead">{{ content }}</p><p><i>...(more)...</i></p>
+			</blockquote>
+		</div>
+	</a>
 <!-- 1 -->
 
-	<div class = "col-sm-6 col-md-4 col-lg-3">
+	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2>Recent</h2>
-		Here are my most recent postings
+		Here are some other recent postings
 		<ul class="posts">
 			{% for post in site.posts %}
 				{% assign recentCNT = 0 %}
 		  			{% capture recentCNT %}{% increment recentCNT %}{% endcapture %}
 		  			{% assign recentCNT = recentCNT | plus: 0 %}
-		      		{% if recentCNT <= 5 %}	
+		      		{% if recentCNT <= 6 and recentCNT > 1 %}	
 			<li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 					{% endif %}
 			{% endfor %}
@@ -26,8 +36,10 @@ tagline: Blog & Miscellenae
 	</div>
 
 <!-- 2 -->
+  	<div class="clearfix visible-sm"></div>
+<!--   -->
 
-	<div class = "col-sm-6 col-md-4 col-lg-3">
+	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2>Kyahida</h2>
 		Kyahida was a conlang I made on <a href="http://www.incatena.org">zompist</a> in a series of posts
 		<ul class="posts">
@@ -48,10 +60,10 @@ tagline: Blog & Miscellenae
 	</div>
 
 <!-- 3 -->
-  	<div class="clearfix visible-sm"></div>
+  	<div class="clearfix visible-md"></div>
 <!--   -->
 
-	<div class = "col-sm-6 col-md-4 col-lg-3">
+	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2>Nendsame RPG</h2>
 		I worked on a reboot of a prior P&P RPG I had designed myself
 		<ul class="posts">
@@ -72,10 +84,11 @@ tagline: Blog & Miscellenae
 	</div>
 
 <!-- 4 -->
-  	<div class="clearfix visible-md"></div>
+  	<div class="clearfix visible-lg"></div>
+  	<div class="clearfix visible-sm"></div>
 <!--   -->
 
-	<div class = "col-sm-6 col-md-4 col-lg-3">
+	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2>Code Toys</h2>
 		I'm going to be putting some little javascript toys here soon as quick as I can put them together :)
 		<ul class="posts">
@@ -96,11 +109,8 @@ tagline: Blog & Miscellenae
 	</div>
 
 <!-- 5 -->
-  	<div class="clearfix visible-lg"></div>
-  	<div class="clearfix visible-sm"></div>
-<!--   -->
 
-	<div class = "col-sm-6 col-md-4 col-lg-3">
+	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2>Old Hobby Blog</h2>
 		I had a sporadic D&D and Warhammer 40k blog on wordpress for a while
 		<ul class="posts">
@@ -121,8 +131,11 @@ tagline: Blog & Miscellenae
 	</div>
 
 <!-- 6 -->
+  	<div class="clearfix visible-sm"></div>
+  	<div class="clearfix visible-md"></div>
+<!-- -->
 
-	<div class = "col-sm-6 col-md-4 col-lg-3">
+	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2>China Blog</h2>
 		I kept a pretty regular blog of my first time living in China. I've exported and put it here for posterity
 		<ul class="posts">
