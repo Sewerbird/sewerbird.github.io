@@ -15,10 +15,10 @@
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
-  color: #00AACC;
+  color: rgba(55,64,6,0.48);
 }
 #footer {
-  background-color: #fdcd60;
+  background-color: rgba(114, 135, 0, 0.44);
 }
 
 
