@@ -7,8 +7,9 @@ tagline: Blog & Miscellenae
 
 <div class="row">
 <!-- 0 -->
-	{% assign post = site.posts.first %}
-	{% assign content = post.excerpt %}
+	{% for post in site.posts %}
+		{% if post.title == "Mastermind" %}
+		{% assign content = post.excerpt %}
 	<a href="{{ BASE_PATH }}{{ post.url }}" id="featured">
 		<div class = "col-sm-6 col-md-4 col-lg-3 frontbox featured well">
 			<blockquote>
@@ -17,6 +18,8 @@ tagline: Blog & Miscellenae
 			</blockquote>
 		</div>
 	</a>
+		{% endif %}
+	{% endfor %}
 <!-- 1 -->
 
 	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
@@ -27,7 +30,7 @@ tagline: Blog & Miscellenae
 				{% assign recentCNT = 0 %}
 		  			{% capture recentCNT %}{% increment recentCNT %}{% endcapture %}
 		  			{% assign recentCNT = recentCNT | plus: 0 %}
-		      		{% if recentCNT <= 6 and recentCNT > 1 %}	
+		      		{% if recentCNT <= 5 %}	
 			<li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 					{% endif %}
 			{% endfor %}

@@ -3,6 +3,7 @@ layout: post
 date: '2015-03-11T11:13:00.000+08:00'
 title: Mastermind
 tagline: Fun Puzzler
+featured: 1
 ---
 
 While visiting my mother's, I was diverted by implementing the game 'Mastermind' in javascript!
