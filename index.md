@@ -8,7 +8,7 @@ tagline: Blog & Miscellenae
 <div class="row">
 <!-- 0 -->
 	{% for post in site.posts %}
-		{% if post.title == "Mastermind" %}
+		{% if post.featured == 1 %}
 		{% assign content = post.excerpt %}
 	<a href="{{ BASE_PATH }}{{ post.url }}" id="featured">
 		<div class = "col-sm-6 col-md-4 col-lg-3 frontbox featured well">
