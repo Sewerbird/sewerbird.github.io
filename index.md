@@ -7,9 +7,11 @@ tagline: Blog & Miscellenae
 
 <div class="row">
 <!-- 0 -->
+	{% assign numfeatured = 0 %}
 	{% for post in site.posts %}
-		{% if post.featured == 1 %}
+		{% if post.featured == 1 and numfeatured == 0%}
 		{% assign content = post.excerpt %}
+		{% assign numfeatured = 1 %}
 	<a href="{{ BASE_PATH }}{{ post.url }}" id="featured">
 		<div class = "col-sm-6 col-md-4 col-lg-3 frontbox featured well">
 			<blockquote>
