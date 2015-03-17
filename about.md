@@ -5,11 +5,9 @@ title: About
 
 My name is Edward, and I spend most of my time working on hobbies: I have an interest in coding, games (video and physical), linguistics, ethics, and politics. I am usually getting money to the government and landlord by doing programming work for entrepreneurial friends of mine.
 
-## This Site
-
 This blog is wholly hosted on [GitHub](http://github.com/Sewerbird/sewerbird.github.io) and is, in fact, a static site generated using Jekyll. This lets me type things up in [Sublime Text 2](http://sublimetext.com) on my MacBook Pro for the site, run a quick `git` command and it appears on the web a moment later, all formatted with [MarkDown](daringfireball.net/projects/markdown). I've structured the site setup in ways that I hope will both make my musings and hobbies accessible to others, as well as lowering the barrier to me contributing to it.
 
-## Myself Professionally
+## My Professional Record
 
 If you are interested in working with me, drop me a line at [my email, sewerbird@gmail.com](sewerbird@gmail.com). Below is a condensed resumé of my programming work, however keep in mind that I'd be pleased to hear about any creative position that doesn't rely on my ability to wield a paintbrush ;-)
 
@@ -24,7 +22,8 @@ If you are interested in working with me, drop me a line at [my email, sewerbird
 
 - 2010-2011 Shanghai
 - Chinese art studio wanted to pivot to being a game studio, and brought me and several others onto the project
-- I was responsible for putting together a design document for an online persistent RTS game. Lots of SQL, Excel, and writing.
+- I was responsible for putting together a design document for an online persistent RTS game. 
+- Lots of SQL, Excel, and writing.
 - The studio imploded after a while, so sadly no released product
 
 ### Programmer at Full Cycle Engineering
@@ -44,9 +43,3 @@ If you are interested in working with me, drop me a line at [my email, sewerbird
 - Wrote the server for the service in Javascript thanks to Node.js
 - Extensive work with MongoDB
 - Wrote public-facing documentation for the service
-
-## Questions?
-
-Have questions or suggestions? Feel free to [drop me a line](sewerbird@gmail.com) or [ask me on Twitter](https://twitter.com/ekmiv).
-
-Thanks for reading!
