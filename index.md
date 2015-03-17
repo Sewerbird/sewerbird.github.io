@@ -173,7 +173,7 @@ tagline: Blog & Miscellenae
 	Stuff for the embedded featured youtube video of mine
 */
 var request = new XMLHttpRequest();
-request.open('GET', 'http://gdata.youtube.com/feeds/api/users/UCyxXDStUZPtQgQYAZdKo93w/uploads?max-results=1&alt=json&orderby=published', true);
+request.open('GET', 'https://gdata.youtube.com/feeds/api/users/UCyxXDStUZPtQgQYAZdKo93w/uploads?max-results=1&alt=json&orderby=published', true);
 
 request.onload = function() {
   if (request.status >= 200 && request.status < 400) {
