@@ -13,9 +13,10 @@ This blog is wholly hosted on [GitHub](http://github.com/Sewerbird/sewerbird.git
 
 If you are interested in working with me, drop me a line at [my email, sewerbird@gmail.com](sewerbird@gmail.com). Below is a condensed resumé of my programming work, however keep in mind that I'd be pleased to hear about any creative position that doesn't rely on my ability to wield a paintbrush ;-)
 
-### Graduated from the University of Washington with a BS in 'Applied & Computational Mathematical Sciences'
+### Student at University of Washington
 
 - 2005-2009 Seattle
+- BS in 'Applied & Computational Mathematical Sciences'
 - Mostly modelling, algorithms, and graph theory in Java and Scheme. 
 - I also took a large number of Linguistics, Education, and Statistics classes
 
