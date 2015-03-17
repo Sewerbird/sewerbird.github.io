@@ -3,28 +3,49 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+My name is Edward, and I spend most of my time working on hobbies: I have an interest in coding, games (video and physical), linguistics, ethics, and politics. I am usually getting money to the government and landlord by doing programming work for entrepreneurial friends of mine.
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## This Site
 
-There are currently two themes built on Poole:
+This blog is wholly hosted on [GitHub](http://github.com/Sewerbird/sewerbird.github.io) and is, in fact, a static site generated using Jekyll. This lets me type things up in [Sublime Text 2](http://sublimetext.com) on my MacBook Pro for the site, run a quick `git` command and it appears on the web a moment later, all formatted with [MarkDown](daringfireball.net/projects/markdown). I've structured the site setup in ways that I hope will both make my musings and hobbies accessible to others, as well as lowering the barrier to me contributing to it.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+## Myself Professionally
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+If you are interested in working with me, drop me a line at [my email, sewerbird@gmail.com](sewerbird@gmail.com). Below is a condensed resumé of my programming work, however keep in mind that I'd be pleased to hear about any creative position that doesn't rely on my ability to wield a paintbrush ;-)
 
-## Setup
+### Graduated from the University of Washington with a BS in 'Applied & Computational Mathematical Sciences'
 
-Some fun facts about the setup of this project include:
+- 2005-2009 Seattle
+- Mostly modelling, algorithms, and graph theory in Java and Scheme. 
+- I also took a large number of Linguistics, Education, and Statistics classes
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+### Game Designer at AFM Games
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+- 2010-2011 Shanghai
+- Chinese art studio wanted to pivot to being a game studio, and brought me and several others onto the project
+- I was responsible for putting together a design document for an online persistent RTS game. Lots of SQL, Excel, and writing.
+- The studio imploded after a while, so sadly no released product
+
+### Programmer at Full Cycle Engineering
+
+- 2011-2012 Boston
+- My friend Sean started a code contracting business with myself and two others
+- Wrote complex LUA code for a Coal Mining Permitting app for the iPad
+- Wrote game code for an iOS platformer game
+- Wrote a drawing/annotation interface for an Ultrasound Wand for Android
+- Wrote a few applications utilizing OCR and image filtering on images for iOS
+
+### Programmer at Backwi.re
+
+- 2014-2015 Shanghai
+- My friend Michal started a BAAS startup with myself and his brother
+- Wrote the client API for the service in Javascript
+- Wrote the server for the service in Javascript thanks to Node.js
+- Extensive work with MongoDB
+- Wrote public-facing documentation for the service
+
+## Questions?
+
+Have questions or suggestions? Feel free to [drop me a line](sewerbird@gmail.com) or [ask me on Twitter](https://twitter.com/ekmiv).
 
 Thanks for reading!
