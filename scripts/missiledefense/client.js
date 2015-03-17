@@ -38,11 +38,17 @@ function showField(id, gamestate){
 		txt.setAttribute("text-anchor","middle")
 		txt.setAttribute("fill","white")
 		var txtNode = document.createTextNode("THE END")
+		var txt2 = document.createElementNS(NS,"text")
+		txt2.setAttribute("x",300)
+		txt2.setAttribute("y",250)
+		txt2.setAttribute("text-anchor","middle")
+		txt2.setAttribute("fill","white")
 		var scoreNode = document.createTextNode("Score: "+Math.floor(gamestate.time))
 		txt.appendChild(txtNode);
-		txt.appendChild(scoreNode);
+		txt2.appendChild(scoreNode);
 		fade.onclick = window.location.reload.bind(window.location)
 		svg.appendChild(txt)
+		svg.appendChild(txt2)
 		return;
 	}
 	var display = document.getElementById(id)
