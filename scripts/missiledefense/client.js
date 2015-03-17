@@ -38,10 +38,11 @@ function showField(id, gamestate){
 		txt.setAttribute("text-anchor","middle")
 		txt.setAttribute("fill","white")
 		var txtNode = document.createTextNode("THE END")
+		var scoreNode = document.createTextNode("Score: "+Math.floor(gamestate.time))
 		txt.appendChild(txtNode);
+		txt.appendChild(scoreNode);
 		fade.onclick = window.location.reload.bind(window.location)
 		svg.appendChild(txt)
-
 		return;
 	}
 	var display = document.getElementById(id)
@@ -139,8 +140,8 @@ function showField(id, gamestate){
 		var txt = document.createElementNS(NS,"text")
 		txt.setAttribute("x",5)
 		txt.setAttribute("y",395)
-		txt.setAttribute("fill","blue")
-		var txtNode = document.createTextNode("ME:"+gamestate.analysis.MAX_EXPLOSIONS_SEEN+"\n/MM:"+gamestate.analysis.MAX_MISSILES)
+		txt.setAttribute("fill","white")
+		var txtNode = document.createTextNode("Score: "+Math.floor(gamestate.time))
 		txt.appendChild(txtNode);
 		svg.appendChild(txt)
 	}

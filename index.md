@@ -41,7 +41,7 @@ tagline: Blog & Miscellenae
 
 <!-- 2 -->
   	<div class="clearfix visible-sm"></div>
-<!--   -->
+<!-- x -->
 
 	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2>Kyahida</h2>
@@ -65,7 +65,7 @@ tagline: Blog & Miscellenae
 
 <!-- 3 -->
   	<div class="clearfix visible-md"></div>
-<!--   -->
+<!-- x -->
 
 	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2>Nendsame RPG</h2>
@@ -90,7 +90,7 @@ tagline: Blog & Miscellenae
 <!-- 4 -->
   	<div class="clearfix visible-lg"></div>
   	<div class="clearfix visible-sm"></div>
-<!--   -->
+<!-- x -->
 
 	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2>Code Toys</h2>
@@ -137,7 +137,7 @@ tagline: Blog & Miscellenae
 <!-- 6 -->
   	<div class="clearfix visible-sm"></div>
   	<div class="clearfix visible-md"></div>
-<!-- -->
+<!-- x -->
 
 	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2>China Blog</h2>
@@ -160,7 +160,6 @@ tagline: Blog & Miscellenae
 	</div>
 
 <!-- 7 -->
-<!---->
 	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2 id="ytheader">SewerbirdLP <a href="https://www.youtube.com/channel/UCyxXDStUZPtQgQYAZdKo93w"><img src="http://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" width="42" height="30"></img></a></h2>
 		Here's my latest video: enjoy!
@@ -203,7 +202,7 @@ request.onload = function() {
 };
 
 request.onerror = function() {
-  // There was a connection error of some sort
+  /* There was a connection error of some sort */
 };
 
 request.send();
