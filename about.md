@@ -13,20 +13,14 @@ This blog is wholly hosted on [GitHub](http://github.com/Sewerbird/sewerbird.git
 
 If you are interested in working with me, drop me a line at [my email, sewerbird@gmail.com](sewerbird@gmail.com). Below is a condensed resumé of my programming work, however keep in mind that I'd be pleased to hear about any creative position that doesn't rely on my ability to wield a paintbrush ;-)
 
-### Student at University of Washington
+### Programmer at Backwi.re
 
-- 2005-2009 Seattle
-- BS in 'Applied & Computational Mathematical Sciences'
-- Mostly modelling, algorithms, and graph theory in Java and Scheme. 
-- I also took a large number of Linguistics, Education, and Statistics classes
-
-### Game Designer at AFM Games
-
-- 2010-2011 Shanghai
-- Chinese art studio wanted to pivot to being a game studio, and asked my friend Blake to hire some staff
-- I was responsible for putting together a design document for an online persistent RTS game
-- Lots of SQL, Excel, and writing
-- The studio imploded after a while, so sadly no released product
+- 2014-2015 Shanghai
+- My friend Michal started a BAAS startup with myself and his brother
+- Wrote the client API for the service in Javascript
+- Wrote the server for the service in Javascript thanks to Node.js
+- Extensive work with MongoDB
+- Wrote public-facing documentation for the service
 
 ### Programmer at Full Cycle Engineering
 
@@ -37,11 +31,17 @@ If you are interested in working with me, drop me a line at [my email, sewerbird
 - Wrote a drawing/annotation interface for an Ultrasound Wand for Android
 - Wrote a few applications utilizing OCR and image filtering on images for iOS
 
-### Programmer at Backwi.re
+### Game Designer at AFM Games
 
-- 2014-2015 Shanghai
-- My friend Michal started a BAAS startup with myself and his brother
-- Wrote the client API for the service in Javascript
-- Wrote the server for the service in Javascript thanks to Node.js
-- Extensive work with MongoDB
-- Wrote public-facing documentation for the service
+- 2010-2011 Shanghai
+- Chinese art studio wanted to pivot to being a game studio, and asked my friend Blake to hire some staff
+- I was responsible for putting together a design document for an online persistent RTS game
+- Lots of SQL, Excel, and writing
+- The studio imploded after a while, so sadly no released product
+
+### Student at University of Washington
+
+- 2005-2009 Seattle
+- BS in 'Applied & Computational Mathematical Sciences'
+- Mostly modelling, algorithms, and graph theory in Java and Scheme. 
+- I also took a large number of Linguistics, Education, and Statistics classes
