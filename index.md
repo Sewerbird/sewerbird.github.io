@@ -23,7 +23,6 @@ tagline: Blog & Miscellenae
 		{% endif %}
 	{% endfor %}
 <!-- 1 -->
-
 	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
 		<h2>Recent</h2>
 		Here are some other recent postings
@@ -160,9 +159,65 @@ tagline: Blog & Miscellenae
 		</ul>
 	</div>
 
-<!-- 7 --
-  	<div class="clearfix visible-sm"></div>
-  	<div class="clearfix visible-md"></div>
-<---->
+<!-- 7 -->
+<!---->
+	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
+		<h2 id="ytheader">SewerbirdLP <a href="https://www.youtube.com/channel/UCyxXDStUZPtQgQYAZdKo93w"><img src="http://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" width="42" height="30"></img></a></h2>
+		Here's my latest video: enjoy!
+		<div id="ytfeatured"> </div>
+	</div>
 
 </div>
+<script>
+/*
+	Stuff for the embedded featured youtube video of mine
+*/
+var request = new XMLHttpRequest();
+request.open('GET', 'http://gdata.youtube.com/feeds/api/users/UCyxXDStUZPtQgQYAZdKo93w/uploads?max-results=1&alt=json&orderby=published', true);
+
+request.onload = function() {
+  if (request.status >= 200 && request.status < 400) {
+    // Success!
+    var data = JSON.parse(request.responseText);
+    for(var i in data.feed.entry){
+		var link = data.feed.entry[i].id["$t"].split("/")
+		link = link[link.length-1]
+		var tgt = document.getElementById("ytfeatured");
+		var twid = window.getComputedStyle(tgt).width
+		var frame = document.createElement("iframe")
+		frame.setAttribute("title","YouTube video player")
+		frame.setAttribute("width",twid);
+		frame.setAttribute("height",twid / (4.0/3.0));
+		frame.setAttribute("src","http://www.youtube.com/embed/"+link)
+		frame.setAttribute("frameborder",0)
+		frame.setAttribute("allowfullscreen",true)
+		frame.setAttribute("id","ytfeaturedplayerrecent")
+		//var titletgt = document.getElementById("ytheader")
+		//var title = document.createTextNode(data.feed.entry[i].title["$t"])
+		//titletgt.appendChild(title)
+		tgt.appendChild(frame)
+	}
+  } else {
+    // We reached our target server, but it returned an error
+  }
+};
+
+request.onerror = function() {
+  // There was a connection error of some sort
+};
+
+request.send();
+
+window.onresize = resize;
+
+function resize(){
+	var con = document.getElementById("ytfeatured");
+	console.log(twid)
+	var twid = window.getComputedStyle(con).width;
+	if(typeof twid !== "number") twid = twid.replace(/px/g,'');
+	var tgt = document.getElementById("ytfeaturedplayerrecent");
+	console.log(twid)
+	tgt.setAttribute("width",Math.min(twid,1920));
+	tgt.setAttribute("height",Math.min(twid / (4.0/3.0),1080));
+}
+</script>
