@@ -11,6 +11,7 @@ var gameState = {
 	missiles : [],
 	explosions : [],
 	time: 0,
+	score: 0,
 	HOPE_LIVES: true,
 	PROJECTION_ENABLED: true,
 	ANALYSIS_ENABLED: true,
@@ -43,7 +44,7 @@ function showField(id, gamestate){
 		txt2.setAttribute("y",250)
 		txt2.setAttribute("text-anchor","middle")
 		txt2.setAttribute("fill","white")
-		var scoreNode = document.createTextNode("Score: "+Math.floor(gamestate.time))
+		var scoreNode = document.createTextNode("Score: "+Math.floor(gamestate.score))
 		txt.appendChild(txtNode);
 		txt2.appendChild(scoreNode);
 		fade.onclick = window.location.reload.bind(window.location)
@@ -147,7 +148,7 @@ function showField(id, gamestate){
 		txt.setAttribute("x",5)
 		txt.setAttribute("y",395)
 		txt.setAttribute("fill","white")
-		var txtNode = document.createTextNode("Score: "+Math.floor(gamestate.time))
+		var txtNode = document.createTextNode("Score: "+Math.floor(gamestate.score))
 		txt.appendChild(txtNode);
 		svg.appendChild(txt)
 	}
@@ -186,35 +187,23 @@ function showField(id, gamestate){
 function update(gamestate, dt){
 	//advance time
 	gamestate.time += dt;
-	//filter out missiles that have gone off screen
-	gamestate.missiles = _.filter(gamestate.missiles, function(missile){
-		var mState = missile(gamestate.time);
-		return mState.x > 0 && mState.x < 600 && mState.y < 400//on screen
-	})
-	//find missiles that are going to explode due to nearness to each other
 	gamestate.missiles = _.filter(gamestate.missiles, function(missile, n){
-		var missilestate = missile(gamestate.time)
+		//filter out missiles that have gone off screen
+		var missilestate = missile(gamestate.time);
+		var isOnScreen = missilestate.x > 0 && missilestate.x < 600 && missilestate.y < 400//on screen
+		//find missiles that are going to explode due to nearness to each other
 		var didNotExplode = true;
-		for(var i = 0; i < gamestate.missiles.length; i ++)
+		_.each(gamestate.missiles, function(other, i)
 		{
-			if(i === n) continue;
-			var otherstate = gamestate.missiles[i](gamestate.time)
+			if(i === n) return;
+			var otherstate = other(gamestate.time)
 			if(Math.pow(otherstate.x - missilestate.x,2) + Math.pow(otherstate.y-missilestate.y,2) < 100)
 			{
 				gamestate.explosions.push(spawnExplosion(gamestate.time,missilestate.x, missilestate.y))
 				didNotExplode = false;
-				break;
 			}
-		}
-		return didNotExplode
-	})
-	//find explosions that are done exploding
-	gamestate.explosions = _.filter(gamestate.explosions, function(explosion){
-		return explosion(gamestate.time).active
-	})
-	//find missiles that have hit a town
-	gamestate.missiles = _.filter(gamestate.missiles, function(missile){
-		var missilestate = missile(gamestate.time)
+		})
+		//find missiles that have hit a town
 		var didNotStrike = true;
 		_.each(gamestate.cities, function(city, i){
 			if(missilestate.x >= city.x && missilestate.x <= city.x + city.width &&
@@ -226,11 +215,7 @@ function update(gamestate, dt){
 				gamestate.explosions.push(spawnExplosion(gamestate.time, missilestate.x, missilestate.y))
 			}
 		})
-		return didNotStrike
-	})
-	//find missiles that have gone below the ground
-	gamestate.missiles = _.filter(gamestate.missiles, function(missile){
-		var missilestate = missile(gamestate.time)
+		//find missiles that have hit the ground
 		var didNotLandstrike = true;
 		if(missilestate.y > 375 ||
 			(missilestate.y > 350 && missilestate.x < 50) ||
@@ -239,16 +224,24 @@ function update(gamestate, dt){
 			didNotLandstrike = false;
 			gamestate.explosions.push(spawnExplosion(gamestate.time, missilestate.x, missilestate.y))
 		}
-		return didNotLandstrike;
+		return didNotLandstrike && didNotStrike && didNotExplode && isOnScreen;
+	})
+	//find explosions that are done exploding
+	gamestate.explosions = _.filter(gamestate.explosions, function(explosion){
+		return explosion(gamestate.time).active
 	})
 	//See if hope survies
 	var siloActive = false;
 	var cityExists = false;
 	_.each(gamestate.cities, function(city){
 		if(city.isSilo && city.okay) siloActive = true;
-		else if(city.okay) cityExists = true;
+		else if(city.okay){
+			cityExists = true;
+			gamestate.score+=dt
+		}
 	})
 	gamestate.HOPE_LIVES = siloActive && cityExists
+	//Increment score
 }
 
 function spawnMissile(spawn_time, p_x, p_y, v_x, v_y, kind){
