@@ -16,7 +16,7 @@ tagline: Blog & Miscellenae
 		<div class = "col-sm-6 col-md-4 col-lg-3 frontbox featured well">
 			<blockquote>
 			  <h2>{{ post.title }}<small>New Post!</small></h2>
-			  <p class="lead">{{ content }}</p>
+			  <p>{{ content }}</p>
 			</blockquote>
 		</div>
 	</a>
