@@ -242,18 +242,8 @@ function draw(gamestate){
 		txt.setAttribute("y",25)
 		txt.setAttribute("text-anchor","middle")
 		txt.setAttribute("fill",_.isFinite(gamestate.highScore) && gamestate.highScore < gamestate.score?"#66FF66":"green")
-		var txtNode = document.createTextNode("Score: "+Math.floor(gamestate.score))
+		var txtNode = document.createTextNode("Score: "+Math.floor(gamestate.score)+(_.isFinite(gamestate.highScore)?" ("+gamestate.highScore+")":""))
 		txt.appendChild(txtNode);
-		if(_.isFinite(gamestate.highScore))
-		{
-			var txtH = document.createElementNS(NS,"text")
-			txtH.setAttribute("x",gamestate.field_w/2)
-			txtH.setAttribute("y",50)
-			txtH.setAttribute("text-anchor","middle")
-			txtH.setAttribute("fill","green")
-			var txtHNode = document.createTextNode("High: "+Math.floor(gamestate.highScore))
-			txtH.appendChild(txtHNode);
-		}
 		svg.appendChild(txt)
 	//::Input
 		var inp = document.createElementNS(NS, "rect")
