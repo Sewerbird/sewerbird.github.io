@@ -126,14 +126,23 @@ function getDistance(pos_a,pos_b){
 function mouseDown(evt)
 {
 	evt.preventDefault()
-	gameState.mouse_pos.locked = false
+	console.log("setting",evt.target.getBoundingClientRect())
+	gameState.mouse_pos.lastRect = evt.target.getBoundingClientRect();
+	var pos = getPosition(evt);
+	gameState.mouse_pos.locked = false;
+	gameState.mouse_pos.x = pos.x;
+	gameState.mouse_pos.y = pos.y;
 }
 
 function mouseMove(evt)
 {
 	evt.preventDefault()
-	gameState.mouse_pos.x = evt.offsetX
-	gameState.mouse_pos.y = evt.offsetY
+	var pos = getPosition(evt)
+	if(!gameState.mouse_pos.locked)
+	{
+		gameState.mouse_pos.x = pos.x;
+		gameState.mouse_pos.y = pos.y;
+	}
 }
 
 function mouseUp(evt)
@@ -145,21 +154,40 @@ function mouseUp(evt)
 function touchStart(evt)
 {
 	evt.preventDefault()
-	gameState.mouse_pos.locked = false
+	mouseDown(evt)
 }
 
 function touchMove(evt)
 {
 	evt.preventDefault()
-	console.log(evt.changedTouches[0])
-	gameState.mouse_pos.x = evt.changedTouches[0].clientX
-	gameState.mouse_pos.y = evt.changedTouches[0].clientY
+	mouseMove(evt)
 }
 
 function touchEnd(evt)
 {
 	evt.preventDefault()
-	gameState.mouse_pos.locked = true
+	mouseUp(evt)
+}
+function getPosition(e) {
+	if ( e.changedTouches && e.changedTouches.length > 0) {
+		var rect = e.target.getBoundingClientRect();
+		if(gameState.mouse_pos.lastRect !== undefined)//zero sized, use last one
+		{
+			console.log("using lastrect")
+			rect = gameState.mouse_pos.lastRect
+		}
+		var touch = e.changedTouches[0];
+		var x = touch.clientX - rect.left;
+		var y = touch.clientY - rect.top;
+		console.log("t",gameState.mouse_pos.lastRect,touch,rect)
+		return {x:x,y:y};
+	} else {
+		var rect = e.target.getBoundingClientRect();
+		var x = e.clientX - rect.left;
+		var y = e.clientY - rect.top;
+		console.log("m",e,rect)
+		return {x:x,y:y};
+	}
 }
 
 function draw(gamestate){
@@ -242,8 +270,18 @@ function draw(gamestate){
 		txt.setAttribute("y",25)
 		txt.setAttribute("text-anchor","middle")
 		txt.setAttribute("fill",_.isFinite(gamestate.highScore) && gamestate.highScore < gamestate.score?"#66FF66":"green")
-		var txtNode = document.createTextNode("Score: "+Math.floor(gamestate.score)+(_.isFinite(gamestate.highScore)?" ("+gamestate.highScore+")":""))
+		var txtNode = document.createTextNode("Score: "+Math.floor(gamestate.score))
 		txt.appendChild(txtNode);
+		if(_.isFinite(gamestate.highScore))
+		{
+			var txtH = document.createElementNS(NS,"text")
+			txtH.setAttribute("x",gamestate.field_w/2)
+			txtH.setAttribute("y",50)
+			txtH.setAttribute("text-anchor","middle")
+			txtH.setAttribute("fill","green")
+			var txtHNode = document.createTextNode("High: "+Math.floor(gamestate.highScore))
+			txtH.appendChild(txtHNode);
+		}
 		svg.appendChild(txt)
 	//::Input
 		var inp = document.createElementNS(NS, "rect")
