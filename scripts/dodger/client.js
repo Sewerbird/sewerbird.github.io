@@ -1,16 +1,42 @@
 var gameState = {}
-function run(tgt){
+function run(tgt,scrTgt){
+	gameState.scoreboard = new Firebase("https://sewerbird-high-score.firebaseio.com/Dodger")
+	initScoreboard(scrTgt, gameState.scoreboard)
 	gameState = reset(gameState,tgt)
 	setInterval(function(){
 		update(gameState,0.01)
 	},10)
 	setTimeout(window.onresize,11)
 }
+function initScoreboard(scoreboardDiv, db_fire_ref){
+	getScores(db_fire_ref,function(results){
+		var div = document.getElementById(scoreboardDiv)
+		while(div.firstChild)
+			div.removeChild(div.firstChild)
+		var table = document.createElement("table")
+		var tbody = document.createElement("tbody")
+		_.each(results, function(data, user){
+			var tr = document.createElement("tr")
+			var tdUsr = document.createElement("td")
+			var tdScr = document.createElement("td")
+			var usr = document.createTextNode(user)
+			var scr = document.createTextNode(Math.floor(data.score))
+			tdUsr.appendChild(usr)
+			tdScr.appendChild(scr)
+			tr.appendChild(tdUsr)
+			tr.appendChild(tdScr)
+			tbody.appendChild(tr)
+		})
+		table.appendChild(tbody)
+		div.appendChild(table)
+	})
+}
 function reset(gamestate,displayDiv){
 	refreshViewPortDimensions(gamestate, displayDiv)
 	//Normalize size
 	return {
 		player : {
+			username : "Anonymous",
 			okay : true,
 			pos : {
 				x:500/2,
@@ -33,6 +59,7 @@ function reset(gamestate,displayDiv){
 		viewport : gamestate.viewport,
 		sprng: seed(2015),
 		display: displayDiv,
+		scoreboard : gamestate.scoreboard,
 		mouse_pos: {
 			x:250,
 			y:250,
@@ -44,7 +71,7 @@ function reset(gamestate,displayDiv){
 function update(gamestate, dt){
 	if(!gamestate.player.okay)
 	{
-		gameState = reset(gamestate,gamestate.display)
+		//gameState = reset(gamestate,gamestate.display)
 		return;
 	}
 	gamestate.time += dt
@@ -81,7 +108,11 @@ function update(gamestate, dt){
 		var distance = getDistance(entity.pos, gamestate.player.pos);
 		if(_.isFinite(distance) && distance < entity.size + gamestate.player.size)
 		{
+			//Loss Condition
 			gamestate.player.okay = false;
+			console.log(gamestate.player.username, gamestate.scoreboard)
+			if(gamestate.scoreboard && gamestate.player.username !== undefined)
+				submitScore(gamestate.scoreboard, gamestate.player.username, gamestate.score);
 		}
 		var offset = gamestate.player.size + entity.size
 		return getDistance(entity.pos, {x:gamestate.field_w/2,y:gamestate.field_h/2}) < (gamestate.bound_r+(entity.size*2))
@@ -173,25 +204,70 @@ function getPosition(e) {
 		var rect = e.target.getBoundingClientRect();
 		if(gameState.mouse_pos.lastRect !== undefined)//zero sized, use last one
 		{
-			console.log("using lastrect")
 			rect = gameState.mouse_pos.lastRect
 		}
 		var touch = e.changedTouches[0];
 		var x = touch.clientX - rect.left;
 		var y = touch.clientY - rect.top;
-		console.log("t",gameState.mouse_pos.lastRect,touch,rect)
 		return {x:x,y:y};
 	} else {
 		var rect = e.target.getBoundingClientRect();
 		var x = e.clientX - rect.left;
 		var y = e.clientY - rect.top;
-		console.log("m",e,rect)
 		return {x:x,y:y};
 	}
 }
 
+function getScores(db_game_ref, callback)
+{
+	db_game_ref.orderByChild("score").on("value", function(snapshot){
+		var results = snapshot.val()
+		callback(results)
+	})
+}
+function submitScore(db_game_ref, username, score)
+{
+	var tgt = db_game_ref.child("/"+username)
+	console.log("submitting score")
+	tgt.once("value",function(data){
+		var results = data.val()
+		console.log("FFFF",results)
+		if(results == null || results.score < score)
+			tgt.set({score:score})
+	})
+}
+
 function draw(gamestate){
 	var display = document.getElementById(gamestate.display)
+	if(!gamestate.player.okay)
+	{
+		var svg = document.getElementById("mdSVGvp")
+		var NS="http://www.w3.org/2000/svg";
+		var fade = document.createElementNS(NS,"rect")
+		fade.setAttribute("width","100%")
+		fade.setAttribute("height","100%")
+		fade.setAttribute("fill","black")
+		fade.setAttribute("fill-opacity", 0.7)
+		svg.appendChild(fade)
+		var txt = document.createElementNS(NS,"text")
+		txt.setAttribute("x",gamestate.field_w/2)
+		txt.setAttribute("y",gamestate.field_h/2)
+		txt.setAttribute("text-anchor","middle")
+		txt.setAttribute("fill","white")
+		var txtNode = document.createTextNode("THE END")
+		var txt2 = document.createElementNS(NS,"text")
+		txt2.setAttribute("x",gamestate.field_w/2)
+		txt2.setAttribute("y",gamestate.field_h/2 + 25)
+		txt2.setAttribute("text-anchor","middle")
+		txt2.setAttribute("fill","white")
+		var scoreNode = document.createTextNode("Score: "+Math.floor(gamestate.score))
+		txt.appendChild(txtNode);
+		txt2.appendChild(scoreNode);
+		fade.onclick = function(){gameState = reset(gameState,gameState.display)}
+		svg.appendChild(txt)
+		svg.appendChild(txt2)
+		return;
+	}
 	//Clear
 	while (display.firstChild) {
 	    display.removeChild(display.firstChild);
