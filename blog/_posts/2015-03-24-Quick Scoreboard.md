@@ -14,8 +14,8 @@ Firebase is pretty similar to the technology I was working on at Backwi.re, alth
 <table class="table-bordered">
 	<thead>
 		<tr>
-			<th>sewerbirdDodger</th>
-			<th>sewerbirdMissileDefense</th>
+			<th><a href="http://sewerbird.github.io/blog/coding/2015/03/20/Dodger"><h4><small>sewerbird</small>Dodger</h4></a></th>
+			<th><a href="http://sewerbird.github.io/blog/coding/2015/03/14/missiledefense"><h4><small>sewerbird</small>MissileDefense</h4></a></th>
 		</tr>
 	</thead>
 	<tbody>
