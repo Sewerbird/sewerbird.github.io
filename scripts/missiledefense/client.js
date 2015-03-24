@@ -18,7 +18,8 @@ var gameState = {
 	analysis:{
 		MAX_EXPLOSIONS_SEEN : 0,
 		MAX_MISSILES : 0
-	}
+	},
+	db_ref_score : new Firebase("https://sewerbird-high-score.firebaseio.com/Missile Defense")
 }
 
 function showField(id, gamestate){
@@ -240,6 +241,10 @@ function update(gamestate, dt){
 			gamestate.score+=dt
 		}
 	})
+	if(gamestate.HOPE_LIVES && !siloActive && !cityExists && gamestate.db_ref_score !== undefined)//about to lose
+	{
+		submitScore(gamestate.db_ref_score,"Anonymous",gamestate.score)
+	}
 	gamestate.HOPE_LIVES = siloActive && cityExists
 	//Increment score
 }
@@ -293,4 +298,14 @@ function spawnExplosion(time, p_x, p_y){
 			active : ete < dur
 		}
 	}
+}
+function submitScore(db_game_ref, username, score)
+{
+	var tgt = db_game_ref.child("/"+username)
+	tgt.once("value",function(data){
+		var results = data.val()
+		console.log(results)
+		if(results && results.score < score)
+			tgt.update({score:score})
+	})
 }

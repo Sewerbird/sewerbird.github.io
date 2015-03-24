@@ -55,7 +55,7 @@ function displayScore(results,divid){
 		div.removeChild(div.firstChild)
 	var table = document.createElement("table")
 	var tbody = document.createElement("tbody")
-	_.each(results, function(data, user){
+	_.forInRight(results, function(data, user){
 		var tr = document.createElement("tr")
 		var tdUsr = document.createElement("td")
 		var tdScr = document.createElement("td")

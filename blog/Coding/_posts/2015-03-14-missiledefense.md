@@ -38,6 +38,7 @@ Further, the draw code for this is really pretty insane. Out of a pigheaded desi
 ##Source##
 You can get the source on github [here](https://github.com/sewerbird/MissileDefense)
 
+<script type='text/javascript' src="https://cdn.firebase.com/js/client/2.2.3/firebase.js"></script>
 <script type='text/javascript' src="/scripts/missiledefense/lib/lodash.js"></script>
 <script type='text/javascript' src="/scripts/missiledefense/client.js"></script>
 <script>
