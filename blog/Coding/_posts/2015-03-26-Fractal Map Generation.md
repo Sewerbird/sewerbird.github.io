@@ -3,8 +3,14 @@ layout: post
 date: '2015-03-26T01:13:00.000+08:00'
 title: Fractal Map Generation
 tagline: Land Grab
-featured: 1
+featured: 0
 ---
+
+A quick doodle with Midpoint Displacement. I am instead going to use perlin noise for this kind of thing, but was fun to (badly) implement the noise function myself! I've left this quick demo here for posterity.
+
+##The Demo##
+
+**Click on the image** to regenerate a new terrain. This is all done in-browser with javascript, and the code is entirely available in the page source. Let me know if you fix the axial artifacts in the image: I didn't quite nail the 'diamond' part of the square-diamond algorithm.
 
 <canvas id="display" width="600" height="600" onClick="run()"></canvas>
 
