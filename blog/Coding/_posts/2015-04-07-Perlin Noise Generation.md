@@ -10,7 +10,7 @@ Arbitrary planetary maps of imaginary worlds - simple as static!
 
 ##Development##
 
-Wanting to acquaint myself better with terrain generation, I quickly found myself wanting to create a whole world map. There is a lot of room for tinkering with such a thing, such as modelling plate tectonics, erosion, and climate - and I certainly will be returning to such exercises. But for now I simply wanted something that would churn out a convincing enough heightmap of a terran planetoid, using [perlin noise](http://en.wikipedia.org/wiki/Perlin_Noise). Here is a snapshot of what I eventually got going (interactive demo at the bottom though, so read through!):
+Wanting to acquaint myself better with terrain generation, I quickly found myself wanting to create a whole world map. There is a lot of room for tinkering with such a thing, such as modelling plate tectonics, erosion, and climate - and I certainly will be returning to such exercises. But for now I simply wanted something that would churn out a convincing enough heightmap of a terran planetoid, using [perlin noise](http://en.wikipedia.org/wiki/Perlin_noise). Here is a snapshot of what I eventually got going (interactive demo at the bottom though, so read through!):
 
 <canvas id="snapshot" width="600" height="300"></canvas>
 
