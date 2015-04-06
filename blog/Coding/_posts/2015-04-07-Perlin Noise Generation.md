@@ -69,6 +69,7 @@ The idea here is simple: I take the pixel coordinate and pass it into pxCoordToL
 Noise by itself doesn't look much like a planet, of course - terrain has more structure than noise. The first observation about terrain is that it has low frequency bumps (long rolling hills, plains, coastlines) as well as high frequency bumps (craggy bits, mountain tops, coastal jaggedness). Therefore, at each point there are a number of different frequencies we will weigh: how 'rolly' vs. how 'craggy' vs. how 'rocky' and such. Here is the bit of code that does that, for each point:
 
 {% highlight javascript %}
+//Get coordinate and compose weighted average of noises
 	var summand = 0;
 	var weights = [0.5, 0.25, 0.125, 0.0625, 0.03125, 0.015625, 0.0078125, 0.00390625]
 	var ll = pxCoordToLatLng(i,j,pxWidth,pxHeight);
