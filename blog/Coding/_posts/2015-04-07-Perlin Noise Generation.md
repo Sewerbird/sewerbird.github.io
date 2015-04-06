@@ -102,21 +102,26 @@ The final step is to make a colors scheme. Each pixel now has a value between 0 
 
 Here is the finished code, for you to play with. **Click on the map** to regenerate a new one using the settings.
 
-<div class="row">
-	<div class="col-md-10">
-		<canvas id="display" width="500" height="250" onClick="run()"></canvas>
-	</div>
-	<div class="col-md-2">
-		<div class="input-group">
-			<span class="input-group-addon" id="seaLvlLabel">Sea Level <small>(0-1)</small></span>
-			<input type="number" id="seaLvlINP" value="0.52"></input>
-		</div>
-		<div class="input-group">
-			<span class="input-group-addon" id="treeLvlLabel">Tree Line<small>(0-1)</small></span>
-			<input type="number" id="treeLvlINP" value="0.8"></input>
-		</div>
-	</div>
-</div>
+<table>
+	<tbody>
+		<tr>
+			<td>
+				<canvas id="display" width="500" height="250" onClick="run()"></canvas>
+			</td>
+			<td>
+				<div class="input-group">
+					<span class="input-group-addon" id="seaLvlLabel">Sea Level <small>(0-1)</small></span>
+					<input type="number" id="seaLvlINP" value="0.52"></input>
+				</div>
+				<div class="input-group">
+					<span class="input-group-addon" id="treeLvlLabel">Tree Line<small>(0-1)</small></span>
+					<input type="number" id="treeLvlINP" value="0.8"></input>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
 
 ##Going Forward##
 
