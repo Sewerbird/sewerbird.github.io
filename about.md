@@ -13,6 +13,15 @@ This blog is wholly hosted on [GitHub](http://github.com/Sewerbird/sewerbird.git
 
 If you are interested in working with me, drop me a line at [my email, sewerbird@gmail.com](sewerbird@gmail.com). Below is a condensed resumé of my programming work, however keep in mind that I'd be pleased to hear about any creative position that doesn't rely on my ability to wield a paintbrush ;-)
 
+
+### Programmer at LBS
+
+ - 2015 Shanghai
+ - Worked with Leonard Tchuta to develop an enterprise software service for business administration
+ - Primarily worked on server-side application development
+ - Wrote the server for the service in Javascript thanks to Node.js
+ - Further work with MongoDB
+
 ### Programmer at Backwi.re
 
 - 2014-2015 Shanghai
