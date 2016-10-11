@@ -6,8 +6,8 @@ tagline: Status Update & Game Announcement
 featured: 1
 ---
 
-Been a while! But I return with a game announcement!
-![My helpful screenshot]({{ site.url }}/assets/helios2400_minipic1.jpg)
+Been a while! But I return with a game announcement! 
+![My helpful screenshot]({{ site.url }}/assets/helios2400_minipic1.png)
 
 ## A Game Project
 
