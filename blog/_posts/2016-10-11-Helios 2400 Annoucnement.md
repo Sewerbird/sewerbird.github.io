@@ -7,6 +7,7 @@ featured: 1
 ---
 
 Been a while! But I return with a game announcement!
+![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
 
 ## A Game Project
 
