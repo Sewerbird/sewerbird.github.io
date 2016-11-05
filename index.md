@@ -50,7 +50,7 @@ tagline: Blog & Miscellenae
 		  {% for post in site.posts %}
 		     {% assign kyahidaCNT = 0 %}
 		  	{% for pc in post.categories %}
-		  		{% if pc == "kyahida" %}
+		  		{% if pc == "Kyahida" %}
 		  			{% capture kyahidaCNT %}{% increment kyahidaCNT %}{% endcapture %}
 		  			{% assign kyahidaCNT = kyahidaCNT | plus: 0 %}
 		      		{% if kyahidaCNT <= 5 %}
@@ -74,7 +74,7 @@ tagline: Blog & Miscellenae
 		  {% for post in site.posts %}
 		     {% assign nendsamerpgCNT = 0 %}
 		  	{% for pc in post.categories %}
-		  		{% if pc == "nendsame rpg" %}
+		  		{% if pc == "Nendsame RPG" %}
 		  			{% capture nendsamerpgCNT %}{% increment nendsamerpgCNT %}{% endcapture %}
 		  			{% assign nendsamerpgCNT = nendsamerpgCNT | plus: 0 %}
 		      		{% if nendsamerpgCNT <= 5 %}
@@ -99,7 +99,7 @@ tagline: Blog & Miscellenae
 			{% for post in site.posts %}
 				{% assign codingCNT = 0 %}
 				{% for pc in post.categories %}
-					{% if pc == "coding" %}
+					{% if pc == "Coding" %}
 			  			{% capture codingCNT %}{% increment codingCNT %}{% endcapture %}
 			  			{% assign codingCNT = codingCNT | plus: 0 %}
 			      		{% if codingCNT <= 5 %}	
@@ -161,7 +161,7 @@ tagline: Blog & Miscellenae
 
 <!-- 7 -->
 	<div class = "col-sm-6 col-md-4 col-lg-3 frontbox">
-		<h2 id="ytheader">SewerbirdLP <a href="https://www.youtube.com/channel/UCyxXDStUZPtQgQYAZdKo93w"><img src="http://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" width="42" height="30"></img></a></h2>
+		<h2 id="ytheader">SewerbirdLP <a href="https://www.youtube.com/channel/UCyxXDStUZPtQgQYAZdKo93w"><img src="http://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" width="42" height="30"/></a></h2>
 		Here's my latest video: enjoy!
 		<div id="ytfeatured"> </div>
 	</div>
