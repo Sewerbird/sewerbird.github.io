@@ -3,7 +3,7 @@ layout: post
 date: '2016-11-01T22:40:11+08:00'
 title: Code-cleaning
 tagline: Preparing for Collaboration
-featured: 1
+featured: 0
 ---
 
 Some first steps towards making the project easier to contribute to this week
