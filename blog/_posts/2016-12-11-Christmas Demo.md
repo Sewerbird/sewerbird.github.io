@@ -12,7 +12,7 @@ Lots of work in November means holiday rewards!
 
 November and December bring the cold of winter to Shanghai, and so I've been driven indoors and able to focus very intently on Helios. In fact, on top of my full-time job, I've been putting in 30-hour weeks on Helios getting all sorts of stuff in order for the game! A big help has been the student developer I've hired to the team, Thimo, who has implemented the asset and path-finding system. This has let me focus on architectural and user-interface code: less sexy, but crucial for a game!
 
-All of this effort is aimed at one thing: **the Christmas Demo**. This demo is basically the minimal-viable product for Helios: a scenario where players engage in a King of the Hill match, using units to fight over and control a central city. Whoever holds the central city fo 5 turns wins! 
+All of this effort is aimed at one thing: **the Christmas Demo**. This demo is basically the minimal-viable product for Helios: a scenario where players engage in a King of the Hill match, using units to fight over and control a central city. Whoever holds the central city for 5 turns wins! 
 
 The technological support needed to put together such a scenario hits lots of the early sweet spots I want to hit:
 
