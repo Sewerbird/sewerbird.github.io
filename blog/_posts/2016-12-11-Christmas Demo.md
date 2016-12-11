@@ -8,6 +8,8 @@ featured: 1
 
 Lots of work in November means holiday rewards!
 
+![My helpful screenshot]({{ site.url }}/assets/Screen%20Shot%202016-12-11%20at%2019.47.06.png)
+
 ## The Last Month
 
 November and December bring the cold of winter to Shanghai, and so I've been driven indoors and able to focus very intently on Helios. In fact, on top of my full-time job, I've been putting in 30-hour weeks on Helios getting all sorts of stuff in order for the game! A big help has been the student developer I've hired to the team, Thimo, who has implemented the asset and path-finding system. This has let me focus on architectural and user-interface code: less sexy, but crucial for a game!
