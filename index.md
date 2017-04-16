@@ -27,8 +27,8 @@ subtitle: home
 		{% endif %}
 	{% endfor %}
 	<!-- Project Cards -->
-	{% for con in site.data.ed_projects %}
-	{% assign project = con[1] %}
+	{% for con in site.data.projectorder %}
+	{% assign project = site.data.ed_projects[con] %}
 	<div class="project card">
 		<header>
 			<a href="{{ BASE_PATH }}{{ project.project_page }}"><h2>{{project.name}}</h2></a>
