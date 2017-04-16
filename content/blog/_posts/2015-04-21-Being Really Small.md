@@ -8,7 +8,7 @@ featured: 1
 
 Today I thought I'd ponder what things would be like for Lilliputians
 
-##Lilliputians##
+## Lilliputians
 
 In [Gulliver's Travels](http://en.wikipedia.org/wiki/Gulliver%27s_Travels), there is a small island nation named Lilliput populated by even smaller Lilliputians: folks no taller than six inches. Gulliver visits there and gets into various mischief, as giants are wont to do. But what would it be like to be so small - that is to say, what if mankind was generally hit with a shrink ray to be, say, an inch tall?
 
@@ -16,11 +16,11 @@ To simplify things, I will completely ignore what it would mean to actually shri
 
 Therefore...
 
-##Things That Don't Scale##
+## Things That Don't Scale##
 
 The most impressive differences about being small are tied to the fact that nature doesn't 'scale' linearly. For example, as large mammals, we have intuitions about how hard it is to scoop up water or to fly which become obsolete as we enter a different size scale. Here are some things I found that would qualitatively change in our daily experience if we were Lilliputians.
 
-###Water###
+### Water
 
 > You walk into a bar and plop down on your twig stool. You tell the bartender your drink order, perhaps a beer or wine. He saunters over to the spigot, and grabs a small square of paper from a stack - it is waxen on one side. He draws a droplet of the booze onto the paper from the spigot, stops, and hands over the now-laden sheet. You sip on the surface of the drink, the droplet jiggling like jello. If you ordered a particularly large drink, you can grab a pair of chop sticks and eat/drink the drink mistlet by mistlet.
 > 
@@ -30,7 +30,7 @@ At our normal size, water and most fluids flow in the way we are accustomed - th
 
 By the same principle, surface tension in liquids poses a great danger to us now that we are small. If we stoop to drink from a puddle, should we allow the surface to climb too far up our face, the water will flow up our whole body via cohesive action, envelop us, and then (by surface tension) draw us right into the water like some evil lagoon monster. Thus thrown into the puddle, we would have to bash hard and harder against the plastic-like underside of the water's surface until we drowned like a man stuck in a tupperware.
 
-###Air###
+### Air
 
 > Tipsy after the bar, you walk out into the night - it is pretty dark out. Thinking about how to get home, you inadvertently fall off a very inconvenient clifface! At first a bit confused, you feel a rush of air, fall a couple meters at terminal velocity... and kind of bounce on the ground. A bit stunned, you shake your head and try to parse what just happened.
 > 

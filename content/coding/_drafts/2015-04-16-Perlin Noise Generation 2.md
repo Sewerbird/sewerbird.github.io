@@ -8,7 +8,7 @@ featured: 0
 
 I had made a map - let's make a globe!
 
-##Interactive Demo##
+## Interactive Demo
 
 Here is the finished code, for you to play with. **Click on the map** to regenerate a new one using the settings.
 

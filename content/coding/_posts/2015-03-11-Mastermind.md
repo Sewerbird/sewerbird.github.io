@@ -8,7 +8,7 @@ featured: 1
 
 While visiting my mother's, I was diverted by implementing the game 'Mastermind' in javascript!
 
-##Rules##
+## Rules
 
 Mastermind is played in rounds, where you try to guess the color and position of a series of round pegs. 
 
@@ -24,7 +24,7 @@ In response, you will see your guess appear alongside 0 to 4 little circles, whi
 
 Therefore, your task is to get 4 red little circles in response to your guesses. When you do you've won!
 
-##The Game##
+## The Game
 
 Play a round of the game here! Click on the circles repeatedly to change their guess color.
 
@@ -46,17 +46,17 @@ Play a round of the game here! Click on the circles repeatedly to change their g
   </tr>
 </table>
 
-##Background##
+## Background
 
 I had an official version of this game when I was young, with a ton of little plastic pegs and a cribbage-like board. It was one of my favorites, especially since it was one of the few games I could convince my siblings to play with me, since it wasn't really very competitive. I've never really figured out a human-optimal way to play, although I know there are proofs by quite famous people about the theoretical quickest generalized strategies. Myself, since I always play where a color can be duplicated (the rules reflected above), will usually play a couple feeler guesses. I usually play <span id="rrgg"></span>, followed by <span id="bbww"></span>, and then maybe <span id="yyoo"></span>: I can infer if there is a duplicate color, what it might be, and sometimes get lucky with lots of red feedback.
 
-##Development##
+## Development
 
 This is admittedly a very rudimentary little implementation, but it proved a fun diversion. I've rarely done any significant user interface, and almost none using a web stack - my prior experience is mostly with things like iOS development and Java Swing interfaces. So figuring out how to assemble svg circles and making them clickable was a new thing for me. All told, the game took about 4 hours to do, with just about all that time being spent on different iterations of the game's interface. The scoring function, the meat of the actual game, took about 3 minutes ;-)
 
 If I revisit this bit of code, it'll be to add a new game mode. I have an idea where the game begins with a number of random guesses already made for you, and you get only one guess (or more?) to figure the code out. Conceptually, I think it might feel similar to the mode in Tetris where some amount of the level starts out filled with junk tetris blocks.
 
-##Source##
+## Source
 You can get the source on github [here](https://github.com/sewerbird/Mastermind)
 
 <script type='text/javascript' src="/scripts/mastermind/lib/lodash.js"></script>

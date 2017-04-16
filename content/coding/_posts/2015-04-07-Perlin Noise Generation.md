@@ -8,17 +8,17 @@ featured: 1
 
 Arbitrary planetary maps of imaginary worlds - simple as static!
 
-##Development##
+## Development
 
 Wanting to acquaint myself better with terrain generation, I quickly found myself wanting to create a whole world map. There is a lot of room for tinkering with such a thing, such as modelling plate tectonics, erosion, and climate - and I certainly will be returning to such exercises. But for now I simply wanted something that would churn out a convincing enough heightmap of a terran planetoid, using [perlin noise](http://en.wikipedia.org/wiki/Perlin_noise). Here is a snapshot of what I eventually got going (interactive demo at the bottom though, so read through!):
 
 <canvas id="snapshot" width="600" height="300"></canvas>
 
-###Starting Out###
+### Starting Out
 
 The first thing I did was find a noise library for javascript: I'm not so concerned with reinventing the wheel! Towards this end, I found the lovely [Noise.js](https://github.com/josephg/noisejs) library - it provides two and three-dimensional noise functions in simplex and Perlin varieties. That's the annoying bit done!
 
-###Getting Static###
+### Getting Static
 
 Sitting down, I immediately realized I wanted to avoid as much cartographic math as possible. You see, the simplest way to generate random terrain would be to create a rectangle of noise and project it onto a sphere. However, this would cause unsightly distortions on the sphere, particularly a 'pinch' at the poles. This is related to the cartographical dilemma implied by the [Theorema Egregium](http://en.wikipedia.org/wiki/Theorema_Egregium).
 
@@ -33,7 +33,7 @@ Projecting things is super annoying and un-fun, so I had to consider a different
 
 This is wonderful! I can now generate the planet's surface in 3d, rather than futz around plastering 2d noise on a sphere. However, I still need to show you a pretty 2-dimensional image in this web browser, so we've another step to go.
 
-###The Projection###
+### The Projection
 
 The first thing I do is to choose the map projection I will display the map with: the [Equirectangular/Plate Carée](http://en.wikipedia.org/wiki/Equirectangular_projection). This is done deliberately to make my life easier: the transformation from cartographical coordinates to pixel coordinates is incredibly simple, and the result is a rectangle that fills up the canvas entirely. The reason it is useful for the map to fill the canvas entirely is so that I can simply go over every pixel in the canvas and query the 3d noise for the terrain information: when the canvas is full, I know I'm done!
 
@@ -64,7 +64,7 @@ function latLngTo3D(lat,lon,rad,alt)
 
 The idea here is simple: I take the pixel coordinate and pass it into pxCoordToLatLng to get back a latitude and longitude. I then take that latitude and longitude and find a three-dimensional point in space. Once I have this 3-vector, I know where to ask my perlin noise function to retrieve a noise value! We'll use this to know what to draw on our map at each pixel.
 
-###Order From Chaos###
+### Order From Chaos
 
 Noise by itself doesn't look much like a planet, of course - terrain has more structure than noise. The first observation about terrain is that it has low frequency bumps (long rolling hills, plains, coastlines) as well as high frequency bumps (craggy bits, mountain tops, coastal jaggedness). Therefore, at each point there are a number of different frequencies we will weigh: how 'rolly' vs. how 'craggy' vs. how 'rocky' and such. Here is the bit of code that does that, for each point:
 
@@ -84,7 +84,7 @@ Noise by itself doesn't look much like a planet, of course - terrain has more st
 
 This is very simply a weighted average of 8 kinds of noise at the point on the surface of our planet. The first kind of noise is long an rolling, and further has the largest contribution to the point's elevation - it reflects the fact that terrain exhibits large scale patterns. However, each successive noise is twice as 'jittery' but is also two times more 'local'. This gets us bumpiness at many scales, from a mountain range to a hillock. I then quickly make sure the pixel's elevation is ready to render into a color reflecting its altitude, and we're done other than assigning a the color.
 
-###Paint Brush###
+### Paint Brush
 
 The final step is to make a colors scheme. Each pixel now has a value between 0 and 1, where 'zeroes' reflect the lowest trenches of the oceans and 'ones' are the tallest peaks. In the demo, there are three color domains: the oceans, the lower altitudes above sea level, and the higher altitudes above the tree line.
 
@@ -99,7 +99,7 @@ The final step is to make a colors scheme. Each pixel now has a value between 0 
 		ctx.fillStyle = "rgb(255,125,125)"
 {% endhighlight %}
 
-##Interactive Demo##
+## Interactive Demo
 
 Here is the finished code, for you to play with. **Click on the map** to regenerate a new one using the settings.
 
@@ -124,7 +124,7 @@ Here is the finished code, for you to play with. **Click on the map** to regener
 </table>
 
 
-##Going Forward##
+## Going Forward
 
 Don't think this is the last of it - there is still a lot to continue with. There are neither climates nor rivers on this world, and certainly no coloring of them. Further, there are no tectonic plates leaving their characteristic mark on these simulated Earth cousins, and no vulcanism or crater impacts. Expect more of that stuff the next time I fiddle with terrain generation.
 
