@@ -1,0 +1,85 @@
+body {
+	background-color: #FAFAFA
+}
+
+main {
+    margin: 3em auto;
+}
+
+img.center {
+	margin: 0 auto;
+}
+.flex_center_justified {
+	justify-content: center
+}
+.center{
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.1;
+	padding: 0.10em 0;
+	color: rgb(110,148,22)
+}
+h1 {
+	color: #112211;
+}
+
+
+h1 {
+	font-size: 67.5px;
+}
+h2 {
+	font-size: 32px;
+}
+
+h1 small, h2 small, h3 small {
+	font-size: 65%;
+	font-weight: normal;
+	color: #999999;
+}
+
+nav {
+	background-color: #3D3D3D
+}
+nav .brand {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #EDEDED;
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.sheet_column {
+	padding: 3em;
+	width: 90%;
+}
+.card.noback {
+	border: none;
+	background-color: rgba(0,0,0,0);
+	padding: 0.5em;
+}
+
+.card {
+	margin: 0.3em;
+    box-sizing: border-box;
+    max-width: 350px;
+}
+
+ul {
+	list-style-image: url( 'feather-bullet.svg' )
+}
+
+.button {
+	background-color: #307010
+}
+
+.featured_text {
+	color: #0b0b0b;
+}
+#footer {
+    background-color: rgba(114, 135, 0, 0.44);
+    padding-top: 5px;
+    margin-top: 20px;
+}

@@ -1,6 +1,26 @@
----
-theme :
-  name : bootstrap-3
----
-{% include JB/setup %}
-{% include themes/bootstrap-3/default.html %}
+<html lang="en">
+  <head>
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/picnicss/6.3.2/picnic.min.css" />
+  	<link rel="stylesheet" href="/assets/site.css" />
+  </head>
+  <body>
+  	<nav>
+  		<a href="/" class="brand">
+  			<span>Sewerbird</span>
+  		</a>
+      <div class="menu">
+        {% for page in site.pages %}
+        {% if page.in_nav != null %}
+        <a href="{{ BASE_PATH }}{{ page.url }}" class="button">{{page.title}}</a>
+        {% endif %}
+        {% endfor %}
+      </div>
+  	</nav>
+    <br>
+  	<main>
+{{ content }}
+    </main>
+    <p id="footer" class="center">Created &amp; Owned by Edward Miller &copy; {{ site.time | date: '%Y' }}
+    </p>
+  </body>
+</html>

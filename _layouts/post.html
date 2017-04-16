@@ -1,5 +1,8 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/bootstrap-3/post.html %}
+<div class="sheet_column">
+	<h1>{{ page.title }}{% if page.tagline %}<small> {{page.tagline}}</small>{% endif %}</h1> 
+	<br>
+	{{ content }}
+</div>

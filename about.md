@@ -1,18 +1,27 @@
 ---
 layout: page
 title: About
-header: This Site & Me
+permalink: /about/
+in_nav: true
+tagline: This Site & Me
 group: navigation
 ---
 
-My name is Edward, and I spend most of my time working on hobbies: I have an interest in coding, games (video and physical), linguistics, ethics, and politics. I am usually getting money to the government, grocery clerk, and landlord by doing programming work for entrepreneurial friends of mine.
+My name is Edward, and I spend most of my time working on hobbies: I have an interest in coding, games (video and physical), linguistics, ethics, and politics. I pay the bills for these pasttimes and lifestyle by doing programming work for entrepreneurial friends of mine.
 
 This blog is wholly hosted on [GitHub](http://github.com/Sewerbird/sewerbird.github.io) and is, in fact, a static site generated using Jekyll. This lets me type things up in [Sublime Text 2](http://sublimetext.com) on my MacBook Pro for the site, run a quick `git` command, and have it appear on the web a moment later, all formatted with [MarkDown](http://daringfireball.net/projects/markdown). I've structured the site setup in ways that I hope will both make my musings and hobbies accessible to others, as well as lowering the barrier to me contributing to it.
 
 ## My Professional Record
 
-If you are interested in working with me, drop me a line at [my email, sewerbird@gmail.com](sewerbird@gmail.com). Below is a condensed resumé of my programming work, however keep in mind that I'd be pleased to hear about any creative position that doesn't rely on my ability to wield a paintbrush ;-)
+If you are interested in working with me, drop me a line at [my email, sewerbird@gmail.com](sewerbird@gmail.com). Below is a condensed resumé of my programming work. I currently live in Shanghai working at a job I love, but I have plenty of time to consider new side projects.
 
+### Programmer at EIC-New Pathways
+
+ - 2015-present Shanghai
+ - Hired by Gabriel Paquin as a senior developer for in-house technology department
+ - Responsible for implementing features impacting hundreds of company sales staff
+ - Worked extensively on the company's backend sales infrastructure
+ - Learned a lot of Salesforce, Ruby, and PostgreSQL
 
 ### Programmer at LBS
 

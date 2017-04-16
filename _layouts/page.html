@@ -1,5 +1,18 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/bootstrap-3/page.html %}
+<div class="sheet_column">
+	<div class="flex one two-600">
+		<div class="center">
+			<img class="center"src="/assets/icon250px.png" alt="sewerbird" >
+		</div>
+		<div class="center ">
+			<br>
+			<h1>{{ page.title }}</h1>
+			{% if page.tagline %}<h1><small>{{page.tagline}}</small>{% endif %}</h1>
+		</div>
+	</div>
+	<div>
+		{{ content }}
+	</div>
+</div>
