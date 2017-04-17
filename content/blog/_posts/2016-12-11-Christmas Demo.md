@@ -3,7 +3,6 @@ layout: post
 date: '2016-12-11T20:40:11+08:00'
 title: Christmas Demo
 tagline: Helios In Your Stocking!
-category: featured
 ---
 
 Lots of work in November means holiday rewards!
