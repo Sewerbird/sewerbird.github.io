@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 in_nav: true
 tagline: This Site & Me
 group: navigation
