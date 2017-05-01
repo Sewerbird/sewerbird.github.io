@@ -1,6 +1,7 @@
 ---
 layout: post
-title: System - Possible Movement Mechanic
+title: A Movement Mechanic
+tagline: System
 ---
 
 Today's post is about the movement system I've decided to use in the game. It ended up being a bit simpler than I had originally intended, and hopefully translates well to gameplay, whether the game utilizes a tabletop or not.

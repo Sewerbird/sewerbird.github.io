@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-<div class="sheet_column">
-	<h1>{{ page.title }}{% if page.tagline %}<small> {{page.tagline}}</small>{% endif %}</h1> 
-	<br>
-	{{ content }}
+<div style="text-align: center">
+	<div class="sheet_column" style="display: inline-block; text-align: left">
+		<h1>{{ page.title }}{% if page.tagline %}<small> {{page.tagline}}</small>{% endif %}</h1> 
+		<br>
+		{{ content }}
+	</div>
 </div>

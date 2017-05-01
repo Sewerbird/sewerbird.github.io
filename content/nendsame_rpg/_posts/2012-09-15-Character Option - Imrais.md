@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Character Option - Imrais
+title: Imrais
+tagline: Character Option
 ---
 
 Today, I've written up a Birth background available at character creation: the Imrais!

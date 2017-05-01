@@ -1,6 +1,7 @@
 ---
 layout: post
-title: System - Possible Fight Mechanic
+title: A Fight Mechanic
+tagline: System
 ---
 
 I've been running some playtests to figure out a satisfying way

@@ -1,0 +1,30 @@
+---
+created: 2015-11-12T08:37:00.000+08:00
+modified: 2015-11-20T02:08:00.000+08:00
+tags: Culture
+title: SakireCivilization
+layout: wiki
+project: nendhe
+---
+
+There are roughly 2,500,000 [Sakire](/content/kyahida_wiki/wiki/Sakire) and their settlement/band size roughly follows Zipf's law (1.07), with the largest city [Jeze](/content/kyahida_wiki/wiki/Jeze) numbering around 500,000.
+
+## [Sakire](/content/kyahida_wiki/wiki/Sakire)
+
+[Sakire](/content/kyahida_wiki/wiki/Sakire) inhabit a continent on the gas-giant-facing hemisphere called [Hida](/content/kyahida_wiki/wiki/Hida). The climate is somewhat variable, but the equatorial locale and low planetary tilt mean seasons are quite mild. All major settlements except [Sairo](/content/kyahida_wiki/wiki/Sairo) are located upon the shores, although at any given day the small majority of [Sakire](/content/kyahida_wiki/wiki/Sakire) are not in the city-states but in nomadic clans.
+
+All [Sakire](/content/kyahida_wiki/wiki/Sakire) are considered members of a universal heritage and are referred in general as, of course, '[Sakire](/content/kyahida_wiki/wiki/Sakire)'. This term has connotations equivalent to 'Humanity' or 'Christendom' - all who engage with society are held to certain basic standards of conduct, or are considered barbaric.
+
+## [Nanike](/content/kyahida_wiki/wiki/Nanike) & [Kandre](/content/kyahida_wiki/wiki/Kandre)
+
+[Sakire](/content/kyahida_wiki/wiki/Sakire) are divided into [Nanike](/content/kyahida_wiki/wiki/Nanike) ('Houses'), which themselves are divided into [Kandre](/content/kyahida_wiki/wiki/Kandre) ('Flags'). [Kandre](/content/kyahida_wiki/wiki/Kandre) are bands of roughly 10-100 [Sakire](/content/kyahida_wiki/wiki/Sakire) that often, but certainly not always, are related by blood. [Kandre](/content/kyahida_wiki/wiki/Kandre) prototypically are coherent gorups that either act as a nomadic group or coinhabit a single built compound as sedentary fishers and farmers.
+
+[Nanike](/content/kyahida_wiki/wiki/Nanike) group disparate [Kandre](/content/kyahida_wiki/wiki/Kandre) through political, familial, and economic ties: [Kandre](/content/kyahida_wiki/wiki/Kandre) far removed from each other can be in the same [Nanike](/content/kyahida_wiki/wiki/Nanike). The [Nanike](/content/kyahida_wiki/wiki/Nanike) of a [Kandre](/content/kyahida_wiki/wiki/Kandre) is chosen at its formation, which typically occurs when a [Kandre](/content/kyahida_wiki/wiki/Kandre) has grown too large or if two [Kandre](/content/kyahida_wiki/wiki/Kandre) wish to merge. The choice of [Nanike](/content/kyahida_wiki/wiki/Nanike) is partly driven by political and partly by symbolic concerns: it is preferred for all the [Nanike](/content/kyahida_wiki/wiki/Nanike) to be equally robust in a region, although this is often not the case.
+
+## The [Ceke](/content/kyahida_wiki/wiki/Ceke) & [Graizi](/content/kyahida_wiki/wiki/Graizi)
+
+Although [Nanike](/content/kyahida_wiki/wiki/Nanike) group [Sakire](/content/kyahida_wiki/wiki/Sakire) regardless of location, there is an orthogonal, geographic heirarchy of social structure: the [Ceke](/content/kyahida_wiki/wiki/Ceke) system. The [Ceke](/content/kyahida_wiki/wiki/Ceke) system divides all known lands into [Graizi](/content/kyahida_wiki/wiki/Graizi), regions of administration. All [Graizi](/content/kyahida_wiki/wiki/Graizi) are considered to belong ultimately to the [Gical](/content/kyahida_wiki/wiki/Gical) 'slave-king' of [Jeze](/content/kyahida_wiki/wiki/Jeze). The [Gical](/content/kyahida_wiki/wiki/Gical) is a [Sakire](/content/kyahida_wiki/wiki/Sakire) who has emerged from The Remnant alive, and is held captured in The Balcony Court, where he is overseen by the Fúkan ('Vigilant ones'). Of note is that the [Gical](/content/kyahida_wiki/wiki/Gical) is perpetually enthralled by the [Remnant Vision](/content/kyahida_wiki/wiki/Remnant_Vision) and thus is insane and incoherent. This was not always the case: the practice of the Slave-King was instituted by [Kicab Ast Nanike](/content/kyahida_wiki/wiki/Kicab_Ast_Nanike), the current emperor who usurped [Jezzaila III](/content/kyahida_wiki/wiki/Jezzaila_III), whose seat had been considered the primary owner of the Graizi.
+
+Thus, the actual rulership of [Sakire](/content/kyahida_wiki/wiki/Sakire) is left to the [Ceke](/content/kyahida_wiki/wiki/Ceke) Court, which has two main powers - the division and merging of [Graizi](/content/kyahida_wiki/wiki/Graizi), and the appointment of [Ceke Lords](/content/kyahida_wiki/wiki/Ceke_Lords). Each [Graizi](/content/kyahida_wiki/wiki/Graizi) is assigned and contains a [Lord Chair](/content/kyahida_wiki/wiki/Lord_Chair), whose occupant is considered the regional representative of the Court. Who fills the lordship is determined by the custom of the [Graizi](/content/kyahida_wiki/wiki/Graizi), but typically is done by a regional moot where a [Nanike](/content/kyahida_wiki/wiki/Nanike)'s leader is elevated by majority, challenge, combat, wealth, or heredity.The [Ceke](/content/kyahida_wiki/wiki/Ceke) prefers popular lords, but settle for reliable ones - it nominally can veto a decision of these moots but rarely does so.
+
+The [Lord Chair](/content/kyahida_wiki/wiki/Lord_Chair) is responsible for ultimate regional arbitration, providing a tribute to the [Ceke](/content/kyahida_wiki/wiki/Ceke), and defense of the [Graizi](/content/kyahida_wiki/wiki/Graizi). It is customary for the [Lord Chair](/content/kyahida_wiki/wiki/Lord_Chair) to delegate to a Castellan, Justicar, and Secretary these tasks' daily duties and instead evaluate/replace them as needed. The lord is often answerable to a [Kandre](/content/kyahida_wiki/wiki/Kandre) Moot, and each [Graizi](/content/kyahida_wiki/wiki/Graizi) typically has a legal charter. Rule of Law is remarkably robust in Kyáhida, although dispute is most often handled with quid pro quo and horse-trading.

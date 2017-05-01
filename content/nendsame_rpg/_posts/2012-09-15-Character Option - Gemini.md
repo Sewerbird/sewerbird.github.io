@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Character Option - Gemini
+title: Gemini
+tagline: Character Option
 ---
 
 Today is another Birth option for players: the Gemini!

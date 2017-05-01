@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Character Option - Sakire
+title: Sakire
+tagline: Character Option
 ---
 
 This character option is for players who want to be born without exotic traits, instead gaining the benefits of having to find their own innate talents. Nearly all the civilized population of Jezevel are Sakire, and choosing this option allows for the character's fate to be less determined by the paranormal abilities of the likes of Imrais, Gemini, and Psykers. Sakire are the ones who most often man the boats, sell the wares, write the books, walk the beats, and perform the plays.

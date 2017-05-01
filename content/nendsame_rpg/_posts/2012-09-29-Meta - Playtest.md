@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Meta - Playtest
+title: Playtest
+tagline: Meta
 ---
 
 My character is named Semsa, a male Sakire who serves as a scout for his village. He was raised in House Cae, a minor but respectable house in the community which itself is a member of the Messokai Clan. Here are his stats:

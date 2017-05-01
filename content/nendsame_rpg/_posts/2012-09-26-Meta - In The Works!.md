@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Meta - In The Works!
+title: In The Works!
+tagline: Meta
 ---
 
 Over the past several days, I've been busy with personal business, so have not been able to focus on posting new content. However, this past weekend I <strong>did </strong>finish the bulk of the short solo playtest adventure, and what remains is to create pre-generated characters, run through the adventure myself, and prettying the document up. Depending on how long this takes, it will either be tomorrow's post or saved for the weekend.

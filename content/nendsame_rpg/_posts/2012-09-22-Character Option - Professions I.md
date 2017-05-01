@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Character Option - Professions I
+title: Professions I
+tagline: Character Option
 ---
 
 This post introduces some Profession backgrounds available to your character after they have chosen your Birth and Upbringing background. New characters start with up to two Profession backgrounds, and may acquire new ones during the course of play (unlike Births and Upbringings). When you select these backgrounds you must specify which is the most recent one: Professions usually confer an additional benefit at character generation if they are the most recent background. Today's Professions are themed for middle-class Sakire in a well-to-do community, but feel free to add your own details.

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Character Option - Psyker
+title: Psyker
+tagline: Character Option
 ---
 
 A small but highly visible population of Sakire are born with no pupils in their eyes, and are thus completely blind. These individuals are said to be chosen by the gods to enact the will of the precursor civilization, and this could very well be true, for such a child is invariably gifted with magical abilities: these gifted individuals are called Psykers.This supernatural ability manifests primarily as an ability to perform feats of divination and psychic attacks.

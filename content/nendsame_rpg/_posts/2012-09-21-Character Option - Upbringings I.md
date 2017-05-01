@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Character Option - Upbringings I
+title: Upbringings I
+tagline: Character Option
 ---
 
 Today's post provides some early-life backgrounds for your character, the Feral, Orphan, House(Whaler), and House(Burgher) Upbringings. Each of these presents a loose overview of the background you spent your formative years in, and not a straighjacket: the background mostly reflects the environment your character grew up in, what kind of opportunities and resources you had access to, and your default standing in that society.

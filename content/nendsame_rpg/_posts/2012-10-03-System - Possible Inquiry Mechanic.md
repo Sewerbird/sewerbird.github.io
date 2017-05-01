@@ -1,6 +1,7 @@
 ---
 layout: post
-title: System - Possible Inquiry Mechanic
+title: A Inquiry Mechanic
+tagline: System
 ---
 
 I've been thinking a lot about how to make my roleplaying game amenable to solitaire play: I want it to be easy to sit down with pen &amp; paper on a boring afternoon, quickly toss together a character, and wander around Jezevel for a while. The previous playtest post was a transcript of me trying how to hash the process out: I didn't know what'd happen next, although I set the initial scene and general objective before hand. I then proceeded by asking questions that popped into my head about the environment, which one would normally direct to a game master... but I had none, and didn't want to really be one myself (I wanted to feel like a player, not a DM). So I stole a neat mechanic I've seen before, "Inquiry Dice".
