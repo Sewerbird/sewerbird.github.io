@@ -3,7 +3,7 @@ layout : post
 date : '2017-05-02T17:30:00.000+08:00'
 title : 'An Introduction to the Nenth, part I'
 tagline: The World
-featured: 1
+category: featured
 ---
 
 I've been thinking a lot about a new revision of my world setting for the past two years, and have been building up enough details to start presenting it to the world: so here's an introduction!

@@ -3,7 +3,6 @@ layout: post
 date: '2017-4-17T09:21:11+08:00'
 title: I Renovated this Site!
 tagline: Behind the Scenes
-category: featured
 ---
 
 I spent this past sunday dusting off the site, having not posted in a few months. I took the opportunity to really clean out the site and change how its structured in its source code: the old arrangement had a lot of cruft that I didn't 'know what it did', and I really hated that. The purpose of this site is to be resistant to degradation over time, and not knowing how it works is a good way for it to eventually be too confusing to post to.
