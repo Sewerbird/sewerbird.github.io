@@ -17,7 +17,7 @@ If you are interested in working with me, drop me a line at [my email, sewerbird
 ### Programmer at EIC-New Pathways
 
  - 2015-present Shanghai
- - Hired by Gabriel Paquin as a senior developer for in-house technology department
+ - Worked with Gabriel Paquin as a senior developer for in-house technology department
  - Responsible for implementing features impacting hundreds of company sales staff
  - Worked extensively on the company's backend sales infrastructure
  - Learned a lot of Salesforce, Ruby, and PostgreSQL
