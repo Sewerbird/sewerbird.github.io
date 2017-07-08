@@ -3,7 +3,6 @@ layout : post
 date : '2017-05-04T11:00:00.000+08:00'
 title : 'Duskcrafts: Year One'
 tagline: Dwarf Fortress Fun
-category: featured
 ---
 
 ## Duskcrafts - Year One
