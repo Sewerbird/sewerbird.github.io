@@ -2,7 +2,6 @@
 layout : post
 date : '2015-03-24T01:13:00.000+08:00'
 title : Quick Scoreboard Peek
-featured: 1
 ---
 
 Working on a scoreboard for the games on this site using Firebase. 

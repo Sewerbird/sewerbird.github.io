@@ -2,7 +2,6 @@
 layout : post
 date : '2015-03-23T01:13:00.000+08:00'
 title : Thoughts On Powered Paper
-featured: 1
 ---
 
 What if I can stick an engine on a paper airplane?

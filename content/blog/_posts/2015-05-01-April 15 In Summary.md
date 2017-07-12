@@ -3,7 +3,6 @@ layout: post
 date: '2015-05-01T08:43:12+08:00'
 title: April '15 In Summary
 tagline: Being Young
-featured: 0
 ---
 
 This has been a pretty big month for me!

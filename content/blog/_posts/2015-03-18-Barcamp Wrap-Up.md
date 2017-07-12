@@ -3,7 +3,6 @@ layout: post
 date: '2015-03-18T13:03:00.000+08:00'
 title: Barcamp Wrap-Up
 tagline: Paper Planes!
-featured: 1
 ---
 
 This past Saturday (March 14th) I had the pleasure of attending and presenting at Barcamp 2015 at the NYU campus in Shanghai!

@@ -3,7 +3,6 @@ layout: post
 date: '2015-04-14T18:45:00.000+08:00'
 title: Hong Kong Trip
 tagline: The State Is Real
-featured: 1
 ---
 
 I entered a market distortion so strong I blinked into and out of Hong Kong!

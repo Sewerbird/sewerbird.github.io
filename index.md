@@ -20,7 +20,7 @@ subtitle: home
 		</header>
 		<footer>
 			<h2><small>{{ featured_post.tagline }}</small></h2>
-			<p class="featured_text">{{ featured_post.content | markdownify | strip_html | truncatewords: 40 }}</p>
+			<p class="featured_text">{{ featured_post.excerpt | markdownify | strip_html }}</p>
 			<span style="float:right;margin-bottom:1.0em">...click for more!</span>
 		</footer>
 	</a>

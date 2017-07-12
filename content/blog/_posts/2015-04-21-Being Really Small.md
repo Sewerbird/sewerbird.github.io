@@ -3,7 +3,6 @@ layout: post
 date: '2015-04-21T21:53:45+08:00'
 title: Being Really Small
 tagline: Things Don't Scale
-featured: 1
 ---
 
 Today I thought I'd ponder what things would be like for Lilliputians
