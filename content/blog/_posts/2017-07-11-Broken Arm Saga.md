@@ -137,7 +137,7 @@ I wake up briefly 4 hours later in an annex: my arm hurts so much and I wake up 
 ![Xray of Bionic Arm]({{site.url}}/assets/broken_arm_xray_after.png)
 {: refdef}
 
-I try to be grateful, but I'm exhausted and on medication: it all feels very irrelevant and far away, but then the doctor says I have visitors. That catches my attention, and then I'm sleepily delighted to see my friends Eduardo and Andrea enter the room. There is scarcely a couple in the world who are better to awake to than these two gentle Spaniards, and they are very sweet and stay for several hours to keep me company. I can't even hold down celebratory seltzer water in my stomach, but that's okay: they mostly just smile at me in the dimly lit room and I feel safe.
+I try to be grateful, but I'm exhausted and on medication: it all feels very irrelevant and far away, but then the doctor says I have visitors. That catches my attention, and then I'm sleepily delighted to see my friends Eduardo Alarcon and Andrea Guallar enter the room. There is scarcely a couple in the world who are better to awake to than these two gentle Spaniards, and they are very sweet and stay for several hours to keep me company. I can't even hold down celebratory seltzer water in my stomach, but that's okay: they mostly just smile at me in the dimly lit room and I feel safe. I'm very grateful they were the ones the cosmos chose to be the first friends I saw: was a perfect choice.
 
 ## Going Home
 
