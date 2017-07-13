@@ -1,6 +1,6 @@
 ---
 layout : post
-date : '2017-07-14T13:00:00.000+08:00'
+date : '2017-07-11T11:00:00.000+08:00'
 title : 'Broken Arm Saga'
 tagline: Humerus?
 category: featured
@@ -89,6 +89,7 @@ I wake up and have breakfast with Tigris: a stuffed animal and best friend of mi
 
 He's a source of strength, and a memory of when my family was whole. Being in China, my Mom, Dad, and siblings are literally a world away, so he kind of serves as a stopgap measure. I've been in touch with my Mom thankfully, with my news filtering out eventually to the rest through her reports, but they can't come. Unfortunately, potent as Tigris is, he enhances an attribute of the hospital in a negative way: timelessness.
 
+<script>
 > Time is weird here. 
 > 
 > I have to wait for surgery for several days, because my arm is too swollen: it complicates the surgery. 
@@ -114,26 +115,50 @@ He's a source of strength, and a memory of when my family was whole. Being in Ch
 > My pain level is 3/10, because I read an article that they prescribe stuff above that number.
 > 
 > My arm is getting really swollen.
+</script>
 
 I start to measure time in terms of people visiting, and thankfully I had many visits before surgery. Each visit was a welcome tide of real time with real people, and a very real salve on my psyche. Over a dozen people came before my operation: Sasha, Sacha, Gabriel, Nichole, Kahming, Grayson, Ricky, Anja, Naomi & her husband, Nelson, Maggie, Lawrence, and Dmitri.
+
+I have to wait for surgery for several days, because my arm is too swollen: it complicates the surgery. However, several days go by and the swelling doesn't seem to recede: I start to feel tired all the time.
 
 Finally, Sunday arrives.
 
 ## Surgery
 
+My doctors came into my room in the morning to make a final judgement call about whether to operate that day, and were almost annoyed at the lack of deflation in my arm: they would have to cut to the bone through an extra inch of flesh, and that's not good. Dr. Dong decided there wasn't much option, however, clapped his hands and (smiling) said "We'll do it"! Within a minute I was on my back on a guerney being carted to the surgical ward.
+
+I'd say that I was more afraid, but frankly I was so tired of waiting for the operation that it was a great relief to be moved into the surgical theater. The whole process was very quick: I barely had a chance to quietly utter 'Godspeed gentlemen' than the anaesthesiolist had a mask on my face putting out a... wait, what's that really pleasant cool air in the pipe-- and I was out like a light.
+
 ## Awaking
 
+I wake up briefly 4 hours later in an annex: my arm hurts so much and I wake up agitated. A nurse fetches a needle of Demerol and I fall asleep again. I wake up again later back in my room: it's dark outside, and I think a doctor briefs me that the surgery was successful
+
+{:refdef: style="text-align: center;"}
 ![Xray of Bionic Arm]({{site.url}}/assets/broken_arm_xray_after.png)
+{: refdef}
+
+I try to be grateful, but I'm exhausted and on meds: it all feels very irrelevant and far away, but then the doctor says I have visitors. That catches my attention, and then I'm sleepily delighted to see my friends Eduardo and Andrea enter the room. There is scarcely a couple in the world who are better to awake to than these two gentle spaniards, and they are very sweet and stay for several hours to keep me company. I can't even hold down celebratory seltzer water in my stomach, but that's okay: they mostly just smile at me in the dimly lit room and I feel safe.
 
 ## Going Home
 
-![In Hospital Bed]({{site.url}}/assets/broken_arm_inhospital.png)
+The next few days I combat a post-surgical fever, and I have my first mostly-forgotten meetings with my physiologists: I need to flex my hand as best I can. Andrea comes to visit me each day, and I also got to see Mei Yan, Maggie, and Lawrence. My body starts to relax after a few days and I feel healthier and healthier, although my arm is still held immobile in a sling.
+
+Finally, on Wednesday the news comes that I am good enough to discharge from the hospital! Sacha from work comes to pick me up, and I step out into the humid Shanghai summer. It feels great! Ricky brings some groceries to my house, and Sacha helps me rearrange my place to be more left-handed and handicap-friendly. Xingguo is wonderful, although the garden has started to overgrow, and I cannot cut the weeds.
 
 ## Spaceship
 
+The next week I'm mostly stuck indoors until I can start getting some function back in my arm: the swelling, bruising, and staples are pretty intense, and I have to babysit it pretty gingerly. My muscles are contracted to almost nothing, and I've not even the strength to lift my own arm for several days. Nelson came to help me change my bandage, and it was quite a Frankenstein sight:
+
+{:refdef: style="text-align: center;"}
 ![Bruised and Stapled Arm]({{site.url}}/assets/broken_arm_undercast.png)
+{: refdef}
+
+After several days, I gained the superpower of being able to rotate my right forearm 90 degrees, meaning I can type on a laptop again. I look forward eagerly to return to work and feel like a productive member of society, a man, again. After a week of recovery, I limp to work unable to bear another day cooped up in my house. If I felt like I was drifting in space in a spacesuit at the hospital, my home was only marginally better: a spaceship in orbit. Returning to work was like a joyous landing back on earth.
 
 ## Back to Work
 
-![Sitting on Couch]({{site.url}}/assets/broken_arm_backhome.png)
+So that brings us to this blog post. It's been a week and a half since I've returned to work, and my recovery is going well. I can lift light items with my arm and don't need to walk in a sling anymore. My staples have been removed and the bruises have nearly gone away: the main hurdle now is to build up flexibility in my elbow, and that will be an ongoing process for several months, along with strength training. Hopefully I'll be back to my old self by October, 40cm of titanium and 16 screws heavier.
 
+The experience has humbled me mildly, but it's mostly made me realize the value of friendship and family and competent doctors. I'd like to particularly thank Gabriel, Andrea, and Eduardo for being positive-energy sources when I needed it most; Doctors Dong (Surgeon), Wang (Doctor), and Hu (Anesthesiology) for my bionics; and to Ricky, Nelson, and Sacha for making logistics at my home much easier. My Mom also gets special last mention because of course. With them and everyone elses' help I hope to return 100% soon.
+
+Finally: <b>GET AND MAINTAIN A GOOD MEDICAL INSURANCE PLAN</b>. I had to pay 6000$ out of pocket, but it'd've been 60,000$ if I was feeling too invincible for a plan. My work's insurance policy saved my ass and my arm, and this'd've been a tragedy if not for it.
