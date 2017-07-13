@@ -3,7 +3,6 @@ layout : post
 date : '2017-05-03T17:30:00.000+08:00'
 title : 'An Introduction to The Nenth, Part II'
 tagline: Meet the Sakire
-category: featured
 ---
 
 The Sakire are the people of Kyáhida, whose culture and daily life are far removed from our modern lifestyles. This post will cover the Sakire in more detail.
