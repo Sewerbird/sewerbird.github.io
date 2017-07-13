@@ -33,11 +33,11 @@ I looked down impassively at my arm for an hour. Or, at least that's how long it
 
 By the time this second had finished up, the incredibly loud "CRACK!" of my bone breaking had stopped echoing like a snapped tree branch. I let out an incredibly manly "YELP!", held my arm in place, and began watching myself for signs of shock: I went to sit down amongst everyone. Everyone took a second to realize there was a problem, and started to become horrified as it dawned what had happened. Stefan Fuchs helped keep me calm with his trademark style of conversation, while a van was being mobilized by Gabriel Paquin and Naomi Li. Gingerly walking down yet more slippery steps, I slid into the vehicle with Gabriel and Naomi and we drove down the switchbacked mountain roads yet again.
 
-Naomi rode shotgun to manage directions and comms, while Gabriel joined me in the back seat to help me keep my lower arm still on the windy roads. An eternity later (time dilation is a theme in this account) we arrived in the town of Deqing at the base of Moganshan, and shortly afterwards we were at the emergency entrance of Deqing Hospital.
+Naomi rode shotgun to manage directions and operational-communicationss, while Gabriel joined me in the back seat to help me keep my lower arm still on the windy roads. An eternity later (time dilation is a theme in this account) we arrived in the town of Deqing at the base of Moganshan, and shortly afterwards we were at the emergency entrance of Deqing Hospital.
 
 ## Deqing
 
-I have very little experience with western hospitals, but I have some experience with chinese ones: a typical chinese hospital is run with the same level of bedside manner as a Department of Motor Vehicles office. Thankfully, though, Deqing is a sleepy little town and the hospital wasn't busy, so I got immediate inspection. Naomi and Gabriel discussed the details of my situation with the clinician in the ER and I was brought to the xray room and told to drop my arm for a moment. THAT HURT. But I got this picture:
+I have very little experience with western hospitals, but I have some experience with Chinese ones: a typical Chinese hospital is run with the same level of bedside manner as a Department of Motor Vehicles office. Thankfully, though, Deqing is a sleepy little town and the hospital wasn't busy, so I got immediate inspection. Naomi and Gabriel discussed the details of my situation with the clinician in the ER and I was brought to the xray room and told to drop my arm for a moment. THAT HURT. But I got this picture:
 
 {:refdef: style="text-align: center;"}
 ![First Xray]({{site.url}}/assets/broken_arm_xray_before.png)
@@ -49,7 +49,7 @@ The doctor slapped on a half-cast, neglecting to place it in a sling. Gabriel di
 
 ## The Mountain, Part II
 
-It was 10:00 by the time we got back, and everyone who had been left behind had fought the buzzkill that an armbreak is with alcohol (admirably so!). I socialized a bit and tried to reassure everyone I would be okay, and that took a while: it was an interesting room where everyone was drunk except me, and they were all very worried for me. Gabriel brought out a bit of 18 year whiskey, and we toasted to my quick recovery: it would be my last sip of drink for a month.
+It was 10:00 by the time we got back, and everyone who had been left behind had fought the buzz-kill that an arm-break is with alcohol (admirably so!). I socialized a bit and tried to reassure everyone I would be okay, and that took a while: it was an interesting room where everyone was drunk except me, and they were all very worried for me. Gabriel brought out a bit of 18 year whiskey, and we toasted to my quick recovery: it would be my last sip of drink for a month.
 
 I started to realize how fragile I was when it was time for me to try to sleep upright on a couch. The arm was only stationary in one axis, and any small jostle would make my bones shift. Imagine you are on a camping trip, and you are setting up a tent with a segmentable pole. You know the feeling when you hold the bag containing the pole segments, and how they will shift and slide around each other in a tight bundle? That's a normal sensation except for when it accurately describes your arm, where it becomes a very scary and unsettling feeling. I snuck some tears of fear in when no one was looking.
 
@@ -71,7 +71,7 @@ On the train, Gabriel and I started to discuss details about what hospital to go
 
 Twenty hours after my arm broke, I sauntered into the sleepiest "Emergency" door I've ever seen on a hospital: we entered Shanghai United Children's Hospital. In quite unavoidable contrast to Deqing and Huashan and other hospitals in China I've more experience with, Shanghai United was obviously competent and compassionate. The ER staff had my vitals taken in about 30 seconds and I was sat waiting on a medical bed for an initial checkup. Admittedly, the checkup was both to confirm my injury as well to ensure I had the cash to afford the quality care. At this point I got a proper sling for my arm, and I rejoiced. Waiting for over an hour for the insurance claim to clear, Gabriel and I shot the breeze, with him fetching some dumplings from a shop around the corner to eat.
 
-Once it was verified that I had sufficient wallet and policy to continue, I was whisked upstairs to an inpatient ward: a spacious hotel room where you can give birth in, die in, or anything between. A specialist orthopedic surgeon would be needed to be called in, but first would come the 3d scan of my arm. A painful horizontal laydown into a magnetron later, and we got this splendid picture:
+Once it was verified that I had sufficient wallet and policy to continue, I was whisked upstairs to an inpatient ward: a spacious hotel room where you can give birth in, die in, or anything between. A specialist orthopedic surgeon would be needed to be called in, but first would come the 3d scan of my arm. A painful horizontal lay-down into a magnetron later, and we got this splendid picture:
 
 {:refdef: style="text-align: center;"}
 ![Shattered Humerus CTScan]({{site.url}}/assets/broken_arm_3dscan_1.png)
@@ -125,7 +125,7 @@ Finally, Sunday arrives.
 
 ## Surgery
 
-My doctors came into my room in the morning to make a final judgement call about whether to operate that day, and were almost annoyed at the lack of deflation in my arm: they would have to cut to the bone through an extra inch of flesh, and that's not good. Dr. Dong decided there wasn't much option, however, clapped his hands and (smiling) said "We'll do it"! Within a minute I was on my back on a guerney being carted to the surgical ward.
+My doctors came into my room in the morning to make a final judgment call about whether to operate that day, and were almost annoyed at the lack of deflation in my arm: they would have to cut to the bone through an extra inch of flesh, and that's not good. Dr. Dong decided there wasn't much option, however, clapped his hands and (smiling) said "We'll do it"! Within a minute I was on my back on a guerney being carted to the surgical ward.
 
 I'd say that I was more afraid, but frankly I was so tired of waiting for the operation that it was a great relief to be moved into the surgical theater. The whole process was very quick: I barely had a chance to quietly utter 'Godspeed gentlemen' than the anaesthesiolist had a mask on my face putting out a... wait, what's that really pleasant cool air in the pipe-- and I was out like a light.
 
@@ -137,7 +137,7 @@ I wake up briefly 4 hours later in an annex: my arm hurts so much and I wake up 
 ![Xray of Bionic Arm]({{site.url}}/assets/broken_arm_xray_after.png)
 {: refdef}
 
-I try to be grateful, but I'm exhausted and on meds: it all feels very irrelevant and far away, but then the doctor says I have visitors. That catches my attention, and then I'm sleepily delighted to see my friends Eduardo and Andrea enter the room. There is scarcely a couple in the world who are better to awake to than these two gentle spaniards, and they are very sweet and stay for several hours to keep me company. I can't even hold down celebratory seltzer water in my stomach, but that's okay: they mostly just smile at me in the dimly lit room and I feel safe.
+I try to be grateful, but I'm exhausted and on medication: it all feels very irrelevant and far away, but then the doctor says I have visitors. That catches my attention, and then I'm sleepily delighted to see my friends Eduardo and Andrea enter the room. There is scarcely a couple in the world who are better to awake to than these two gentle Spaniards, and they are very sweet and stay for several hours to keep me company. I can't even hold down celebratory seltzer water in my stomach, but that's okay: they mostly just smile at me in the dimly lit room and I feel safe.
 
 ## Going Home
 
@@ -157,8 +157,8 @@ After several days, I gained the superpower of being able to rotate my right for
 
 ## Back to Work
 
-So that brings us to this blog post. It's been a week and a half since I've returned to work, and my recovery is going well. I can lift light items with my arm and don't need to walk in a sling anymore. My staples have been removed and the bruises have nearly gone away: the main hurdle now is to build up flexibility in my elbow, and that will be an ongoing process for several months, along with strength training. Hopefully I'll be back to my old self by October, 40cm of titanium and 16 screws heavier.
+So that brings us to this blog post. It's been a week and a half since I've returned to work, and my recovery is going well. I can lift light items with my arm and don't need to walk in a sling anymore. My staples have been removed and the bruises have nearly gone away: the main hurdle now is to build up flexibility in my elbow, and that will be an ongoing process for several months, along with strength training. Hopefully I'll be back to my old self by October, 40 centimeters of titanium and 16 screws heavier.
 
-The experience has humbled me mildly, but it's mostly made me realize the value of friendship and family and competent doctors. I'd like to particularly thank Gabriel, Andrea, and Eduardo for being positive-energy sources when I needed it most; Doctors Dong (Surgeon), Wang (Doctor), and Hu (Anesthesiology) for my bionics; and to Ricky, Nelson, and Sacha for making logistics at my home much easier. My Mom also gets special last mention because of course. With them and everyone elses' help I hope to return 100% soon.
+The experience has humbled me mildly, but it's mostly made me realize the value of friendship and family and competent doctors. I'd like to particularly thank Gabriel, Andrea, and Eduardo for being positive-energy sources when I needed it most; Doctors Dong (Surgeon), Wang (Doctor), and Hu (Anesthesiology) for my bionics; and to Ricky, Nelson, and Sacha for making logistics at my home much easier. My Mom also gets special last mention because of course. With them and everyone else's help I hope to return 100% soon.
 
-Finally: <b>GET AND MAINTAIN A GOOD MEDICAL INSURANCE PLAN</b>. I had to pay 6000$ out of pocket, but it'd've been 60,000$ if I was feeling too invincible for a plan. My work's insurance policy saved my ass and my arm, and this'd've been a tragedy if not for it.
+Finally: <b>GET AND MAINTAIN A GOOD MEDICAL INSURANCE PLAN</b>. I had to pay $6000 out of pocket, but it would've been $60,000 if I was feeling too invincible for a plan. My work's insurance policy saved my ass and my arm, and this would've been a tragedy if not for it.
