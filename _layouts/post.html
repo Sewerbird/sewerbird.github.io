@@ -6,7 +6,10 @@ layout: default
     <div id="imgwrp" style="width:100%; text-align:center">
       <img src="/assets/icon250px.png" />
     </div>
-    <h1>{{ page.title }}{% if page.tagline %}<small> {{page.tagline}}</small>{% endif %}</h1> 
+    <h1>{{ page.title }}</h1>
+    {% if page.tagline %}</h1>
+    <h1><small> {{page.tagline}}</small></h1>
+    {% endif %}
 		<br>
 		{{ content }}
 	</div>
