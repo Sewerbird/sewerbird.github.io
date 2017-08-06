@@ -3,7 +3,10 @@ layout: default
 ---
 <div style="text-align: center">
 	<div class="sheet_column" style="display: inline-block; text-align: left">
-		<h1>{{ page.title }}{% if page.tagline %}<small> {{page.tagline}}</small>{% endif %}</h1> 
+    <div id="imgwrp" style="width:100%; text-align:center">
+      <img src="/assets/icon250px.png" />
+    </div>
+    <h1>{{ page.title }}{% if page.tagline %}<small> {{page.tagline}}</small>{% endif %}</h1> 
 		<br>
 		{{ content }}
 	</div>

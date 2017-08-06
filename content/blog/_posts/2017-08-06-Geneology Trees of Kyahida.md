@@ -1,7 +1,7 @@
 ---
 layout : post
 date : '2017-08-06T11:00:00.000+8:00'
-title : 'Geneology Trees of Kyahida'
+title : 'Kyahidan Geneology'
 tagline: 'Part One: Around the Village' 
 category: featured
 ---
