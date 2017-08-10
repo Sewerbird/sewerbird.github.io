@@ -29,10 +29,10 @@ h1 {
 
 
 h1 {
-	font-size: 67.5px;
+	font-size: 300%;
 }
 h2 {
-	font-size: 32px;
+	font-size: 200%;
 }
 
 h1 small, h2 small, h3 small {
@@ -52,7 +52,7 @@ nav .brand {
 }
 
 .sheet_column {
-	margin:10%;
+	margin: 0% 0% 0% 0%;
 	max-width:800;
 	width: 90%;
 }
