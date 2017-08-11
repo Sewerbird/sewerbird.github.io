@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: About
 in_nav: true
 tagline: This Site & Me
