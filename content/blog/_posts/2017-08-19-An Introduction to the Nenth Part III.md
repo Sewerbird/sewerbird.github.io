@@ -24,7 +24,7 @@ If we zoom in on the moon, we note that the Nenth has oceans of its own: most of
 
 As you can see, the whole of the land is about the size of Africa, when you take into consideration the smaller radius of the Nenth, planted firmly on the pole. Although green on this map, the vast bulk of this land is an icy rocky wasteland, only giving away to conifer forests and tundra near its southernmost coast. This northern expanse is named 'Esoenska' in the tongue of the Sakire, and is a land unexplored and avoided for its inhospitable climate. A lack of mountain ranges in the extreme north of the Nenth means freezing driving winds race towards the sea, leaving (at most) a windswept land of rock and lichen living marginally in their wind-shade. The Great Southern Ocean throws its own warm wind north to fight the polar cold, and harbors grand hurricanes that meander around the equator.
 
-However, not all of the Nenth is open ocean, and not all of the Nenth is the frigid barren of Esoenska. Attached to Esoenska, jutting south to the equator like a cautious hand, is the land of Kyahida. On the map above, it is situated right near the Caspian Sea. Where North and South meet, we meet The land of our interest:
+However, not all of the Nenth is open ocean, and not all of the Nenth is the frigid barren of Esoenska. Attached to Esoenska, jutting south to the equator like a cautious hand, is the land of Kyahida. On the map above, it is situated right near the Caspian Sea. Where North and South meet, we meet the land of our interest:
 
 ## Kyahida and its Environs
 
@@ -37,7 +37,7 @@ The inspiration for Kyahida's terrain comes from the Pacific Northwest and Alask
 There are three main bodies of water that concern the Sakire and form the primary source of food, transport, and commerce:
 
   - *The Hyalisam* : A sound connected to the great ocean, the Hyalisam stretches 300 kilometers from its mouth at Ladibel to its stomach at Kicabel. The Hyalisam is the 'Mediterranean' of Kyahida, the cultural home of the Sakire.
-  - *The Nakaija* : A rift lake stretching from Ricabel to the foot of Mount Syo-kara. Although secondary to the Hyalisam, it is home to Nakibel and the route to Serabel
+  - *The Nakaija* : A rift lake stretching from Ricabel to the foot of Mount Kyo-Sara. Although secondary to the Hyalisam, it is home to Nakibel and the route to Serabel
   - *The Sea of Two Coasts* : A gulf at whose base Serabel sits, the Sea is bounded by southern Kyahida and its off-coast archipelago. Although considered a literal 'backwater', the thousand islands of the Sea's archipelago are a beautiful sight, with warm comfortable beaches as you get to the southern most isles.
 
 Coming out of the water are a collection of mountain ranges that are resulting from tectonic plate motion: the waters flood the valleys of the uplifted peaks. The Primary ranges are the Sansari Range, Golem's Reach, Lord Damerun Range, and the range lifting up the stratovolcano Mt. Kyo-Sara up from the sea.
@@ -109,7 +109,7 @@ Desribel is only a 'throne' out of courtesy: its people have much more in common
 ![Transition]({{site.url}}/assets/Ricabel.svg)
 {: refdef}
 
-Ricabel sits on the isthmus between the Nakaija and the Hyalisam, and commands a stragic position on the land route between Jezebel and the lands of the south. Whaling and portage of goods from one water to another are the consistent trade services that the Ricabi offer, their domain including the old whaling village of Ladibel, a defunct throne. The Ricabi are perhaps the most 'foreign' of the civilized Sakire, despite their proximity to Jezebel: the Ricabi are the elements of the Lake Peeker and Quiet Friend tribes that seeked to engage openly with the Castellans, and have guaranteed a refuge for their compatriots on the peninsula in return for peaceful access to the Isthmus of their domain. This arrangment has held (with periodic lapses) for hundreds of years, breaches typically coming as result of Nakibi disputes on the Nakaija.
+Ricabel sits on the isthmus between the Nakaija and the Hyalisam, and commands a strategic position on the land route between Jezebel and the lands of the south. Whaling and portage of goods from one water to another are the consistent trade services that the Ricabi offer, their domain including the old whaling village of Ladibel, a defunct throne. The Ricabi are perhaps the most 'foreign' of the civilized Sakire, despite their proximity to Jezebel: the Ricabi are the elements of the Lake Peeker and Quiet Friend tribes that seeked to engage openly with the Castellans, and have guaranteed a refuge for their compatriots on the peninsula in return for peaceful access to the Isthmus of their domain. This arrangment has held (with periodic lapses) for hundreds of years, breaches typically coming as result of Nakibi disputes on the Nakaija.
 
 #### Ladibel
 
