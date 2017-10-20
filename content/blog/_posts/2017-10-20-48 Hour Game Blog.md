@@ -17,3 +17,4 @@ The goal of this attempt is to create a small game using Love2D, from the initia
 
 ## Starting: 8:00pm China Standard Time
 
+First I need a game idea: something simple enough for me to pull off in such a brief amount of time. I didn't allow myself to work or even think about the task before I decided to do it. However, I think I can hack together a real brief Final Fantasy or Pokemon-style game. I can do most of the coding Friday and Saturday, and add in-game content and such on Sunday.
