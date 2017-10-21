@@ -47,3 +47,36 @@ First I need a game idea: something simple enough for me to pull off in such a b
 ### 9:00 Wakeup & Coffee
 
 I'm feeling refreshed, having slept well and given myself a clean shave and shower: only coffee left before resuming work. Although I woke up with ideas to make the map isometric, it is more important to sort out a Pokemon-style combat screen as well as a dialog system today for the core game play. I figure today will be focusing on the fundamentals, and Sunday can be spent making levels, sprites, and dialog before the deadline.'
+
+### 10:30 Battlescene Visuals
+
+I've gotten the battle scene to show the player and a badguy against a backdrop. Now to add ui elements.
+
+{:refdef: style="text-align: center;"}
+![Transition]({{site.url}}/assets/48Hour2017/screen4.png)
+{: refdef}
+
+### 12:00 Super Hungry and Distracted
+
+Lost a good chunk of motivation, and so went to clear my head and eat a bit
+
+### 14:00 Done with Lunch & Relax
+
+### 15:00 Drawing a Bear
+
+At this point, it's been a bit of a low-progress day, which is bad, because of the tight time constraint. However, I can't quite get the deep hacker motivation going... so time for a new tactic. I figure if I can't bring myself to code quickly, I can at least spend the time drawing: some art assets could be fun, exercise a different muscle, and still contribute to the goal. So, I opened up my vector graphics editor and spent significant time drawing a bear, and then plugging it into the game. Now, you run into a bear at random as you wander the map and do combat against it!
+
+{:refdef: style="text-align: center;"}
+![Transition]({{site.url}}/assets/48Hour2017/screen5.png)
+{: refdef}
+
+I also reworked the hero sprite to look marginally better. Combat is super-rudimentary: the AI attacks you with its strike, and you can swipe back or run away. When the bear loses HP it dies: when you lose HP, you run away (no death is possible yet).
+
+### 20:00 Berry Bushes
+
+I've made it so you can pick berries off of bushes to recharge your health, and whipped up the first draft of a merchant character who you can sell bear hides to later.
+
+{:refdef: style="text-align: center;"}
+![Transition]({{site.url}}/assets/48Hour2017/screen6.png)
+{: refdef}
+
