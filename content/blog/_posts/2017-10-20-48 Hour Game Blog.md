@@ -9,7 +9,9 @@ featured: 1
 
 Welcome to the blog for my attempt to create a game in 48 hours. I'll be keeping my status and some notes in here, and when I'm done I'll morph it into a post-mortem.
 
-You can watch the livestream (if I'm not sleeping) at [Twitch.tv](https://www.twitch.tv/sewerbird)
+~~You can watch the livestream (if I'm not sleeping) at [Twitch.tv](https://www.twitch.tv/sewerbird)~~
+
+Update: You can play the result of the challenge (if you have a keyboard) [HERE!](/scripts/48hour2017)
 
 ## Overview
 
@@ -79,4 +81,48 @@ I've made it so you can pick berries off of bushes to recharge your health, and 
 {:refdef: style="text-align: center;"}
 ![Transition]({{site.url}}/assets/48Hour2017/screen6.png)
 {: refdef}
+
+### 10:00 Sunday Begins
+
+There's so much left to do, and not enough time to do it: but I'll try!
+
+### 11:00 Finished Death State
+
+I made it so that when you reach negative health, you get shown a death screen.
+
+### 11:30 Reload the Game
+
+When you die, the game resets to a new level to let you continue playing now.
+
+### 13:00 Inventory Assets
+
+We need inventory icons for the various stuff you have: your torch, your sword, and your health potions. It took a while in the drawing program, but got some put together.
+
+### 15:00 Inventory Usage
+
+The code for selecting an item in your inventory and then using it turned out to be more fiddly than I'd hope, but it works now. You can now use your (unlimited use) sword to attack the bear, use your (one-time) potions to heal yourself, and use your (one-time) torch to scare off the bear.'
+
+### 17:00 Duration Actions
+
+To support animations, I needed to do a significant bit of refactoring to support an EventQueue. Actions in the event queue take up time, and have Begin, During, and Finish events that fire.
+
+### 18:00 Movement Animation
+
+I leveraged the new EventQueue to show the hero moving smoothly across the map, and have the camera follow him
+
+### 19:00 Last Hour!
+
+This being the 47th hour, I had to choose the last thing I wanted to work on before the deadline hits, so I decided to implement a Title Screen and fix what bugs I was aware of, as well as tidy up the BattleScene to show healthbars.
+
+{:refdef: style="text-align: center;"}
+![Transition]({{site.url}}/assets/48Hour2017/screen7.png)
+{: refdef}
+
+## 48 Hours' Time UP!
+
+And that's that! I have a small crappy little game where half the art sucks and half the art is pretty good given my ability. There are only one or two bugs, but mostly it suffers from unimplemented features. The good news is that I can return to work on this game whenever I want to make it more in-depth and interesting... but for now it can be a serviceable death-spiral with a forest full of rabid bears.
+
+
+You can play it [HERE!](/scripts/48hour2017) if you have a keyboard. Enjoy, and keep your antenna up for game updates/upgrades!
+
 
