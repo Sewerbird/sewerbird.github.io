@@ -15,7 +15,9 @@ Update: You can play the result of the challenge (if you have a keyboard) [HERE!
 
 ## Overview
 
-The goal of this attempt is to create a small game using Love2D, from the initial idea to final conception, within a span of 48 hours. I am beginning right after work on a friday at Coderbunker, here in Shanghai China
+The goal of this attempt is to create a small game using Love2D, from the initial idea to final conception, within a span of 48 hours. I am beginning right after work on a friday at Coderbunker, here in Shanghai China.
+
+I will be working solely with [Love2D](love2d.org), and may use no external libraries or assets for the game: only what I can type out in 48 hours, and what's built into Love2D.
 
 ## Starting: 8:00pm China Standard Time
 
