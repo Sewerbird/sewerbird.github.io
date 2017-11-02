@@ -1,8 +1,9 @@
 ---
 layout : post
 date : '2017-05-02T17:30:00.000+08:00'
-title : 'An Introduction to the Nenth, part I'
+title : 'Welcome to the Nenth, Part I'
 tagline: The World
+category: kyahida
 ---
 
 I've been thinking a lot about a new revision of my world setting for the past two years, and have been building up enough details to start presenting it to the world: so here's an introduction!
@@ -38,12 +39,6 @@ The Sakire are the people of Kyáhida, and are very similar to you and me, altho
 They do, however, have an initially startling physical trait which takes a moment to get used to: Sakire have a symbiotic relationship with a species of fungus, which resides in their skin where you and I would have melanin. As such, Sakire have a ghostly, stony, or ashy color, and will sometimes have lichen-growths near their joints and spine.
 
 The next post will cover the Sakire in more detail.
-
-## Makka
-
-Makka is a seemingly immortal being who lives in The Remnant, an ancient structure not built by the Sakire. She seems very much like a Sakire, although she has two long horns coming from her head. Upon the death of a High Priestess, Makka will choose the High Priestess of the Ceke: the Makka'ya. Other than this ritual role, Makka does not interact much with the Sakire, although she's not entirely a hermit: she will sometimes deign to make a friendly appearance at festivals and moots.
-
-Although the Sakire do not worship her, she is broadly acknowledged as an otherworldly being possessed of great power, to be appeased occasionally and respected always. Some Sakire believe she wards predatory Golems away from her abode, whereas others think she orders the golems' murderous rampages. Makka has been ambiguous about her relationship to the stony automata in the past, and the matter is left unresolved.
 
 <div class="spoiler" style="display: none;">
 The Sakire do not know her as such, but Makka is the Star Castellan of 192-Dviib: the star system that holds The Giant and Hida. She is also captain of the Ur-Kaci, a hopelessly damaged colony class ship. It lingers in orbit above, but succeeds in giving Makka a connection to her homecosm. If the Dear Reader were to visit The Nenth, they would likely meet quickly with Makka, who would be very interested in why someone so strange would come to visit her domain. She has only a small ability to control the malfunctioning rogue Colonizer Golems, and mostly uses this ability to set their priorities on the barren plains of Esoenska.

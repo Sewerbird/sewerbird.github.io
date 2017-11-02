@@ -3,7 +3,6 @@ layout : post
 date : '2017-10-15T11:30:00.000+08:00'
 title : 'Rocket Boy Redux'
 tagline: Lava & Jetpack
-featured: 1
 bigpic: "/assets/RocketBoyScreenie0.png"
 categories: coding featured
 ---

@@ -3,6 +3,7 @@ layout : post
 date : '2017-08-06T11:00:00.000+8:00'
 title : 'Kyahidan Geneology'
 tagline: 'Part One: Around the Village' 
+category: kyahida
 ---
 
 I've been working on the automatic creation of people to live in Kyahida, and part of this is about generating their family histories. Here's an overview of my progress!

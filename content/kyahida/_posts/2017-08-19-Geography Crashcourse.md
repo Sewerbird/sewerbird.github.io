@@ -1,9 +1,9 @@
 ---
 layout: post
 date: '2017-08-19T14:23:00.000+08:00'
-title: An Introduction to the Nenth, Part III
+title: 'Geography Crashcourse'
 tagline: Geography
-category: featured
+category: kyahida
 ---
 
 Today I present a bird's eye view of the region of Kyahida, with a map and descriptions of some locales in the region

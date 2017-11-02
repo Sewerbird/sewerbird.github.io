@@ -1,8 +1,9 @@
 ---
 layout : post
 date : '2017-05-03T17:30:00.000+08:00'
-title : 'An Introduction to The Nenth, Part II'
+title : 'Welcome to the Nenth, Part II'
 tagline: Meet the Sakire
+category: kyahida
 ---
 
 The Sakire are the people of Kyáhida, whose culture and daily life are far removed from our modern lifestyles. This post will cover the Sakire in more detail.
@@ -31,8 +32,6 @@ At the core of Cezzebel is The Remnant, where an enigmatic character lives: Makk
 
 Makka is a seemingly immortal being who lives in The Remnant, an ancient structure not built by the Sakire. She seems very much like a Sakire, although she has two long horns coming from her head. Upon the death of a High Priestess, Makka will choose the High Priestess of the Ceke: the Makka'ya. Other than this ritual role, Makka does not interact much with the Sakire, although she's not entirely a hermit: she will sometimes deign to make a friendly appearance at festivals and moots.
 
-The Sakire do not know her as such, but Makka is the Star Castellan of 192-Dviib: the star system that holds The Giant and Hida. She is also captain of the Ur-Kaci, a hopelessly damaged colony class ship. It lingers in orbit above, but succeeds in giving Makka a connection to her homecosm. If the Dear Reader were to visit The Nenth, they would likely meet quickly with Makka, who would be very interested in why someone so strange would come to visit her domain.
-
-
-
-
+<div class="spoiler" style="display: none;">
+The Sakire do not know her as such, but Makka is the Star Castellan of 192-Dviib: the star system that holds The Giant and Hida. She is also captain of the Ur-Kaci, a hopelessly damaged colony class ship. It lingers in orbit above, but succeeds in giving Makka a connection to her homecosm. If the Dear Reader were to visit The Nenth, they would likely meet quickly with Makka, who would be very interested in why someone so strange would come to visit her domain. She has only a small ability to control the malfunctioning rogue Colonizer Golems, and mostly uses this ability to set their priorities on the barren plains of Esoenska.
+</div>

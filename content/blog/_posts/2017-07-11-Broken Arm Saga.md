@@ -3,7 +3,7 @@ layout : post
 date : '2017-07-11T11:00:00.000+08:00'
 title : 'Broken Arm Saga'
 tagline: Humerus?
-category: featured
+category: blog
 ---
 
 I broke my arm last month, and I've finally gotten around to writing an account of my summer so far! I've included some pictures for posterity, and so there is a mild 'gross!' factor: you've been warned!
