@@ -1,23 +1,22 @@
 ---
 layout: default
 ---
-<div style="text-align: center">
-	<div class="sheet_column" style="display: inline-block; text-align: left">
-    <div id="imgwrp" style="width:100%; text-align:center">
+<article>
+  <!-- Picture at Top, or Default Picture -->
+  <div class="flex flex_center_justified">
+    <span style="text-align:center">
       {% if page.bigpic %}
-      <a href="/"><img src="{{page.bigpic}}" style="width: 100%; max-width:250px;"/></a>
+      <a href="/"><img src="{{page.bigpic}}" style="min-width: 251px; width: 251px; max-width:251px;"/></a>
       {% else %}
-      <a href="/"><img src="/assets/icon250px.png" /></a>
+      <a href="/"><img src="/assets/icon250px.png" style="min-width: 251px; width: 251px; max-width:251px;"/></a>
       {% endif %}
-    <h1>{{ page.title }}</h1>
-    {% if page.tagline %}</h1>
-    <h1><small> {{page.tagline}}</small></h1>
-    {% endif %}
-		<br>
-
-    </div>
-    <article>
-		{{ content }}
-    </article>
-	</div>
-</div>
+    </span>
+    <span style="flex-grow:1; flex-shrink:1">
+      <h1>{{ page.title }}</h1>
+      {% if page.tagline %}</h1>
+      <p class="subtitle"> {{page.tagline}}</p>
+      {% endif %}
+    </span>
+  </div>
+  {{ content }}
+</article>

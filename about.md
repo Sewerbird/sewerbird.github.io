@@ -8,7 +8,7 @@ group: navigation
 
 My name is Edward, and I spend most of my time working on hobbies: I have an interest in coding, games (video and physical), linguistics, ethics, and politics. I pay the bills for these pasttimes and lifestyle by doing programming work for entrepreneurial friends of mine.
 
-This blog is wholly hosted on [GitHub](http://github.com/Sewerbird/sewerbird.github.io) and is, in fact, a static site generated using Jekyll. This lets me type things up in [Sublime Text 2](http://sublimetext.com) on my MacBook Pro for the site, run a quick `git` command, and have it appear on the web a moment later, all formatted with [MarkDown](http://daringfireball.net/projects/markdown). I've structured the site setup in ways that I hope will both make my musings and hobbies accessible to others, as well as lowering the barrier to me contributing to it.
+This blog is wholly hosted on [GitHub](http://github.com/Sewerbird/sewerbird.github.io) and is, in fact, a static site generated using Jekyll. This lets me type things up in [`vim`](http://vim.org) on my MacBook Pro for the site, run a quick `git` command, and have it appear on the web a moment later, all formatted with [MarkDown](http://daringfireball.net/projects/markdown). I've structured the site setup in ways that I hope will both make my musings and hobbies accessible to others, as well as lowering the barrier to me contributing to it.
 
 ## My Professional Record
 

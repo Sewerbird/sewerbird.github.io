@@ -1,58 +1,22 @@
-<html lang="en">
-  <head>
-  	<link rel="stylesheet" href="/assets/mypicnic.min.css" />
-    <link rel="stylesheet" href="/assets/site.css" />
-    <link rel="stylesheet" href="/assets/tufte-css/tufte.css" />
-    <style>
-      nav {
-        background-color: #3D3D3D
-      }
-      nav .brand {
-        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #EDEDED;
-        font-size: 32px;
-        font-weight: 300;
-      }
-      a.button {
-        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #EDEDED;
-      }
-    </style>
-  </head>
-  <body>
-  	<nav>
-  		<a href="/" class="brand">
-        <span>Sewerbird</span>
-  		</a>
-      <div class="menu">
-        {% for page in site.pages %}
-        {% if page.in_nav != null %}
-        <a href="{{ BASE_PATH }}{{ page.url }}" class="button">{{page.title}}</a>
-        {% endif %}
-        {% endfor %}
-      </div>
-  	</nav>
-    <br/>
-    <br/>
-  	<article>
-      <figure>
+---
+layout: default
+---
+<article class="marginated">
+  <!-- Picture at Top, or Default Picture -->
+  <div class="flex flex_center_justified">
+    <span style="text-align:center">
       {% if page.bigpic %}
-      <a href="/"><img src="{{page.bigpic}}" style="width: 100%; max-width:250px;"/></a>
+      <a href="/"><img src="{{page.bigpic}}" style="min-width: 251px; width: 251px; max-width:251px;"/></a>
       {% else %}
-      <a href="/"><img src="/assets/icon250px.png" /></a>
+      <a href="/"><img src="/assets/icon250px.png" style="min-width: 251px; width: 251px; max-width:251px;"/></a>
       {% endif %}
-      </figure>
+    </span>
+    <span style="flex-grow:1; flex-shrink:1">
       <h1>{{ page.title }}</h1>
       {% if page.tagline %}</h1>
-      <subtitle>{{page.tagline}}</subtitle>
+      <p class="subtitle"> {{page.tagline}}</p>
       {% endif %}
-      <section>
-      {{ content }}
-      </section
-    </article>
-    <div class="center"><a href="#">Back To Top</a></div>
-    <div id="footer" class="center">
-      Created &amp; Owned by Edward Miller &copy; {{ site.time | date: '%Y' }}
-    </div>
-  </body>
-</html>
+    </span>
+  </div>
+  {{ content }}
+</article>

@@ -6,9 +6,9 @@ subtitle: home
 <div class="flex flex_center_justified one two-600 three-900 four-1200 demo">
 	<!-- Introductory Jumbo -->
 	<div class="noback card">
-		<img class="center" src="assets/icon250px.png" alt="sewerbird" >
-		<h1 class="center">Sewerbird</h1>
-		<h2 class="center"><small>Blog &amp; Miscellenae</small></h2>
+		<img class="center" src="assets/icon250px.png" style="width:100%;padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;" alt="sewerbird" >
+		<!--h1 class="center">Sewerbird</h1>
+		<h2 class="center"><small>Blog &amp; Miscellenae</small></h2-->
 	</div>
 	<!-- Featured Card -->
 	{% assign featured_count = 0 %}
@@ -19,8 +19,8 @@ subtitle: home
 			<h2>{{ featured_post.title }}</h2>
 		</header>
 		<footer>
-			<h2><small>{{ featured_post.tagline }}</small></h2>
-			<p class="featured_text">{{ featured_post.excerpt | markdownify | strip_html }}</p>
+			<h3>{{ featured_post.tagline }}</h3>
+			<p>{{ featured_post.excerpt | markdownify | strip_html }}</p>
 			<span style="float:right;margin-bottom:1.0em">...click for more!</span>
 		</footer>
 	</a>
@@ -31,10 +31,10 @@ subtitle: home
 	{% assign project = site.data.ed_projects[con] %}
 	<div class="project card">
 		<header>
-			<a href="{{ BASE_PATH }}{{ project.project_page }}"><h2>{{project.name}}</h2></a>
+			<a class="cardtitle" href="{{ BASE_PATH }}{{ project.project_page }}"><h2>{{project.name}}</h2></a>
 		</header>
 		<footer>
-			<small>{{project.frontpage_blurb}}</small>
+			<p class="cardtext">{{project.frontpage_blurb}}</p>
 			<ul>
 			{% assign linkcount = 0 %}
 			{% for post in site.categories.[project.category] %}
