@@ -22,14 +22,10 @@ a.button { font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-se
 
 html { font-size: 15px; }
 
-body { width: 97.5%;
-       margin-left: auto;
-       margin-right: auto;
-       padding-left: 2.5%;
+body { 
        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
        background-color: #fffffa;
        color: #111111;
-       max-width: 1400px;
        counter-reset: sidenote-counter; }
 
 h1 { font-weight: 400;
@@ -86,19 +82,22 @@ p.subtitle { width: 100%;
   width: 100%;
   font-size: 1rem;
 }
+.card footer li {
+  margin: 0px 0px 0em;
+}
 .card footer li a {
   color: var(--sewerbird-link-color);
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .card.featured {
   background-color: #EFD;
-	/*background-color: #E8F0E0;*/
 }
 .card {
 	margin: 0.3em;
   box-sizing: border-box;
   max-width: 350px;
+  min-width: 350px;
 }
 .card.footer {
   width: 100%;
@@ -121,6 +120,11 @@ p.subtitle { width: 100%;
 }
 
 article { position: relative;
+         margin-left: auto;
+         margin-right: auto;
+         padding-left: 2.5%;
+         width: 97.5%;
+         max-width: 1400px;
           padding: 5rem 0rem; }
 
 section { padding-top: 1rem;
