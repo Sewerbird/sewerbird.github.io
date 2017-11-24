@@ -3,6 +3,7 @@ layout: post
 date: '2017-04-21T21:53:45+08:00'
 title: 48 Hour Game Blog
 tagline: Really Fast Game Creation
+assets: assets/48Hour2017
 category: coding
 ---
 
@@ -26,12 +27,12 @@ First I need a game idea: something simple enough for me to pull off in such a b
 ### 9:00 Showing Sprites
 
 {:refdef: style="text-align: center;"}
-![Transition]({{site.url}}/assets/48Hour2017/screen1.png)
+![Transition]({{site.url}}/{{page.assets}}/screen1.png)
 {: refdef}
 
 ### 9:30 Movement & Impassable Terrain
 {:refdef: style="text-align: center;"}
-![Transition]({{site.url}}/assets/48Hour2017/screen2.png)
+![Transition]({{site.url}}/{{page.assets}}/screen2.png)
 {: refdef}
 
 ### 10:00 Move Home
@@ -41,7 +42,7 @@ First I need a game idea: something simple enough for me to pull off in such a b
 ### 12:00 Improving Sprites. Player Facing
 
 {:refdef: style="text-align: center;"}
-![Transition]({{site.url}}/assets/48Hour2017/screen3.png)
+![Transition]({{site.url}}/{{page.assets}}/screen3.png)
 {: refdef}
 
 
@@ -56,7 +57,7 @@ I'm feeling refreshed, having slept well and given myself a clean shave and show
 I've gotten the battle scene to show the player and a badguy against a backdrop. Now to add ui elements.
 
 {:refdef: style="text-align: center;"}
-![Transition]({{site.url}}/assets/48Hour2017/screen4.png)
+![Transition]({{site.url}}/{{page.assets}}/screen4.png)
 {: refdef}
 
 ### 12:00 Super Hungry and Distracted
@@ -70,7 +71,7 @@ Lost a good chunk of motivation, and so went to clear my head and eat a bit
 At this point, it's been a bit of a low-progress day, which is bad, because of the tight time constraint. However, I can't quite get the deep hacker motivation going... so time for a new tactic. I figure if I can't bring myself to code quickly, I can at least spend the time drawing: some art assets could be fun, exercise a different muscle, and still contribute to the goal. So, I opened up my vector graphics editor and spent significant time drawing a bear, and then plugging it into the game. Now, you run into a bear at random as you wander the map and do combat against it!
 
 {:refdef: style="text-align: center;"}
-![Transition]({{site.url}}/assets/48Hour2017/screen5.png)
+![Transition]({{site.url}}/{{page.assets}}/screen5.png)
 {: refdef}
 
 I also reworked the hero sprite to look marginally better. Combat is super-rudimentary: the AI attacks you with its strike, and you can swipe back or run away. When the bear loses HP it dies: when you lose HP, you run away (no death is possible yet).
@@ -80,7 +81,7 @@ I also reworked the hero sprite to look marginally better. Combat is super-rudim
 I've made it so you can pick berries off of bushes to recharge your health, and whipped up the first draft of a merchant character who you can sell bear hides to later.
 
 {:refdef: style="text-align: center;"}
-![Transition]({{site.url}}/assets/48Hour2017/screen6.png)
+![Transition]({{site.url}}/{{page.assets}}/screen6.png)
 {: refdef}
 
 ### 10:00 Sunday Begins
@@ -116,7 +117,7 @@ I leveraged the new EventQueue to show the hero moving smoothly across the map, 
 This being the 47th hour, I had to choose the last thing I wanted to work on before the deadline hits, so I decided to implement a Title Screen and fix what bugs I was aware of, as well as tidy up the BattleScene to show healthbars.
 
 {:refdef: style="text-align: center;"}
-![Transition]({{site.url}}/assets/48Hour2017/screen7.png)
+![Transition]({{site.url}}/{{page.assets}}/screen7.png)
 {: refdef}
 
 ## 48 Hours' Time UP!

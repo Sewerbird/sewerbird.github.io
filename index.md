@@ -14,14 +14,15 @@ subtitle: home
 	{% assign featured_count = 0 %}
 	{% for featured_post in site.categories.featured %}
 		{% if featured_count < 1 %}
-	<a class="borderless card" href="{{ BASE_PATH }}{{ featured_post.url }}" >
+	<a class="featured card" href="{{ BASE_PATH }}{{ featured_post.url }}" >
 		<header>
 			<h2>{{ featured_post.title }}</h2>
+      <span style="position:absolute;top:0.5rem;right:0.5rem;color:#397"><small>featured</small></span>
 		</header>
 		<footer>
 			<h3>{{ featured_post.tagline }}</h3>
 			<p>{{ featured_post.excerpt | markdownify | strip_html }}</p>
-			<span style="float:right;margin-bottom:1.0em">...click for more!</span>
+			<span style="position:absolute;bottom:0.5rem;right:0.5rem;">...click for more!</span>
 		</footer>
 	</a>
 		{% endif %}
