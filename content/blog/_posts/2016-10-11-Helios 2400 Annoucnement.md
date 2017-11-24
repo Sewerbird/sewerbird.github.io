@@ -2,11 +2,12 @@
 layout: post
 date: '2016-10-11T16:12:05+08:00'
 title: Helios 2400
+assets: "assets/BloomingSuns2017"
 tagline: Status Update & Game Announcement
 ---
 
 Been a while! But I return with a game announcement! 
-![My helpful screenshot]({{ site.url }}/assets/helios2400_minipic1.png)
+![My helpful screenshot]({{ site.url }}/{{page.assets}}/helios2400_minipic1.png)
 
 ## A Game Project
 

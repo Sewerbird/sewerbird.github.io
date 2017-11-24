@@ -2,6 +2,7 @@
 layout : post
 date : '2017-07-11T11:00:00.000+08:00'
 title : 'Broken Arm Saga'
+assets : "assets/BrokenArm2017"
 tagline: Humerus?
 category: blog
 ---
@@ -10,7 +11,7 @@ I broke my arm last month, and I've finally gotten around to writing an account 
 
 
 {:refdef: style="text-align: center;"}
-![Transition]({{site.url}}/assets/Transition.png)
+![Transition]({{site.url}}/{{page.assets}}/Transition.png)
 {: refdef}
 
 <!--more-->
@@ -40,7 +41,7 @@ Naomi rode shotgun to manage directions and operational-communicationss, while G
 I have very little experience with western hospitals, but I have some experience with Chinese ones: a typical Chinese hospital is run with the same level of bedside manner as a Department of Motor Vehicles office. Thankfully, though, Deqing is a sleepy little town and the hospital wasn't busy, so I got immediate inspection. Naomi and Gabriel discussed the details of my situation with the clinician in the ER and I was brought to the xray room and told to drop my arm for a moment. THAT HURT. But I got this picture:
 
 {:refdef: style="text-align: center;"}
-![First Xray]({{site.url}}/assets/broken_arm_xray_before.png)
+![First Xray]({{site.url}}/{{page.assets}}/broken_arm_xray_before.png)
 {: refdef}
 
 I immediately lost the little hope I had that it was a dislocation they could just 'pop back in': this was a major spiral fracture of my right humerus. There was no way this would be fixed in Deqing: best bet was to return to Shanghai in the morning (it was 8:30pm now) and seek a specialist. 
@@ -62,7 +63,7 @@ Once the sun was cresting the mountains I woke up from possibly the least satisf
 I was pretty bummed about the arm, but it also dawned on me: this whole thing would mean I'd have to cancel a nice night out I had planned with a girl I had met a few weeks earlier to go to a jazz club called Heyday. That really properly bummed me out, since I started to realize this injury would probably be a big part of my life for at least a few months. I texted and cancelled on the train platform.
 
 {:refdef: style="text-align: center;"}
-![My Makeshift Sling]({{site.url}}/assets/broken_arm_makeshift_sling.png)
+![My Makeshift Sling]({{site.url}}/{{page.assets}}/broken_arm_makeshift_sling.png)
 {: refdef}
 
 On the train, Gabriel and I started to discuss details about what hospital to go to. I had recommendations from friends on my phone, but Gabriel mentioned that he and his wife had been going to United Children's Hospital lately and were very impressed. It was a bit pricy, but on the company's insurance plan, so perhaps that'd be the best bet. When we arrived in Shanghai, Gabriel called the insurance company and confirmed what needed to be confirmed, and then we were in a cab in Hongqiao on the way to the hospital.
@@ -74,7 +75,7 @@ Twenty hours after my arm broke, I sauntered into the sleepiest "Emergency" door
 Once it was verified that I had sufficient wallet and policy to continue, I was whisked upstairs to an inpatient ward: a spacious hotel room where you can give birth in, die in, or anything between. A specialist orthopedic surgeon would be needed to be called in, but first would come the 3d scan of my arm. A painful horizontal lay-down into a magnetron later, and we got this splendid picture:
 
 {:refdef: style="text-align: center;"}
-![Shattered Humerus CTScan]({{site.url}}/assets/broken_arm_3dscan_1.png)
+![Shattered Humerus CTScan]({{site.url}}/{{page.assets}}/broken_arm_3dscan_1.png)
 {: refdef}
 
 Around 5:00 I thanked Gabriel sincerely for his dedicated help, and promised to keep him up to date about developments: I'd been under his dotage for almost a day, and so didn't want to hold him longer than needed. I messaged Nelson Zhang, one of several good friends of mine, to please bring some things from home: sundries, laptop, and such. Him and Sasha Cherkasova came by and chatted to me around 7:00, bringing with them these and, most importantly, my Tiger.
@@ -84,7 +85,7 @@ Around 5:00 I thanked Gabriel sincerely for his dedicated help, and promised to 
 I wake up and have breakfast with Tigris: a stuffed animal and best friend of mine since I was roughly 3. He's a totem pole that marks where Home is, and I've kept him all these years.
 
 {:refdef: style="text-align: center;"}
-![Tigris & Breakfast]({{site.url}}/assets/broken_arm_withtigris.png)
+![Tigris & Breakfast]({{site.url}}/{{page.assets}}/broken_arm_withtigris.png)
 {: refdef}
 
 He's a source of strength, and a memory of when my family was whole. Being in China, my Mom, Dad, and siblings are literally a world away, so he kind of serves as a stopgap measure. I've been in touch with my Mom thankfully, with my news filtering out eventually to the rest through her reports, but they can't come. Unfortunately, potent as Tigris is, he enhances an attribute of the hospital in a negative way: timelessness.
@@ -134,7 +135,7 @@ I'd say that I was more afraid, but frankly I was so tired of waiting for the op
 I wake up briefly 4 hours later in an annex: my arm hurts so much and I wake up agitated. A nurse fetches a needle of Demerol and I fall asleep again. I wake up again later back in my room: it's dark outside, and I think a doctor briefs me that the surgery was successful
 
 {:refdef: style="text-align: center;"}
-![Xray of Bionic Arm]({{site.url}}/assets/broken_arm_xray_after.png)
+![Xray of Bionic Arm]({{site.url}}/{{page.assets}}/broken_arm_xray_after.png)
 {: refdef}
 
 I try to be grateful, but I'm exhausted and on medication: it all feels very irrelevant and far away, but then the doctor says I have visitors. That catches my attention, and then I'm sleepily delighted to see my friends Eduardo Alarcon and Andrea Guallar enter the room. There is scarcely a couple in the world who are better to awake to than these two gentle Spaniards, and they are very sweet and stay for several hours to keep me company. I can't even hold down celebratory seltzer water in my stomach, but that's okay: they mostly just smile at me in the dimly lit room and I feel safe. I'm very grateful they were the ones the cosmos chose to be the first friends I saw: was a perfect choice.
@@ -150,7 +151,7 @@ Finally, on Wednesday the news comes that I am good enough to discharge from the
 The next week I'm mostly stuck indoors until I can start getting some function back in my arm: the swelling, bruising, and staples are pretty intense, and I have to babysit it pretty gingerly. My muscles are contracted to almost nothing, and I've not even the strength to lift my own arm for several days. Nelson came to help me change my bandage, and it was quite a Frankenstein sight:
 
 {:refdef: style="text-align: center;"}
-![Bruised and Stapled Arm]({{site.url}}/assets/broken_arm_undercast.png)
+![Bruised and Stapled Arm]({{site.url}}/{{page.assets}}/broken_arm_undercast.png)
 {: refdef}
 
 After several days, I gained the superpower of being able to rotate my right forearm 90 degrees, meaning I can type on a laptop again. I look forward eagerly to return to work and feel like a productive member of society, a man, again. After a week of recovery, I limp to work unable to bear another day cooped up in my house. If I felt like I was drifting in space in a spacesuit at the hospital, my home was only marginally better: a spaceship in orbit. Returning to work was like a joyous landing back on earth.

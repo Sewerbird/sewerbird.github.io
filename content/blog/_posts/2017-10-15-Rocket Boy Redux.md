@@ -3,7 +3,8 @@ layout : post
 date : '2017-10-15T11:30:00.000+08:00'
 title : 'Rocket Boy Redux'
 tagline: Lava & Jetpack
-bigpic: "/assets/RocketBoyScreenie0.png"
+assets: "assets/RocketBoy2017"
+bigpic: "/assets/RocketBoy2017/RocketBoyScreenie0.png"
 categories: coding featured
 ---
 
@@ -22,19 +23,19 @@ Then, about a week ago, I was searching for something unrelated in my email acco
 On a caprice, I fired up my editor and loaded up [Love2D](www.love2d.org) to get a window started. Using their built-in physics, I quickly had a basic platformer put together: small white ball hopping amongst green platforms. RocketBoy is a very simple game, fundamentally just being an obstacle course. After a bit of wrangling, I put in the growing 'lava rectangle' that ends the game if you touch it, and that was the basics.
 
 <figure>
-<img alt="Simple Game" src="{{site.url}}/assets/RocketBoyScreenie1.png" style="text-align: center; width: 100%; max-width:600px;"/>
+<img alt="Simple Game" src="{{site.url}}/{{page.assets}}/RocketBoyScreenie1.png" style="text-align: center; width: 100%; max-width:600px;"/>
 </figure>
 
 Next came the skinning. Armed with all the assets, I wrote up code that would intelligently draw the platforms' graphics, with tops and bottoms and edges getting different images. I changed the small white ball to instead show RocketBoy in his dorky glory, and textured the lava rectangle.
 
 <figure>
-<img alt="Simple Game" src="{{site.url}}/assets/RocketBoyScreenie2.png" style="text-align: center; width: 100%; max-width:600px;"/>
+<img alt="Simple Game" src="{{site.url}}/{{page.assets}}/RocketBoyScreenie2.png" style="text-align: center; width: 100%; max-width:600px;"/>
 </figure>
 
 Another distinguishing aspect of RocketBoy is that it leans on particle effects to make itself more visually interesting. The jetpack's fumes and lava froth took a while for me to recreate, as it was from memory, and I'm not sure I matched 1-to-1 the old game, but I feel they convey the same impact. I also made platforms blacken as the lava approached and consumed them.
 
 <figure>
-<img alt="Simple Game" src="{{site.url}}/assets/RocketBoyScreenie3.png" style="text-align: center; width: 100%; max-width:600px;"/>
+<img alt="Simple Game" src="{{site.url}}/{{page.assets}}/RocketBoyScreenie3.png" style="text-align: center; width: 100%; max-width:600px;"/>
 </figure>
 
 Finally, I had to create the platforms themselves. Up to this point of testing, platforms had just been scattered at random, but the real challenge of RocketBoy is that it threw incredibly annoying hurdles in your way: as much as it was a game about having a jetpack, it was more characterized by lava creeping up on you while your jetpack worked against you smoothly navigating the field. So, I recreated as many of the level segment hurdles I could remember and threw them in.

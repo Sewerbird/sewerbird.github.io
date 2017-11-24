@@ -2,12 +2,13 @@
 layout: post
 date: '2016-12-11T20:40:11+08:00'
 title: Christmas Demo
+assets: "assets/BloomingSuns2017"
 tagline: Helios In Your Stocking!
 ---
 
 Lots of work in November means holiday rewards!
 
-![My helpful screenshot]({{ site.url }}/assets/Screen%20Shot%202016-12-11%20at%2019.47.06.png)
+![My helpful screenshot]({{ site.url }}/{{page.assets}}/Screen%20Shot%202016-12-11%20at%2019.47.06.png)
 
 ## The Last Month
 

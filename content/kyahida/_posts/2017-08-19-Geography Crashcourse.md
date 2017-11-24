@@ -2,6 +2,7 @@
 layout: bookfacepost
 date: '2017-08-19T14:23:00.000+08:00'
 title: 'Geography Crashcourse'
+assets: "assets/KyahidaGeographyCrashCourse2017"
 tagline: Geography
 category: kyahida
 ---
@@ -14,7 +15,7 @@ The Nenth is a moon a little bit (80%) smaller than Earth, and orbits around Rae
 
 <figure>
   <img
-   src="{{site.url}}/assets/RaelAndNenth.svg"
+   src="{{site.url}}/{{page.assets}}/RaelAndNenth.svg"
    alt="A picture of a large moon orbitting a milky-white gas giant"
    />
 </figure>
@@ -22,7 +23,7 @@ The Nenth is a moon a little bit (80%) smaller than Earth, and orbits around Rae
 If we zoom in on the moon, we note that the Nenth has oceans of its own: most of it lies underwater, with only a cap of land around the north pole poking up through the ocean. Here is a map of the Nenth projected onto a map of Earth for comparison of latitudes and landmass shape:
 
 <figure>
-	<img src="{{site.url}}/assets/Full_Globe.png" alt=""/>
+	<img src="{{site.url}}/{{page.assets}}/Full_Globe.png" alt=""/>
 </figure>
 
 As you can see, the whole of the land is about the size of Africa, when you take into consideration the smaller radius of the Nenth, planted firmly on the pole. Although green on this map, the vast bulk of this land is an icy rocky wasteland, only giving away to conifer forests and tundra near its southernmost coast. This northern expanse is named 'Esoenska' in the tongue of the Sakire, and is a land unexplored and avoided for its inhospitable climate. A lack of mountain ranges in the extreme north of the Nenth means freezing driving winds race towards the sea, leaving (at most) a windswept land of rock and lichen living marginally in their wind-shade. The Great Southern Ocean throws its own warm wind north to fight the polar cold, and harbors grand hurricanes that meander around the equator.
@@ -32,7 +33,7 @@ However, not all of the Nenth is open ocean, and not all of the Nenth is the fri
 ## Kyahida and its Environs
 
 <figure>
-	<img src="{{site.url}}/assets/Physical_Overview.svg" alt=""/>
+	<img src="{{site.url}}/{{page.assets}}/Physical_Overview.svg" alt=""/>
 </figure>
 
 The inspiration for Kyahida's terrain comes from the Pacific Northwest and Alaska: islands and sounds have been carved out of the coast by glaciers and tectonic activity. The waters teem with fish and the rocky shores are bespeckled with clams, oysters, and barnacles. Tall conifers carpet the steep slopes leading up from the water and mist clings to them in the morning until the midday sun half-heartedly burns the clouds away.
@@ -62,7 +63,7 @@ The Sakire have lived in Kyahida for at least a thousand years, and for the long
 Sakire maintain the old ways and will migrate on a long cycle, but will do so within a fixed region. This has led to the rise of a handful of city-states that have become the local centers of trade for their area. Each city state is presided over by a Castellan, who resides on a Throne. The cities are called after this throne ('Bel' in the Jezzali language)  and the warlord who built it. Thus, you have the Throne of Jeze, the Throne of Sera, the Throne of Kicab, and so on: The City States of Kyahida:
 
 <figure>
-	<img src="{{site.url}}/assets/Political_Overview.svg" alt=""/>
+	<img src="{{site.url}}/{{page.assets}}/Political_Overview.svg" alt=""/>
 </figure>
 
 Each Throne has a domain over which it guarantees the Law of its castellan which are shown on the map. The Throne of Jeze 'Jezebel' is the foremost of peers, being the largest and most influential domain in Kyahida, and is the location of the Castellan Court. In Earthly terms, the political organization of Kyahida is inspired by the city-states of Sumeria, crossed with something like the Iroquois Federation. Here, I briefly detail each Throne: what its land is like, its primary activities and concerns, and a bite of its history.
@@ -70,7 +71,7 @@ Each Throne has a domain over which it guarantees the Law of its castellan which
 ### Jezebel
 
 <span class="marginnote">
-	<img src="{{site.url}}/assets/Jezebel.svg" alt=""/>
+	<img src="{{site.url}}/{{page.assets}}/Jezebel.svg" alt=""/>
   The Jezzali river primarily defines the lands of Jezebel
 </span>
 
@@ -111,7 +112,7 @@ Desribel is only a 'throne' out of courtesy: its people have much more in common
 ### Ricabel
 
 <span class="marginnote">
-	<img src="{{site.url}}/assets/Ricabel.svg" alt=""/>
+	<img src="{{site.url}}/{{page.assets}}/Ricabel.svg" alt=""/>
   It's perhaps good for Kyahida that the Ricabi's meekness is matched only by their entrepreneurship, or life on the Hyalisam would be much less bustling
 </span>
 
@@ -122,7 +123,7 @@ Ricabel sits on the isthmus between the Nakaija and the Hyalisam, and commands a
 ### Nakibel
 
 <span class="marginnote">
-	<img src="{{site.url}}/assets/Nakibel.svg" alt=""/>
+	<img src="{{site.url}}/{{page.assets}}/Nakibel.svg" alt=""/>
   The Nakibi people have a festival each year where they send burning boats off the shore to fend off bad luck from across the lake. The Lake Peekers do the same.
 </span>
 
@@ -133,7 +134,7 @@ Politically, Nakibel is the middle-child of Kyahida: not quite as big and powerf
 ### Serabel
 
 <span class="marginnote">
-	<img src="{{site.url}}/assets/Serabel.svg" alt=""/>
+	<img src="{{site.url}}/{{page.assets}}/Serabel.svg" alt=""/>
   The Serran plain features the largest spore fields in Kyahida. In some parts, the mycospores are so numerous that their fog is a dangerous psychoactive hazard
 </span>
 
@@ -142,12 +143,12 @@ Last, but not least, is the Throne of Sera. Serabel is an isolated land, surroun
 ## Conclusion
 
 <span class="marginnote">
-	<img src="{{site.url}}/assets/ForWebPugetComparison.jpg" alt=""/>
+	<img src="{{site.url}}/{{page.assets}}/ForWebPugetComparison.jpg" alt=""/>
   Kyahida is inspired by the Pacific Northwest, and particularly the Puget Sound. Jezebel sits where Seattle would,and the other cities are placed in locations similar to Tacoma, Everett, Olympia, and Mt. Vernon. Kyo-Sara is cribbed right from Mount Rainier.
 </span>
 There's so much more to be said, but even with only the most cursory descriptions of the main highlights, this post has gotten too long. There will be future posts detailing each area in more detail, more maps, and things not covered at all (like the various unincorporated tribes, the Golems, the Remnant, etc). For now, I've been working on the topography of the area in a preparatory effort to figure out all the micro-climates of the area, so I can know exactly what food is where and which fish can be had! Here's a sneak peek... several scrapped copies and some colored pencils later:
 
 
 <figure>
-	<img src="{{site.url}}/assets/Hypsography_Preview.jpg" alt=""/>
+	<img src="{{site.url}}/{{page.assets}}/Hypsography_Preview.jpg" alt=""/>
 </figure>
