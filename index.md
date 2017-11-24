@@ -3,7 +3,7 @@ layout: default
 subtitle: home
 ---
 
-<div class="flex flex_center_justified one two-600 three-900 four-1200 demo">
+<div class="center flex flex_wrap demo">
 	<!-- Introductory Jumbo -->
 	<div class="noback card">
 		<img class="center" src="assets/icon250px.png" style="width:100%;padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;" alt="sewerbird" >
