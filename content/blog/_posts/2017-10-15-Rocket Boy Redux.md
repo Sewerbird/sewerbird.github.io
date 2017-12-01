@@ -5,7 +5,7 @@ title : 'Rocket Boy Redux'
 tagline: Lava & Jetpack
 assets: "assets/RocketBoy2017"
 bigpic: "/assets/RocketBoy2017/RocketBoyScreenie0.png"
-categories: coding featured
+categories: coding
 ---
 
 This past week, I revisited an old iOS game I helped work on. You can [play it here]({{site.url}}/scripts/rocketboy) if you have a keyboard.
