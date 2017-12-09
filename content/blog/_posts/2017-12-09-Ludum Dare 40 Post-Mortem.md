@@ -53,5 +53,9 @@ This got added a bit too late into the game, and should've been the logical loca
 
 ## General Remarks
 
-In retrospect, I definitely was struggling to build up a basic toolkit to use while also trying to push out some facsimile of a game, and this ended up frustrating my ability to make something worth showing off. One noteworthy annoyance was that the `Stead` class used to represent position in the World, on the Screen, and on the Board was quite annoying to initialize and transform, and it's the main thing I circumvented with my heavy use of the `Board:search` method.
+In retrospect, I definitely was struggling to build up a basic toolkit to use while also trying to push out some facsimile of a game, and this ended up frustrating my ability to make something worth showing off. One noteworthy annoyance was that the `Stead` class used to represent position in the World, on the Screen, and on the Board was quite annoying to initialize and transform, and it's the main thing I circumvented with my heavy use of the `Board:search` method. I'll have to spend some more time meditating on how to make it easier on myself in the future.
+
+Working at Coderbunker was a pretty good choice, since snack breaks were very reliable, and that helped me keep focused. However, my own home was better for creative work, since I was in a more relaxed and less austere environment. The biking forced by going to Coderbunker was great for waking up in the morning, though, so I'm sure next Ludum Dare I'll go to Coderbunker again.
+
+I may consider giving up making my own custom engine code, and instead learn a proficiency in a Javascript game engine, Unity, or something else. I find certain aspects of engine writing to be very fun, but when my enthusiasm flags it definitely gets in the way of me getting the 'game creation' actually done. I'm just a hobbyist game creator, so I have the luxury of using inefficient tool stacks: I'd not roll my own engine if I had a paying client relying on me.
 
