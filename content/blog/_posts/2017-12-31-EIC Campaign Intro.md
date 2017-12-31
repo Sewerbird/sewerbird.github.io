@@ -57,7 +57,7 @@ The campaign begins at the town square of Hasslehold, as our heroes hear word of
 
 ## Roster
 
-This is a list of players in the campaign, and their character's current status.
+This is a list of players in the campaign, and their character's current status. (To Be Updated)
 
 - *UNKNOWN* **by Charles**: In Hasslehold
 - *UNKNOWN* **by Kirk**: In Hasslehold
