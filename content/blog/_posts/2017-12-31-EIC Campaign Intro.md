@@ -17,7 +17,7 @@ We will play twice a month, aiming for every-other-week. Seven people have 'sign
   - A refreshment
   - A Pencil
   - Some Paper
-  - Your Character Sheet
+  - [Your Character Sheet](http://media.wizards.com/2015/downloads/dnd/DDALRoD_CharacterSheet.pdf)
   - Full set of dice
 
 A few sets of dice and some extra materials will be available, but it's best to make sure you bring your own stuff for maximum convenience.
