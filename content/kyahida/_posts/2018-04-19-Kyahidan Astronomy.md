@@ -4,10 +4,10 @@ date: '2018-04-19T00:06:00.000+08:00'
 title: 'Kyahidan Astronomy'
 assets: "assets/Planisphere2018"
 tagline: Astronomy
-category: featured
+category: featured kyahida
 ---
 
-Today I present a bird's eye view of the region of Kyahidah, like before, except now looking up to the heavens!
+Today I present a bird's eye view of the region of Kyahida, like before, except now looking up to the heavens!
 
 ## Planisphere
 
