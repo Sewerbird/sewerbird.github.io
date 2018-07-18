@@ -31,7 +31,7 @@ Finally, everyone has a 'genome' of traits. I have traits right now for how peop
 Aside a big ol' data file, I decided to make the data a bit more visual: no one likes to read a big data file. So, I use the graphViz package to create a DOT file from the census data. For each person alive right now, I draw a square (for men) or circle (for women) and then connect them by their relationship. Let's look at a family: 
 
 {:refdef: style="text-align: center;"}
-![Graph of Brierton Family. A notched square labelled 'Odus Brierton' points to a circle labelled 'Zoe Nazarian' with a red arrow. The circle points to several other shapes with blue lines, and the square points to shapes outside the image with purple lines. ]({{site.url}}/assets/BriertonFamily.svg)
+![Graph of Brierton Family. A notched square labelled 'Odus Brierton' points to a circle labelled 'Zoe Nazarian' with a red arrow. The circle points to several other shapes with blue lines, and the square points to shapes outside the image with purple lines. ]({{site.url}}/assets/KyahidaGeneology2017/BriertonFamily.svg)
 {: refdef}
 
 Here, we see the family of Odus Brierton and his wife, Zoe Nazarian. The red arrow shows that the two are married, and the blue arrows show Zoe's children: two boys, two girls, and one infant girl who was born just this year. Odus had a wife before Zoe, but she passed away: that's represented by the notched corners of his square. Further, three purple lines lead out of the picture to his three sons by his first wife, each of whom is roughly Zoe's age! Odus is 53 and Zoe is 36 years old.
@@ -39,7 +39,7 @@ Here, we see the family of Odus Brierton and his wife, Zoe Nazarian. The red arr
 There are other kinds of relationships not present in the Brierton household: I also show affairs (bright green lines), adoptions (orange lines) and divorces (cyan lines). You can see that in the full 'Town Map' here: you may want to zoom in to explore it better!
 
 {:refdef: style="text-align: center;"}
-![Very large graph in the manner of the Brierton Family, with many shapes connected by varied-color lines]({{site.url}}/assets/Briertown.svg)
+![Very large graph in the manner of the Brierton Family, with many shapes connected by varied-color lines]({{site.url}}/assets/KyahidaGeneology2017/Briertown.svg)
 {: refdef}
 
 A blue line points from a mother to a child. a red line points from a husband to his spouse. orange people are orphans whose parents have died, and orange lines point from an adopter to their foster child. purple lines point from a father to his children if the mother has died, and a green arrow signifies an affair. finally, everyone is grouped into boxes representing households: everyone in the same box 'live with each other' as a family unit.
@@ -47,7 +47,7 @@ A blue line points from a mother to a child. a red line points from a husband to
 Finally, I can also spit out the traditional family tree for an individual, like so:
 
 {:refdef: style="text-align: center;"}
-![Traditionally shaped family tree showing one person's ancestors (and their ancestors and so on) above as well as descendents below]({{site.url}}/assets/MillyMoralis.svg)
+![Traditionally shaped family tree showing one person's ancestors (and their ancestors and so on) above as well as descendents below]({{site.url}}/assets/KyahidaGeneology2017/MillyMoralis.svg)
 {: refdef}
 
 In this diagram, Milly Moralis is shown in orange with her two kids below her in blue. Her father (going up the red arrow for 'father') is Xavier Moralis and her mother is Diana Vanstraten (going up the blue arrow for 'mother'). Her dead grandparents and great grandparents are shown above that in gray in a similar fashion. As in the prior graphs, each person is listed with their current age, or the age at which they died (if their outline is gray). We can see by the lines that Cassius Seger is Milly's grandfather as well as great grandfather, and this reflects the scandalous fact that Cassius cuckolded two generations of Vanstratens: Mrs. Sucharski's husband John Vanstraten and his second nephew Michael Vanstraten.
