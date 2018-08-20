@@ -6,6 +6,13 @@
   <body>
   	<nav>
   		<a href="/" class="brand">
+        <object id="siteLogo" 
+          class="center" 
+          data="/assets/siteLogoDark.svg" 
+          type="image/svg+xml" 
+          style="float: left; height: 100%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;" 
+          alt="sewerbird" >
+        </object>
   			<span>Sewerbird</span>
   		</a>
       <div class="menu">
@@ -16,9 +23,7 @@
         {% endfor %}
       </div>
   	</nav>
-    <br/><br/>
     {{ content }}
-    <div class="center"><a href="#">Back To Top</a></div>
     <footer class="center pagefooter">
       Handmade by Edward Miller &copy; 2010-{{ site.time | date: '%Y' }}
     </footer>

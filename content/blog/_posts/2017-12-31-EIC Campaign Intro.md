@@ -4,7 +4,7 @@ date: '2017-12-31T00:00:00+08:00'
 title: EIC Dungeons & Dragons Campaign Intro
 tagline: 
 assets: assets/EICDNDCampaign
-category: featured
+category: gaming
 ---
 
 Welcome to the EIC Dungeons & Dragon's Campaign, run by yours truly!

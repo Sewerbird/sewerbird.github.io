@@ -10,12 +10,14 @@
 	text-align: center;
 }
 
-nav { background-color: #3D3D3D; }
+nav { padding: 0; background-color: #3D3D3D; }
 
 nav .brand { font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
             color: #EDEDED;
             font-size: 32px;
-            font-weight: 300; }
+            font-weight: 300;
+            padding: 0;}
+nav .a { padding: 0; }
 
 a.button { font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
            color: #EDEDED; }
