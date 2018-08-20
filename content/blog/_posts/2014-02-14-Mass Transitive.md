@@ -2,6 +2,7 @@
 layout: post
 title: Transitive Syntax and Adjectives
 tagline: Mass Transitive 
+categories: kyahida language
 ---
 
 Part of being an expatriate is to find creative ways to not eat the local food. It's not that I dislike Chinese food: far from it, I enjoy me some guōtiē. But sometimes I just want McDonald's, and they deliver over here, right to your door, and it's raining outside, and...

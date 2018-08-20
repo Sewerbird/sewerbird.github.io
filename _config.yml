@@ -29,5 +29,5 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
-permalink: /:categories/:title
+permalink: /content/:title
 

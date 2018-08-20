@@ -2,6 +2,7 @@
 layout: post
 title: Attributive Sentences
 tagline: The Basics 
+categories: kyahida language
 ---
 
 Before we can get to the juiciest strategies for plopping appositive phrases in sub-relativized whojamacallits while referencing referents three sentences ago, we're going to need three things:

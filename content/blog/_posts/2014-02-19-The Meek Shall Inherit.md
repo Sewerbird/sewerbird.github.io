@@ -2,6 +2,7 @@
 layout: post
 title: Oblique Relativization I
 tagline: The Meek Shall Inherit 
+categories: kyahida language
 ---
 
 In what, in my eyes, is the culmination of several days of build-up, we shall attain the lofty goal of elevating an oblique object of a subclause to the grand status of subject of a matrix verb! I must have better things to do with my life, but such is the ailment of the conlanger, I suppose. So, what precisely are we trying to achieve in terms of a typical utterance? This:

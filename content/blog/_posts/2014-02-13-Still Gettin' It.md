@@ -2,6 +2,7 @@
 layout: post
 title: Introducing Phrasal Verbs
 tagline: Still Getting It 
+categories: kyahida language
 ---
 
 Dropped it pretty abruptly last time, so let's resume: we were just about to do something interesting. So far, we've two basic constructions that are keeping their nose clean - the semantics involved aren't too tricky, and I've not presented anything particularly outlandish. But wait--

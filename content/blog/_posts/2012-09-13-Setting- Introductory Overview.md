@@ -2,6 +2,7 @@
 layout: post
 title: Introductory Overview
 tagline: Setting
+categories: kyahida language
 ---
 
 The great city of Jezevel is an enormous vision of bone and gypsum, a sprawling, towering landscape of termite mound skyscrapers and alleyway warrens. Burying a peninsula the size of Denmark, stopped only by the the icy wastes to the north and the arctic ocean on all other sides, Jezevel is a surreal ruin on the face of a barren, snow-covered planet. The logic of the city is chaotic, like some architect's bizarre nightmare: white bridges crisscrossing each other, avenues terminating in dead-ends nonetheless girded along their length by impressive archways, mazeways giving way to plazas overlooked by the vertiginous height of the city spires. The walls are smooth like bone, the ground a fine alabaster, and the only thing stranger than its form is that the city is almost entirely empty.

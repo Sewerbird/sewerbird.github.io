@@ -4,6 +4,7 @@ date: '2017-12-09T00:00:00+08:00'
 title: Ludum Dare 40 Post-Mortem
 tagline: Picking Over the Code
 assets: assets/LudumDare40PostMoretem
+categories: coding jams
 category: Coding
 ---
 

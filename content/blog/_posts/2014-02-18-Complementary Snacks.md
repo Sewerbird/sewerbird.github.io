@@ -2,6 +2,7 @@
 layout: post
 title: Complement Clauses
 tagline: Complementary Snacks 
+categories: kyahida language
 ---
 
 Still on the quest to use passive verbs to 'relativize' oblique and indirect objects of subclauses, today we will investigate complementizing a clause. 'Complementizing' is the process of turning an independent clause into an argument of another clause: this is distinct from relativizing in that we aren't providing extra information about one of the verb's actors, but instead treating the clause *as a whole* as an argument of the verb. Some examples include "I knew **that it was going to rain**", "**That he was stinking, filthy rich** came as a surprise to me", "**When he ran to the police** I grabbed the gat", and similar. The 'that' in the examples is acting as a complementizer particle, although I'm not certain about the status of the last example's "when": it is either a complementizer or simply a preposition/adverb-thing with an 'empty complementizer' phrase as its argument.
