@@ -25,7 +25,11 @@ twitter_username: ekmiv
 github_username:  sewerbird
 
 # Build settings
-markdown: kramdown
+markdown: kramdown 
+highlighter: rouge 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 exclude:
   - Gemfile
   - Gemfile.lock
