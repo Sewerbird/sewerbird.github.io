@@ -10,17 +10,19 @@
           window.setInterval(
             function(){
               var ele = document.getElementById("Layer1")
-              var a = 1 * Math.sin(Date.now()/1000)
+              var a = 0.5 * Math.sin(Date.now()/1000)
               ele.setAttribute("transform", "rotate(" + a + " 0 0)")
             }, 100
           ) 
+          /*
           window.setInterval(
             function(){ 
               var ele = document.getElementById("Full-Eye")
               var curr = ele.getAttribute("display")
               var next_val = curr == "true" ? "none" : "true";
               document.getElementById("Full-Eye").setAttribute("display",next_val); 
-            },5000)
+            },15000)
+            */
         </script>
     </g>
     <rect x="10" y="0" width="900" height="900" style="fill:rgba(0,0,0,0);stroke:#718500;stroke-width:44px;"/>

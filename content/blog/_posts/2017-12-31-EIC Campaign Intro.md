@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2017-12-31T00:00:00+08:00'
-title: EIC Dungeons & Dragons Campaign Intro
+title: EIC D&D Campaign
 tagline: 
 assets: assets/EICDNDCampaign
 category: gaming
