@@ -5,7 +5,7 @@ subtitle: home
 
 <div class="center flex flex_no_wrap demo" style="flex-wrap: nowrap; align-content: stretch">
   <div>
-    <!-- Introductory Jumbo -->
+    <!-- Introduction Sidebar -->
     <div class="card">
       <header>
         <object id="siteLogo" 
@@ -18,17 +18,21 @@ subtitle: home
       <footer>
         Welcome to my site! Here you'll find prose, code, and demos that I've written.
         <h3>Status</h3>
-        <li>Last updated: 2018-08-21</li>
+        <li>Last updated: {{site.time | date: '%B %-d  %Y'}}</li>
         <li>Location: Shanghai</li>
         <h3>Me on the Web</h3>
         <li><a href="/about">Resume</a></li>
         <li><a href="https://github.com/sewerbird">Github</a></li>
-        <li><a href="https://sewerbird.linkedin.com">LinkedIn</a></li>
+        <!--li><a href="https://sewerbird.linkedin.com">LinkedIn</a></li-->
         <li><a href="https://www.youtube.com/channel/UCyxXDStUZPtQgQYAZdKo93w?">Youtube (Older)</a></li>
         <h3>Recommended Sites</h3>
         <li><a href="https://tokylabs.com">Tokylabs (Shanghai/Barcelona)</a></li>
         <li><a href="https://coderbunker.com/members">Coderbunker (Shanghai)</a></li>
         <li><a href="https://xinchejian.com">Xinchejian (Shanghai)</a></li>
+        <h3>Recent Tech Tinkered With</h3>
+        <li><a href="https://moonscript.org">Moonscript</a></li>
+        <li><a href="https://love2d.org">Löve2d</a></li>
+        <li><a href="https://www.celestron.com/products/skymaster-15x70-binocular">Urban Stargazing</a></li>
       </footer>
     </div>
   </div>

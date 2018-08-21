@@ -59,10 +59,12 @@ The campaign begins at the town square of Hasslehold, as our heroes hear word of
 
 This is a list of players in the campaign, and their character's current status. (To Be Updated)
 
-- *UNKNOWN* **by Charles**: In Hasslehold
-- *UNKNOWN* **by Kirk**: In Hasslehold
-- *UNKNOWN* **by Sandy**: In Hasslehold
-- *UNKNOWN* **by Brett**: In Hasslehold
-- *UNKNOWN* **by Vijay**: In Hasslehold
-- *UNKNOWN* **by Kendall**: In Hasslehold
-- *UNKNOWN* **by Riley**: In Hasslehold
+- *Beckett's Emissary* **by Charles**: In Hasslehold
+- *Werlen Aebischer* **by Kirk**: In Hasslehold
+- *Tick* **by Sandy**: In Hasslehold
+- *Shalazar* **by Brett**: In Hasslehold
+- *Valinor* **by Vijay**: In Hasslehold
+- *Shalakupu* **by Kendall**: In Hasslehold
+- *Grug* **by Riley**: In Hasslehold
+- *Karenvioth* **by Andrew** In Hasslehold
+- *Haldalin* **by Sean** In Hasslehold
