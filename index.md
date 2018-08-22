@@ -10,7 +10,7 @@ subtitle: home
       <header>
         <object id="siteLogo" 
           class="center" 
-          data="assets/animatedsiteLogo.svg" 
+          data="assets/animatedSiteLogo.svg" 
           type="image/svg+xml" 
           style="width:100%;padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;" 
           alt="sewerbird" ></object>
