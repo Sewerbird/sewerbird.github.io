@@ -4,6 +4,7 @@ date: '2016-10-11T16:12:05+08:00'
 title: Helios 2400
 assets: "assets/BloomingSuns2017"
 tagline: Status Update & Game Announcement
+categories: gamemaking
 ---
 
 Been a while! But I return with a game announcement! 

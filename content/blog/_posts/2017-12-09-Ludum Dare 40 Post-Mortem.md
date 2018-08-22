@@ -4,8 +4,7 @@ date: '2017-12-09T00:00:00+08:00'
 title: Ludum Dare 40 Post-Mortem
 tagline: Picking Over the Code
 assets: assets/LudumDare40PostMoretem
-categories: coding jams
-category: Coding
+categories: coding jams gamemaking
 ---
 
 Today, I do a code-review for myself where I critique the code I wrote for the Ludum Dare: time constraints don't lead to pristine code, so I'm sure there's plenty to critique!

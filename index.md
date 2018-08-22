@@ -58,7 +58,8 @@ subtitle: home
     {% assign project = site.data.ed_projects[con] %}
     <div class="project card">
       <header>
-        <a class="cardtitle" href="{{ BASE_PATH }}{{ project.project_page }}"><h2>{{project.name}}</h2></a>
+        <a class="cardtitle" href="{{ BASE_PATH }}{{ project.project_page }}"><h2>{{project.name}}</h2>
+        <span style="position:absolute;bottom:0.5rem;right:0.5rem;"><small>(more)</small></span></a>
       </header>
       <footer>
         <p class="cardtext">{{project.frontpage_blurb}}</p>

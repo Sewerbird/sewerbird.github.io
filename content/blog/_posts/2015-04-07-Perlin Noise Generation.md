@@ -3,7 +3,7 @@ layout: post
 date: '2015-04-07T01:13:00.000+08:00'
 title: Perlin Planet Production
 tagline: Hills are Alive
-featured: 1
+categories: coding gamemaking
 ---
 
 Arbitrary planetary maps of imaginary worlds - simple as static!
@@ -39,7 +39,7 @@ The first thing I do is to choose the map projection I will display the map with
 
 Here are the relevant transformations:
 
-{% highlight javascript %}
+```javascript
 //Convert a pixel {x,y} to a coordinate {latitude, longitude}
 function pxCoordToLatLng(x,y,width,height){
 	//assumes width = 2 * height
@@ -60,7 +60,7 @@ function latLngTo3D(lat,lon,rad,alt)
 		z : rad * Math.sin(ls)
 	}
 }
-{% endhighlight %}
+```
 
 The idea here is simple: I take the pixel coordinate and pass it into pxCoordToLatLng to get back a latitude and longitude. I then take that latitude and longitude and find a three-dimensional point in space. Once I have this 3-vector, I know where to ask my perlin noise function to retrieve a noise value! We'll use this to know what to draw on our map at each pixel.
 
@@ -68,7 +68,7 @@ The idea here is simple: I take the pixel coordinate and pass it into pxCoordToL
 
 Noise by itself doesn't look much like a planet, of course - terrain has more structure than noise. The first observation about terrain is that it has low frequency bumps (long rolling hills, plains, coastlines) as well as high frequency bumps (craggy bits, mountain tops, coastal jaggedness). Therefore, at each point there are a number of different frequencies we will weigh: how 'rolly' vs. how 'craggy' vs. how 'rocky' and such. Here is the bit of code that does that, for each point:
 
-{% highlight javascript %}
+```javascript
 //Get coordinate and compose weighted average of noises
 	var summand = 0;
 	var weights = [0.5, 0.25, 0.125, 0.0625, 0.03125, 0.015625, 0.0078125, 0.00390625]
@@ -80,7 +80,7 @@ Noise by itself doesn't look much like a planet, of course - terrain has more st
 		summand += weights[lvl] * noise.simplex3(pos.x/freq,pos.y/freq,pos.z/freq)
 	}
 	var v = normalize(summand,-1.0,1.0)
-{% endhighlight %}
+```
 
 This is very simply a weighted average of 8 kinds of noise at the point on the surface of our planet. The first kind of noise is long an rolling, and further has the largest contribution to the point's elevation - it reflects the fact that terrain exhibits large scale patterns. However, each successive noise is twice as 'jittery' but is also two times more 'local'. This gets us bumpiness at many scales, from a mountain range to a hillock. I then quickly make sure the pixel's elevation is ready to render into a color reflecting its altitude, and we're done other than assigning a the color.
 
@@ -88,7 +88,7 @@ This is very simply a weighted average of 8 kinds of noise at the point on the s
 
 The final step is to make a colors scheme. Each pixel now has a value between 0 and 1, where 'zeroes' reflect the lowest trenches of the oceans and 'ones' are the tallest peaks. In the demo, there are three color domains: the oceans, the lower altitudes above sea level, and the higher altitudes above the tree line.
 
-{% highlight javascript %}
+``` javascript
 	if(v <= seaLevel )
 		ctx.fillStyle = "rgb(30,"+Math.floor(125 * (6.66 * v))+",235)"
 	else if(v <= treeLevel)
@@ -97,7 +97,7 @@ The final step is to make a colors scheme. Each pixel now has a value between 0 
 		ctx.fillStyle = "rgb("+Math.floor(30 + 205 * v)+","+(Math.floor(205 * v)+30)+","+Math.floor(70 + 205 * v)+")"
 	else
 		ctx.fillStyle = "rgb(255,125,125)"
-{% endhighlight %}
+```
 
 ## Interactive Demo
 

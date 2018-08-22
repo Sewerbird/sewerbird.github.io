@@ -3,7 +3,7 @@ layout: post
 date: '2015-03-26T01:13:00.000+08:00'
 title: Fractal Map Generation
 tagline: Land Grab
-featured: 0
+categories: coding gamemaking
 ---
 
 A quick doodle with Midpoint Displacement. I am instead going to use perlin noise for this kind of thing, but was fun to (badly) implement the noise function myself! I've left this quick demo here for posterity.

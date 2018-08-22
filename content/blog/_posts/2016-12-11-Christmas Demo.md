@@ -4,7 +4,7 @@ date: '2016-12-11T20:40:11+08:00'
 title: Christmas Demo
 assets: "assets/BloomingSuns2017"
 tagline: Helios In Your Stocking!
-categories: coding jams
+categories: coding jams gamemaking
 ---
 
 Lots of work in November means holiday rewards!

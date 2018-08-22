@@ -3,7 +3,7 @@ layout: post
 date: '2015-03-14T23:13:00.000+08:00'
 title: Missile Defense
 tagline: High Stakes Stress!
-featured: 1
+categories: gamemaking
 ---
 
 Try your luck at stopping an endless barrage of thermonuclear missiles!
