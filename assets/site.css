@@ -10,6 +10,7 @@
 .toc {
     margin-left:auto;
     margin-right:auto;
+    max-width: 50rem;
 }
 
 .toc th {
@@ -33,22 +34,72 @@
     background: #F3FFF3;
 }
 
+.toc tr td:first-child {
+    width: 30px;
+}
+.toc tr th:first-child {
+    width: 30px;
+}
+
 .toc tr:hover {
     background: aliceblue;
     cursor: pointer;
 }
 
 .toc td a {
-  display: block;
   text-decoration: none;
+}
+
+.toc td a .tagline {
+  font-size: 0.6em;
+  color: #3D3D3D;
+}
+
+.toc td a .featured_tag {
+  vertical-align: top;
+  color: var(--sewerbird-header-color);
+  font-size: 0.2em;
+}
+
+.toc .excerpt{
+  margin-top: 1.0em;
+  font-size: 0.4em;
+  color: #3D3D3D;
 }
 
 .toc td a:visited {
   color: var(--sewerbird-link-color)
 }
 
+.toc th .about_button {
+  float: right;
+  background: #8F9F9F;
+  color: #FFFFFF;
+  border-radius: 0.5em;
+  font-size: 0.8em;
+  font-weight: normal;
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+  padding: 0.25em;
+  margin: 0.25em;
+  text-decoration: none;
+}
+
 .toc td a:link {
   color: var(--sewerbird-link-color)
+}
+
+.toc tr .featured {
+	background: #DED;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.2em;
+}
+
+
+.toc tr .break {
+  height: 0.15em;
+  background: var(--sewerbird-header-color)
 }
 
 .center{
