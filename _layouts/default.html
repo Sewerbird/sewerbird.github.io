@@ -1,31 +1,12 @@
 <html lang="en">
   <head>
-  	<link rel="stylesheet" href="/assets/mypicnic.min.css" />
     <link rel="stylesheet" href="/assets/site.css" />
     <link rel="stylesheet" href="/assets/monokai.css" />
     <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/favicon.ico">
     <link rel='mask-icon' href='/assets/siteSafari.svg' color='#3F3F3F'>
+    <meta charset="utf-8"/>
   </head>
   <body>
-  	<nav>
-  		<a href="/" class="brand">
-        <object id="siteLogo" 
-          class="center" 
-          data="/assets/siteLogoDark.svg" 
-          type="image/svg+xml" 
-          style="float: left; height: 100%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;" 
-          alt="sewerbird" >
-        </object>
-  			<span>Sewerbird</span>
-  		</a>
-      <div class="menu">
-        {% for page in site.pages %}
-        {% if page.in_nav != null %}
-        <a href="{{ BASE_PATH }}{{ page.url }}" class="button">{{page.title}}</a>
-        {% endif %}
-        {% endfor %}
-      </div>
-  	</nav>
     {{ content }}
     <footer class="center pagefooter">
       Handmade by Edward Miller &copy; 2010-{{ site.time | date: '%Y' }}

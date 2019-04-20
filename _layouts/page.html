@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-<div class="sheet_column">
-		<div class="center ">
-			<br>
-			<h1>{{ page.title }}</h1>
-			{% if page.tagline %}<h1><small>{{page.tagline}}</small>{% endif %}</h1>
-		</div>
-		{{ content }}
-</div>
+<h1>{{ page.title }}</h1>
+{% if page.tagline %}<h1><small>{{page.tagline}}</small>{% endif %}</h1>
+{{ content }}

@@ -4,6 +4,51 @@
   --sewerbird-header-color: #4D6D4D;
   --sewerbird-text-color: #111;
   --sewerbird-link-color: #0b74A7;
+  --sewerbird-header-text-color: #FFEEDF;
+}
+
+.toc {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.toc th {
+    background: var(--sewerbird-header-color);
+    color: #FFFFFF;
+}
+
+.toc th .title {
+    font-size: 1.0em;
+    font-weight: bold;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    float: left;
+    padding-left: 0.25em;
+}
+
+.toc tr {
+    transition: background 0.2s ease-in;
+}
+
+.toc tr:nth-child(odd) {
+    background: #F3FFF3;
+}
+
+.toc tr:hover {
+    background: aliceblue;
+    cursor: pointer;
+}
+
+.toc td a {
+  display: block;
+  text-decoration: none;
+}
+
+.toc td a:visited {
+  color: var(--sewerbird-link-color)
+}
+
+.toc td a:link {
+  color: var(--sewerbird-link-color)
 }
 
 .center{
