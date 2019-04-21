@@ -50,7 +50,7 @@ subtitle: home
             </a>
           </td>
           <td>
-            <a href="#">{{ post.category }}</a>
+            <a href="/content/{{post.category}}">{{ post.category }}</a>
           </td>
       </tr>
       {% assign linkcount = linkcount | plus: 1 %}
