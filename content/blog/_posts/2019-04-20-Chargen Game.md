@@ -4,7 +4,7 @@ date: '2019-04-20T00:16:00.000+08:00'
 title: 'Chargen Game'
 tagline: Where you never really start!
 assets: 'assets/CharGenGame'
-categories: blog
+categories: featured coding
 ---
 
 I've been messing around with ideas around a character generator, since I am thinking of doing another game jam this month. 
