@@ -1,0 +1,80 @@
+<!doctype html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width">
+<meta name="author" content="sewerbird">
+<meta name="copyright" content="sewerbird">
+<meta name="description" content="sewerbird">
+<meta name="abstract" content="sewerbird">
+<meta name="keywords" content="personal blog, sewerbird, game programming, kyahida">
+<meta name="distribution" content="public">
+<meta name="robots" content="all">
+<meta name="revisit-after" content="5 days">
+<title>Sewerbird</title>
+<link rel="shortcut icon" href="/assets/favicon.ico">
+<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+<link rel="stylesheet" href="/assets/site.css">
+<header>
+  <nav>
+    <ul>
+      <li>
+        <a class="site_tag" href="/index.html">
+          <strong>Sewerbird</strong>
+        </a>
+      </li>
+      <li>
+        <a href="/about.html">About</a>
+      </li>
+      <li>
+        <a href="/resume.html">Resume</a>
+      </li>
+      <li>
+        <a href="/posts">Posts</a>
+      </li>
+      <li>
+        <a href="/thoughts.html">Thoughts</a>
+      </li>
+      <li>
+        <a href="/arcade">Arcade</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<main>
+  
+    <h1> Website Redesign</h1>
+  
+  <p>I swear, I remake this website more often than I contribute to it. There is a reason for that though: it&#39;s relatively high friction to add to. </p>
+
+<blockquote>But how can that be? You just need to `git push` and github pages will publish it!
+<footer>
+- Imaginary You
+</footer>
+</blockquote>
+
+<p>Yes, that&#39;s true, but I have to create a new file, make sure its fiddly metadata is set correctly, tag its category, and set it as featured or not, and then type it up, and then etc, etc etc. The proof is in the pudding: I simply don&#39;t post to the site, despite having a full Moleskine of musings written out by hand.</p>
+
+<p>The point of this redesign is to fix that: for a man who is at his text editor all day, there is no good reason I shouldn&#39;t be able to spin off more stuff for my personal site. Here are the important changes:</p>
+
+<ul>
+<li><strong>New &#39;Thoughts&#39; Section</strong>: This is basically a Twitter minus all the social stuff. Through literally the command <code>sewer thought &quot;I like pizza&quot;</code> at my terminal, it will now create that thought, add it to my code repository, and publish to the web. Couldn&#39;t be easier, and encourages me to write not-blog-worthy content, and keep the website &#39;in mind&#39; and in my life. Thoughts can easily be converted into blogs later, since I&#39;ll see them and might be inspired by them.</li>
+<li><strong>New &#39;Arcade&#39; Section</strong>: I want to be able to showcase my programming toys easier, and so I&#39;ve divorced them from the act of creating a blog post in favor of a simple section that only requires a blurb, and a web-ready page containing the game.</li>
+<li><strong>New Visual Design</strong>: Honestly, after the afterglow wore off, I found the site&#39;s last revision to be ugly looking, and I didn&#39;t enjoy looking at it.</li>
+<li><strong>Portability Consideration</strong>: Another big inhibition is that I can&#39;t write notes to myself when I&#39;m on my work computer since it&#39;s too annoying to grab my personal computer. Through the existing design of this site, and bringing over a shell function to my work computer, I can now jot off Thoughts while at work, so I can address them more fully off-the-clock.</li>
+<li><strong>Handrolled Site Generation</strong>: This is a little controversial, but... I run so many different kinds of servers during the course of the day, I usually forget how to spin up Jekyll. I also usually forget how it works in general. But a simple site generation script fits in one vim buffer, and I don&#39;t need much more in terms of features, so I&#39;ve decided to write all the static generation code myself. It doesn&#39;t hurt that it&#39;s a bit of a flex and lets me use normal <code>*erb</code> templating for my markdown.</li>
+<li><strong>Reduced Archive</strong>: I might revise this decision later, but I&#39;ve not included old posts into this version of the site. For now, it makes the site feel &#39;hungry&#39; for new content. Eventually I&#39;ll likely add a nostalgic section hosting all the old stuff, but not for now.</li>
+<li><strong>Fresh Coat of Paint</strong>: I am trying out a classless css framework, and its looking pretty nice for having zero markup. I&#39;m optimistic that this will future-proof to a higher degree my posts&#39; innards.</li>
+</ul>
+
+<p>I think that about covers it. I would like to add dyanamic elements to the site (comments, signin-only sections for friends/family, and wikis for my writing work are the features I&#39;d like most), but I need to figure out a hosting solution first for that, and a lot more work to do so in a way that is respectful of my time and others&#39; privacy.</p>
+
+</main>
+<footer>
+  <hr/>
+  
+  <a class="faux_button" href='/posts/202006071751_Bass_Ruminations_I.html'>Previous</a>
+  
+  <a class="faux_button" href="#top">Back to Top</a>
+  
+  <a class="faux_button"  href='/posts/index.html'>Next</a>
+  
+</footer>
