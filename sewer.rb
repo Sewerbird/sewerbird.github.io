@@ -136,6 +136,17 @@ if verb == 'build' then
   FileUtils.rm_rf(Dir.glob("./_bin"))
 end
 
+# Makes the most recent post the featured post
+#
+# ex: sewer bump_post
+if verb == 'bump_post' then
+  # TODO: fix this before the year 2100
+  @webstate['featured_post'] = File.basename(Dir.glob("./_src/posts/20*.md").sort.last)
+  File.open("./webstate.json","w") do|f|
+    f.write(JSON.pretty_generate(@webstate))
+  end
+end
+
 # Does the work of moving the _bin folder to the remote host and deploying to the web
 #
 # ex: sewer publish
