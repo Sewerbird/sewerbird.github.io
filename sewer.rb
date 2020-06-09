@@ -37,7 +37,7 @@ if verb == 'thought' then
   File.open("./_src/thoughts.json","w") do|f|
     f.write(JSON.pretty_generate(@thoughts))
   end
-  `git stash; git add ./_src/thoughts.json; git commit -m "Created a thought\n\n '#{object}'"; git push origin master; git stash pop`
+  `git stash; git add _src/thoughts.json; git commit -m "Created a thought\n\n '#{object}'"; git push origin master; git stash pop`
 end
 
 # Blogs are more fleshed out and so get stored in proper files.
