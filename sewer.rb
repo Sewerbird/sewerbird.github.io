@@ -140,4 +140,5 @@ end
 #
 # ex: sewer publish
 if verb == 'publish' then
+  `git add -u; git commit -m "Publish (#{object})"; git push origin master`
 end
