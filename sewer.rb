@@ -131,6 +131,9 @@ if verb == 'build' then
   end
   # Copy over css
   FileUtils.cp_r(Dir.glob("./_src/assets"), "./_bin")
+  # Copy _bin to root (stupid github requirement)
+  FileUtils.cp_r(Dir.glob("./_bin/*"), ".")
+  FileUtils.rm_rf(Dir.glob("./_bin"))
 end
 
 # Does the work of moving the _bin folder to the remote host and deploying to the web
