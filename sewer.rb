@@ -58,6 +58,26 @@ if verb == 'post' then
   puts target_path
 end
 
+# Wiki pages are registered in a graph, and can reference each other through special links.
+# On site build, these links are reified.
+#
+# ex: sewer wiki "Kyahidan Biology"
+def wikiname(title)
+  title.gsub(" ","_").downcase
+end
+
+if verb == 'wiki' then
+  now = Time.now
+  @title = "#{object}"
+  @time = now
+  target_path = "#{@webstate['wiki_directory']}/#{wikiname(object)}.md"
+  IO.write(
+    target_path,
+    ERB.new(File.read("./_src/_templates/wiki.yaml.erb")).result()
+  )
+  puts target_path
+end
+
 def interpret_markdown_file(source_path)
   document = File.read(source_path)
   # Extract the frontmatter
@@ -70,6 +90,10 @@ def interpret_markdown_file(source_path)
   # note: makes the frontmatter available to the templater as instance variables
   frontmatter.each {|k,v| instance_variable_set("@#{k}", v)} if frontmatter
   erb = ERB.new(markdown).result()
+  # Find wiki-style links and make them into HTML links
+  erb.gsub!(/\[\[(.*)\]\]/) do
+    "[#{$1}](/wiki/#{wikiname($1)}.html)"
+  end
   # Generate the HTML of the reified markdown
   html = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new).render(erb)
   return {frontmatter: frontmatter, markdown: markdown, erb: erb, html: html, source_path: source_path, name: File.basename(source_path,'.md')}
