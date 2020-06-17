@@ -96,7 +96,7 @@ def interpret_markdown_file(source_path)
     links << wikiname($1)
     "[#{$1}](/wiki/#{wikiname($1)}.html)"
   end
-  frontmatter[:links] = links
+  frontmatter[:links] = links if frontmatter
   # Generate the HTML of the reified markdown
   html = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new).render(erb)
   return {frontmatter: frontmatter, markdown: markdown, erb: erb, html: html, source_path: source_path, name: File.basename(source_path,'.md')}
