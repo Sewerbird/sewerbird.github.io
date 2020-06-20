@@ -364,6 +364,10 @@
 	function p8_close_cart()
 	{
 		p8_is_running = false;
+    // Hide the sewerbird stuff
+    hides = document.getElementsByClassName('hide_on_play');
+    for(i=0; i < hides.length; i++)
+      hides[i].style.display="block";
 		p8_touch_detected = false;
 		Module.pico8SetPaused(1);
 	}
@@ -375,6 +379,11 @@
 	{
 		if (p8_is_running) return;
 		p8_is_running = true;
+
+    // Hide the sewerbird stuff
+    hides = document.getElementsByClassName('hide_on_play');
+    for(i=0; i < hides.length; i++)
+      hides[i].style.display="none";
 
 		// create audio context and wake it up (for iOS -- needs happen inside touch event)		
 		p8_create_audio_context();
@@ -569,7 +578,8 @@ canvas{
 </head>
 
 <body>
-<header>
+
+<header class="hide_on_play">
   <nav>
     <ul>
       <li>
@@ -595,7 +605,7 @@ canvas{
     </ul>
   </nav>
 </header>
-<article>
+<article class="hide_on_play">
 <h3>Trader of the Fading Suns</h3>
 <h4>Instructions</h4>
 Click on the play button to start up the game.
@@ -604,7 +614,6 @@ Click on the play button to start up the game.
   <li>Press Z to activate</li>
   <li>Press X to move out of a menu</li>
 </ul>
-
 </article>
 
 <!-- the itch app messes with the first found canvas // from @ultrabrite's shell-->
@@ -671,7 +680,6 @@ Click on the play button to start up the game.
 
 </div> <!-- p8_frame -->
 </div> <!-- size limit -->
-
 <script type="text/javascript">
 
 	p8_update_layout();
