@@ -92,6 +92,10 @@ def interpret_markdown_file(source_path)
   erb = ERB.new(markdown).result()
   # Find wiki-style links and make them into HTML links
   links = []
+  erb.gsub!(/\[\[(.*)\]\]\((.*)\)/) do
+    links << wikiname($1)
+    "[#{$1}](/wiki/#{wikiname($2)}.html)"
+  end
   erb.gsub!(/\[\[(.*)\]\]/) do
     links << wikiname($1)
     "[#{$1}](/wiki/#{wikiname($1)}.html)"
