@@ -164,11 +164,12 @@ if verb == 'build' then
   @links = {}
   Dir.glob("./_src/wiki/**/*.md") do |md_file|
     puts "Building #{md_file}"
+    @reader = true
     destination = md_file.gsub(".md",".html").gsub("_src","_bin")
     interpreted_markdown_file = interpret_markdown_file(md_file)
     @links[interpreted_markdown_file[:frontmatter]['title']] = interpreted_markdown_file[:frontmatter]['links']
     write_to_website(interpreted_markdown_file, destination)
-    FileUtils.rm(md_file)
+    @reader = false
   end
   # Copy over css
   FileUtils.cp_r(Dir.glob("./_src/assets"), "./_bin")
