@@ -380,11 +380,6 @@
 		if (p8_is_running) return;
 		p8_is_running = true;
 
-    // Hide the sewerbird stuff
-    hides = document.getElementsByClassName('hide_on_play');
-    for(i=0; i < hides.length; i++)
-      hides[i].style.display="none";
-
 		// create audio context and wake it up (for iOS -- needs happen inside touch event)		
 		p8_create_audio_context();
 
@@ -424,6 +419,11 @@
 		// add #playing for touchscreen devices (allows back button to close)
 		if (p8_touch_detected)
 		{
+      // Hide the sewerbird stuff on devices, since it messes up the touchpad
+      hides = document.getElementsByClassName('hide_on_play');
+      for(i=0; i < hides.length; i++)
+        hides[i].style.display="none";
+
 			window.location.hash = "#playing";
 			window.onhashchange = function()
 			{
