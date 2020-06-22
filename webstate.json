@@ -2,5 +2,6 @@
   "featured_post": "202006190745_Quarantine_Initiatives.md",
   "thought_directory": "./_src/thoughts",
   "post_directory": "./_src/posts",
+  "wiki_directory": "./_src/wiki",
   "_comment": "File for aiding autogeneration of new content for the site"
 }

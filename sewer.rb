@@ -92,6 +92,10 @@ def interpret_markdown_file(source_path)
   erb = ERB.new(markdown).result()
   # Find wiki-style links and make them into HTML links
   links = []
+  erb.gsub!(/\[\[(.*)\]\]\((.*)\)/) do
+    links << wikiname($1)
+    "[#{$1}](/wiki/#{wikiname($2)}.html)"
+  end
   erb.gsub!(/\[\[(.*)\]\]/) do
     links << wikiname($1)
     "[#{$1}](/wiki/#{wikiname($1)}.html)"
@@ -160,11 +164,12 @@ if verb == 'build' then
   @links = {}
   Dir.glob("./_src/wiki/**/*.md") do |md_file|
     puts "Building #{md_file}"
+    @reader = true
     destination = md_file.gsub(".md",".html").gsub("_src","_bin")
     interpreted_markdown_file = interpret_markdown_file(md_file)
     @links[interpreted_markdown_file[:frontmatter]['title']] = interpreted_markdown_file[:frontmatter]['links']
     write_to_website(interpreted_markdown_file, destination)
-    FileUtils.rm(md_file)
+    @reader = false
   end
   # Copy over css
   FileUtils.cp_r(Dir.glob("./_src/assets"), "./_bin")
@@ -182,6 +187,21 @@ if verb == 'bump_post' then
   File.open("./webstate.json","w") do|f|
     f.write(JSON.pretty_generate(@webstate))
   end
+end
+
+# Generates a hexagram for your fortune
+#
+# ex: sewer fortune
+if verb == 'fortune' then
+  LINES = {
+    9 => "========= * ",
+    8 => "=========",
+    7 => "===   ===",
+    6 => "===   === * "
+  }
+  puts (6.times.collect do
+    LINES[3.times.collect{ rand() >= 0.5 ? 3 : 2 }.sum]
+  end).reverse.join("\n")
 end
 
 # Does the work of moving the _bin folder to the remote host and deploying to the web
