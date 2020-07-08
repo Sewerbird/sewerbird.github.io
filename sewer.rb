@@ -199,9 +199,22 @@ if verb == 'fortune' then
     7 => "===   ===",
     6 => "===   === * "
   }
-  puts (6.times.collect do
-    LINES[3.times.collect{ rand() >= 0.5 ? 3 : 2 }.sum]
-  end).reverse.join("\n")
+  GRAMS = {
+    "sss" => "Chi'en",
+    "ssw" => "Tui",
+    "sww" => "Chen",
+    "sws" => "Li",
+    "www" => "K'un",
+    "wsw" => "K'an",
+    "wss" => "Sun",
+    "wws" => "K'en",  
+  }
+  casts = 6.times.collect{ 3.times.collect{ rand() >= 0.5 ? 3: 2 }.sum }
+  top = GRAMS[casts[3..5].collect{|e| e==7 || e==6 ? "w" : "s"}.join("")]
+  bottom = GRAMS[casts[0..2].collect{|e| e==7 || e==6 ? "w" : "s"}.join("")]
+
+  puts casts.collect {|e| LINES[e]}.reverse.join("\n")
+  puts "#{top} over #{bottom}"
 end
 
 # Does the work of moving the _bin folder to the remote host and deploying to the web
