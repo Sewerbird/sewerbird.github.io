@@ -49,124 +49,38 @@
 <h3 style="float:right; font-size:1.0em">Featured Article</h3>
 
 <section id="featured_article">
-  <h1>Me and the I Ching</h1>
-  <p>I first met the I Ching in 2006, when I was experimenting with Crowleyist occultism: my faith in God had been slowly falling apart, and this dive into the occult was about seeing if I could salvage my watchmaker Deism of 2005 by trying to access hermeneutic knowledge outside scripture. Although this attempt failed (for the next 7 years, I was a very committed New Atheist), I learned a lot about divination methods: I hungrily analyzed my dreams, laid out Tarot tableaus, read omens, counted the words to turn them into numbers, and threw the coins of the I Ching. This last one has endured as my divination of choice, and today I&#39;ll share with you some thoughts on it.</p>
+  <h1>Things I Would Do If The Pandemic Is Over</h1>
+  <p>A big goal for this year was to make legitimately intensive efforts to expand my social life here in my adopted home of Kansas City. Only boring people are bored, and I need to show to myself and others that I can live a full life without relying on the strangeness of a place like China to stimulate me. The year 2020 has been a real pain though with this pandemic, so I figured I&#39;d draft things I&#39;d like to do if the lockdowns weren&#39;t a factor and see which ones I might be able to do regardless of the current situation.</p>
 
-<p>The I Ching is a divining method, an oracle, that uses three coins (or a bundle of yarrow stalks) to derive a glyph made of six broken and/or unbroken lines, arranged bottom to top. This glyph is called a hexagram. If approached with a meditative mind and a sense of prayerful seriousness, the hexagram generated can serve as a focus on which to interpret what changes are at play in your situation, and yield recommendations for the kind of action amenable to it. The oracle acts on the principle of synchronicity: that the fall of coins and that of your spirit&#39;s movement are not causally related, but instead meaningfully related, by merit of their togetherness in space and time.</p>
+<h2>Dance Classes</h2>
 
-<h2>An Example</h2>
+<p>I really enjoyed taking hip-hop dancing classes in Shanghai, and I&#39;d like to resume some form of dance again. The main thing I enjoyed, aside the extra confidence on the dance floor, was the fact that I interacted with people of an entirely different flavor than I tend to when left to my own devices.</p>
 
-<p>It&#39;s a bit simpler to go through how I tend to consult the I Ching by example. I&#39;m a total geek, so I have written a short bit of code that generates a hexagram in the same manner as would be produced by the coins: I don&#39;t ascribe mystical value to a coin that I wouldn&#39;t also assign a transistor. Here is the code (in Ruby):</p>
+<p>The lockdown-friendliness of this is pretty iffy though: dance studios tend to be inside, and require holding/touching people.</p>
 
-<div class="sourceCode">
-<pre class="sourceCode ruby">
-<code>
-  LINES = {
-    9 => "========= * ",
-    8 => "=========",
-    7 => "===   ===",
-    6 => "===   === * "
-  }
-  GRAMS = {
-    "sss" => "Chi'en",
-    "ssw" => "Tui",
-    "sww" => "Chen",
-    "sws" => "Li",
-    "www" => "K'un",
-    "wsw" => "K'an",
-    "wss" => "Sun",
-    "wws" => "K'en",  
-  }
-  casts = 6.times.collect{ 3.times.collect{ rand() >= 0.5 ? 3: 2 }.sum }
-  top = GRAMS[casts[3..5].collect{|e| e==7 || e==6 ? "w" : "s"}.join("")]
-  bottom = GRAMS[casts[0..2].collect{|e| e==7 || e==6 ? "w" : "s"}.join("")]
+<h2>Gym</h2>
 
-  puts casts.collect {|e| LINES[e]}.reverse.join("\n")
-  puts "#{top} over #{bottom}"
-</code>
-</pre>
-</div>
+<p>I&#39;ve been doing weekend runs and a weekly telecoached workout with Toby, but I could probably kick up my fitness game a bit more. In Shanghai I used to go every weekday to workout, although I ditched the gym membership and did a home workout routine when I moved to Wuding Lu. Perhaps a group-oriented gym (like a crossfit) might be a good addition, for similar reasons as to a dance class.</p>
 
-<p>Running that now, I get Chi&#39;en over Tui:</p>
+<p>Gyms are starting to reopen, but I imagine they&#39;ll be a bit sparse for a while yet.</p>
 
-<blockquote>
-<h1>☰ <span style="font-size: 40%">Chi&#39;en (4 and 5 moving)</span></h1>
+<h2>Jam Sessions</h2>
 
-<h1>☱ <span style="font-size: 40%">Tui (3 moving)</span></h1>
-</blockquote>
+<p>My bass playing has gotten to the point where I can probably scrape along during a jam with other amateur musicians. If I was participating in a couple garage bands or able to attend some kind of open jam, that might be a way to meet an artistic crowd that I&#39;m lacking right now, and get some nightlife to engage in.</p>
 
-<p>The lines are counted from bottom to top, so I also note that the third weak line in Tui is moving, and the fourth and fifth strong lines in Chi&#39;en are moving.</p>
+<p>Venues are all basically closed forever, it seems, but doesn&#39;t seem impossible to jam out in the summer sun.</p>
 
-<p>Consulting the I Ching book I have, this hexagram is that of &quot;Lu / Treading [Conduct]&quot;. There are three parts to the description of each hexagram in the I Ching:</p>
+<h2>Dungeons &amp; Dragons Games</h2>
 
-<ul>
-<li>The Judgement, which predicts one&#39;s fortune and alludes to the tensions and harmonies of the hexagram.</li>
-<li>The Image, which considers the image of nature represented by the two trigrams: the top and bottom three lines each have an &#39;elemental&#39; interpretation.</li>
-<li>The Lines, which addresses the implications of the &#39;moving&#39; lines of the hexagram, usually addressing some more specific aspect of the situation considered.</li>
-</ul>
+<p>I actually already run a bi-weekly campaign for my brother and his circle, and I am a player in a weekly game at the Pawn &amp; Pint. I&#39;ve always been able to maintain pretty committed groups of people in my games though, so I could run another campaign in a different context to meet some new people regularly. It&#39;d be a bit of a commitment though.</p>
 
-<p>In &quot;Lu&quot;, the Judgment is</p>
+<p>I&#39;d probably run it at Pawn &amp; Pint on weekends between my current bi-weekly campaign, but it&#39;d be a significant commitment of my time.</p>
 
-<blockquote>
-<p>TREADING. Treading upon the Tail of the tiger.
-It does not bite the man. Success.</p>
-</blockquote>
+<h2>Classes</h2>
 
-<p>The Image is</p>
+<p>I could take an art class of some kind (painting, pottery, literature...) with other people through a local school or college. They&#39;re not very high commitment, and would certainly mix me up with people outside my normal domain at the moment.</p>
 
-<blockquote>
-<p>Heaven above, the lake below:
-The image of TREADING.
-Thus the superior man discriminates between high and low,
-And thereby fortifies the thinking of the people.</p>
-</blockquote>
-
-<p>And our moving lines are</p>
-
-<blockquote>
-<p>Six in the third place means:
-A one-eyed man is able to see,
-A lame man is able to tread.
-He treads on the tail of the tiger.
-The tiger bites the man.
-Misfortune.
-Thus does a warrior act on behalf of his great prince.</p>
-
-<p>Nine in the fourth place means:
-He treads on the tail of the tiger,
-Caution and circumspection
-Lead ultimately to good fortune.</p>
-
-<p>Nine in the fifth place means:
-Resolute conduct.
-Perseverance with awareness of danger.</p>
-</blockquote>
-
-<p>There are also commentaries on each of these sections, which I won&#39;t reproduce here out of a desire for brevity: they help interpret these somewhat inpenetrable allusions. Now to the meditation.</p>
-
-<h2>An Interpretation</h2>
-
-<p>Having already focused on the casting of the oracle, and calmly consulting the text, I read the Judgement and notice my emotional reaction to it: the Judgement is terse, and should provoke a response from your current state. It&#39;s important I think to not try to control or mediate this reaction, but instead to proceed in proper course to the Image, and lay that reaction over the vision it portrays of a scene, usually of nature or something humble. </p>
-
-<p>In this case, there is a great contrast between the heights of Heaven and the low-seeking nature of water: the Yin and the Yang are not gray at all, but the brightest of white and the darkest of black. This is a difficult situation, because the strong and the weak are right next to each other, the weak infringing on the strong. The strong, the I Ching says, are to endure this with magnanimity and decorum: a confident tiger won&#39;t swat at the mouse. The commentaries on the Judgement and the Image in the I Ching, here, note the playfulness this interaction can have, like when an adult lets a child climb over them: fortune comes through forebearance.</p>
-
-<p>Having read this part, I spend a minute to let these concepts free-associate with whatever seems to leap into my mind, and rotate the scene around in my head a bit and note what is most evocative. I tend to make sure to at least &#39;suggest&#39; topics of family, work, love, and anxieties I might have at the time, but I don&#39;t linger or try to force it: the aim is to see what resonates most. Today, I found myself thinking of a few people in my life who are testing me in different ways, as well as a person whom I might be vexing now, and contemplating how I can encourage a playful rather than fraught interaction with them.</p>
-
-<p>I find that the last step is to consult the moving Lines, as they will help provide context for how to address the general situation described in the Judgement and the Image, although sometimes they instead serve to change the nature of the hexagram entirely: in the latter case, the image I formed in the prior step is a &#39;setup&#39; to be shocked by the contrast in what the hexagram is moving into. That is the case somewhat in today&#39;s reading.</p>
-
-<p>Our lines suggest that the playfulness in the Treading is a bit lacking: the adult is getting annoyed at the roughhousing child, and patience is being tested. The six in the third place is particularly resonate: perhaps I am at risk of being hamfisted and awkward in dealing with others, my good intentions causing unrest in others. I should Tread lightly, and be more aware of the small things I do. Further, the commentaries recommend that I know whether I am the Tiger or the Treader, and to behave with forebearance if I am the Tiger: to forgive people who vex me.</p>
-
-<p>I hold back some of my musings here because this is a public blog, and there is quite a lot of personal introspecting during a self-reading that I don&#39;t care to share. But suffice to say it gives me a focus and theme by which to reflect on the people who are figuring prominently in my life and investigating how I feel about them, as well as how I feel about myself in relation to the world.</p>
-
-<p>After a period of contemplation on such, the reading is concluded.</p>
-
-<h2>Final thoughts</h2>
-
-<p>The principal point of divination methods is, I believe, to create a focus outside of yourself that you can contrast to how you were previously thinking the world was shaped. Much like prayer after reading scripture for a Christian, or mindful meditation, or pondering nature quietly, it&#39;s important for people to have access to a calm conversation with the universe that has freedom to challenge your emotional state. I find divinations the least useful when you use them as a justificatory device: it is precisely the parts of the divination that resonate but are different from how you were thinking about things which you should weigh more heavily.</p>
-
-<p>In short, I think an Oracle is not a predictor of the future, but a person who will sit on the other end of your dialectic.</p>
-
-<p>The I Ching is also an arbitrary fabrication, an artifact of superstition and obscurantism. It&#39;s also presumptuous that I have any insight into it at all: I can&#39;t even read it in its original language. Despite my inability to defend its mystical claims, I have a respect for it, and would endorse the wisdom it can encourage in yourself if you consult it.</p>
+<p>A lot of classes are basically cancelled or remote at the moment though, so that complicates things.</p>
 
 </section>
 
