@@ -38,13 +38,14 @@ Kyahidans serve their nation, even in death, as soldiers. When a Kyahidan dies, 
 
 ### Magic Weapons are Advanced Technology
 
-The defeat of a Goelm can yield intact artifacts of tremendous power. These can vary from laser rifles to force fields to nanobot medical machines. Kyahidans lack a eliable power source for most of these devices, but rare batteries can be recovered for the, and some are solar powered. Possession of these artifacts attracts Golems like sharks to blood, and so they are considered taboo until they are properly stockpiled away from the tribe by an Artificer.
+The defeat of a Golem can yield intact artifacts of tremendous power. These can vary from laser rifles to force fields to nanobot medical machines. Kyahidans lack a reliable power source for most of these devices, but rare batteries can be recovered for them, and some are solar powered. Possession of these artifacts attracts Golems like sharks to blood, and so they are considered taboo until they are properly stockpiled away from the tribe by an Artificer.
 
 ## Character Creation Rules
 
 Here are the rules for character generation in this campaign.
 
 - Create a human character using the Custom Lineage rule from Tasha's. Small size allowed.
+- Start at level 2.
 - Any classes are allowed.
 - If you are a caster, make sure to read the 'Notes about Magic' section of this guide.
 - If you are a divine caster, choose a god from the Kyahidan Pantheon: available gods are listed in this guide.
