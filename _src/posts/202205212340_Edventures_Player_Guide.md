@@ -1,5 +1,5 @@
 ---
-datetime: 2022-02-27 10:04:09 -0600
+datetime: 2022-05-21 23:40:00 -0600
 title: Player Guide to Kyahida
 tagline: 
 assets: 'assets/'
@@ -45,11 +45,11 @@ The defeat of a Goelm can yield intact artifacts of tremendous power. These can 
 Here are the rules for character generation in this campaign.
 
 - Create a human character using the Custom Lineage rule from Tasha's. Small size allowed.
-- Any classes are allowed
+- Any classes are allowed.
 - If you are a caster, make sure to read the 'Notes about Magic' section of this guide.
-- If you are a divine caster, choose a god from the Kyahidan Pantheon.
+- If you are a divine caster, choose a god from the Kyahidan Pantheon: available gods are listed in this guide.
 - Any background is allowed. Some backgrounds give languages: available ones are listed in this guide.
-- Gain starting equipment as normal.
+- Gain starting equipment as indicated in the PHB via your class and background.
 - Available resources are the Player's Handbook, Xanathar's Guide, and Tasha's Cauldron.
 
 ## Notes About Magic
@@ -69,7 +69,7 @@ Kyahidans are polytheistic, and acknowledge all the gods in this section.
 - Sidhya: The Wild Bearwoman of the Forests. Neutral Good. Hunting, Medicine, Forests, Winter.
 - Deshya: The Pierced Man of the Sea Mist. Chaotic Good. The Sea, Storms, Thieves, Secrets.
 - Rael: The Grand Clouded Orb of the Sky. Lawful Neutral. The Sun, Darkness, The Sky, Time.
-- Forest Spirits: The Host of Sidhya. Varied. Lesser spirits of particular natural locations and clan heroes.
+- Forest Spirits: The Host of Sidhya. Varied. Lesser spirits of particular natural locations or ancestral heroes.
 
 ## Languages
 
